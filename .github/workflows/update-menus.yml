@@ -1,0 +1,34 @@
+name: Update Lunch Menus
+
+on:
+  schedule:
+    # Kör varje dag kl 07:00 svensk tid (06:00 UTC på sommaren, 07:00 UTC på vintern)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Tillåt manuell körning
+
+jobs:
+  update-menus:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install axios cheerio
+
+      - name: Scrape menus
+        run: node scrape-menus.js
+
+      - name: Commit and push if changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add menus.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update menus - $(date +'%Y-%m-%d %H:%M')" && git push)
