@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dagens Lunchmenyer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #fff5f0 0%, #ffe4e1 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .date {
+            color: #666;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .update-info {
+            margin-top: 15px;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .refresh-btn {
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: #ff6b35;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255,107,53,0.3);
+        }
+
+        .refresh-btn:hover {
+            background: #e85a2a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255,107,53,0.4);
+        }
+
+        .refresh-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #ff6b35;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .restaurant-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .restaurant-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.15);
+        }
+
+        .restaurant-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .restaurant-name {
+            font-size: 1.8em;
+            color: #333;
+            font-weight: 700;
+        }
+
+        .restaurant-location {
+            color: #888;
+            font-size: 0.9em;
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .status-badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .menu-section {
+            margin-top: 20px;
+        }
+
+        .menu-title {
+            font-size: 0.85em;
+            text-transform: uppercase;
+            color: #888;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .menu-items {
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .menu-item {
+            padding: 8px 0;
+            border-bottom: 1px solid #f5f5f5;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .error-message {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            color: #856404;
+        }
+
+        .info-box {
+            background: #e7f3ff;
+            border: 1px solid #b3d9ff;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        .info-box h3 {
+            color: #0056b3;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .info-box ul {
+            list-style: none;
+            color: #004085;
+        }
+
+        .info-box li {
+            padding: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .info-box li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            font-size: 1.5em;
+            line-height: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .restaurant-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🍽️ Dagens Lunchmenyer</h1>
+            <div class="date" id="currentDate"></div>
+            <div class="update-info" id="updateInfo"></div>
+            <button class="refresh-btn" onclick="loadMenus()" id="refreshBtn">
+                🔄 Uppdatera menyer
+            </button>
+        </div>
+
+        <div id="content"></div>
+
+        <div class="info-box">
+            <h3>ℹ️ Information</h3>
+            <ul>
+                <li>Menyerna uppdateras automatiskt varje dag kl 07:00</li>
+                <li>Du kan även uppdatera manuellt när som helst</li>
+                <li>Sidan fungerar för alla utan inloggning</li>
+                <li>Data hämtas direkt från restaurangernas webbplatser</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        const RESTAURANTS = [
+            {
+                id: 'partymakarna',
+                name: 'Partymakarna',
+                location: 'Slakthusområdet, Stockholm',
+                url: 'https://www.partymakarna.se/'
+            }
+        ];
+
+        function formatDate() {
+            const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+            return new Date().toLocaleDateString('sv-SE', options);
+        }
+
+        function getDayName() {
+            const days = ['söndag', 'måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag'];
+            return days[new Date().getDay()];
+        }
+
+        function showLoading() {
+            document.getElementById('content').innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Hämtar dagens menyer...</p>
+                </div>
+            `;
+        }
+
+        function showError(message) {
+            document.getElementById('content').innerHTML = `
+                <div class="error-message">
+                    <strong>⚠️ Fel:</strong> ${message}
+                </div>
+            `;
+        }
+
+        async function loadMenus() {
+            const btn = document.getElementById('refreshBtn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Uppdaterar...';
+            
+            showLoading();
+
+            try {
+                // Försök läsa från lokal JSON-fil (uppdaterad av GitHub Actions)
+                const response = await fetch('menus.json?t=' + Date.now());
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    displayMenus(data.menus);
+                    document.getElementById('updateInfo').textContent = 
+                        `Senast uppdaterad: ${new Date(data.lastUpdate).toLocaleString('sv-SE')}`;
+                } else {
+                    // Om filen inte finns än, visa standardmeddelande
+                    document.getElementById('content').innerHTML = `
+                        <div class="menu-grid">
+                            ${RESTAURANTS.map(restaurant => `
+                                <div class="restaurant-card">
+                                    <div class="restaurant-header">
+                                        <div>
+                                            <div class="restaurant-name">${restaurant.name}</div>
+                                            <div class="restaurant-location">📍 ${restaurant.location}</div>
+                                        </div>
+                                        <span class="status-badge status-error">Inväntar data</span>
+                                    </div>
+                                    <div class="menu-section">
+                                        <div class="menu-title">Dagens rätter</div>
+                                        <div class="menu-items">
+                                            <p>Menyer kommer att uppdateras automatiskt kl 07:00 varje dag via GitHub Actions.</p>
+                                            <p style="margin-top: 10px;">Kontrollera att du har konfigurerat GitHub Actions enligt instruktionerna.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                showError('Kunde inte ladda menyer. Kontrollera att menus.json finns och är korrekt formaterad.');
+                console.error('Error loading menus:', error);
+            }
+
+            btn.disabled = false;
+            btn.textContent = '🔄 Uppdatera menyer';
+        }
+
+        function displayMenus(menus) {
+            const html = `
+                <div class="menu-grid">
+                    ${menus.map(menu => `
+                        <div class="restaurant-card">
+                            <div class="restaurant-header">
+                                <div>
+                                    <div class="restaurant-name">${menu.restaurant}</div>
+                                    <div class="restaurant-location">📍 ${menu.location}</div>
+                                </div>
+                                <span class="status-badge ${menu.status === 'success' ? 'status-success' : 'status-error'}">
+                                    ${menu.status === 'success' ? '✓ Uppdaterad' : '✗ Fel'}
+                                </span>
+                            </div>
+                            <div class="menu-section">
+                                <div class="menu-title">Dagens rätter</div>
+                                <div class="menu-items">
+                                    ${menu.menu.split('\n').map(item => 
+                                        item.trim() ? `<div class="menu-item">${item}</div>` : ''
+                                    ).join('')}
+                                </div>
+                            </div>
+                            ${menu.error ? `
+                                <div style="margin-top: 15px; padding: 10px; background: #fff3cd; border-radius: 8px; font-size: 0.9em; color: #856404;">
+                                    ${menu.error}
+                                </div>
+                            ` : ''}
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            document.getElementById('content').innerHTML = html;
+        }
+
+        // Initiera sidan
+        document.getElementById('currentDate').textContent = formatDate();
+        loadMenus();
+    </script>
+</body>
+</html>
