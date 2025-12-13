@@ -50,7 +50,14 @@ const RESTAURANTS = [
 function getDayName() {
     const days = ['Söndag', 'Måndag', 'Tisdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lördag'];
     const today = new Date();
-    return days[today.getDay()];
+    const dayIndex = today.getDay();
+    
+    // Om helg, visa senaste fredagens meny
+    if (dayIndex === 0 || dayIndex === 6) {
+        return 'Fredag';
+    }
+    
+    return days[dayIndex];
 }
 
 function getDayNameEnglish() {
