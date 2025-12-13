@@ -1,10 +1,40 @@
 {
-  "lastUpdate": "2025-12-13T17:08:04.356Z",
+  "lastUpdate": "2025-12-13T17:28:46.037Z",
   "day": "Lördag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
+      "menu": "Ingen meny hittades för idag",
+      "status": "success"
+    },
+    {
+      "restaurant": "Mukbang",
+      "location": "Stockholm",
+      "menu": "Ingen meny hittades för idag",
+      "status": "success"
+    },
+    {
+      "restaurant": "O'Learys Tolv",
+      "location": "Tolv Stockholm",
+      "menu": "• med champinjonsås, potatismos och gelé.\n• med kokt potatis, dillmajonnäs och citron.\n• med halloumi och grönsaker.\n• med kokt potatis, pepparrotssås och saltgurka.\n• med basmatiris, tomatsmörsås och grönt.\n• med potatismos, lingon, pressgurka och gräddsås.\n• med räksås, dillpotatis och citron.\n• med bulgursallad, tzatziki och ajvar.\n• med potatismos, lök, champinjoner och stekt sky.\n• med brynt smör, pepparrot och brynt smör.",
+      "status": "success"
+    },
+    {
+      "restaurant": "Blues Bar & Kök",
+      "location": "Stockholm",
+      "menu": "• Varierad Middagsmeny\n• Erbjudanden\n• LEFFES SPECIALARE, fråga oss om det!\n• Recensioner",
+      "status": "success"
+    },
+    {
+      "restaurant": "Till Marie",
+      "location": "Stockholm",
+      "menu": "Ingen lunchmeny hittades",
+      "status": "success"
+    },
+    {
+      "restaurant": "Tastory Hammarbybacken",
+      "location": "Hammarbybacken, Stockholm",
       "menu": "Ingen meny hittades för idag",
       "status": "success"
     }
