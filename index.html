@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dagens Lunchmenyer - Stockholm</title>
+    <title>Dagens Lunchmenyer</title>
     <style>
         * {
             margin: 0;
@@ -19,7 +19,7 @@
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
         }
 
@@ -102,8 +102,8 @@
 
         .menu-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-            gap: 25px;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
         }
 
         .restaurant-card {
@@ -129,14 +129,14 @@
         }
 
         .restaurant-name {
-            font-size: 1.6em;
+            font-size: 1.8em;
             color: #333;
             font-weight: 700;
         }
 
         .restaurant-location {
             color: #888;
-            font-size: 0.85em;
+            font-size: 0.9em;
             margin-top: 5px;
             display: flex;
             align-items: center;
@@ -146,9 +146,8 @@
         .status-badge {
             padding: 6px 12px;
             border-radius: 20px;
-            font-size: 0.75em;
+            font-size: 0.85em;
             font-weight: 600;
-            white-space: nowrap;
         }
 
         .status-success {
@@ -246,10 +245,6 @@
             .restaurant-card {
                 padding: 20px;
             }
-
-            .restaurant-name {
-                font-size: 1.4em;
-            }
         }
     </style>
 </head>
@@ -273,7 +268,6 @@
                 <li>Du kan även uppdatera manuellt när som helst</li>
                 <li>Sidan fungerar för alla utan inloggning</li>
                 <li>Data hämtas direkt från restaurangernas webbplatser</li>
-                <li>Just nu visar vi 6 restauranger i Stockholm</li>
             </ul>
         </div>
     </div>
@@ -283,32 +277,8 @@
             {
                 id: 'partymakarna',
                 name: 'Partymakarna',
-                location: 'Slakthusområdet, Stockholm'
-            },
-            {
-                id: 'mukbang',
-                name: 'Mukbang',
-                location: 'Stockholm'
-            },
-            {
-                id: 'olearys',
-                name: "O'Learys Tolv",
-                location: 'Tolv Stockholm'
-            },
-            {
-                id: 'blues',
-                name: 'Blues Bar & Kök',
-                location: 'Stockholm'
-            },
-            {
-                id: 'tillmarie',
-                name: 'Till Marie',
-                location: 'Stockholm'
-            },
-            {
-                id: 'tastory',
-                name: 'Tastory Hammarbybacken',
-                location: 'Hammarbybacken, Stockholm'
+                location: 'Slakthusområdet, Stockholm',
+                url: 'https://www.partymakarna.se/'
             }
         ];
 
@@ -347,6 +317,7 @@
             showLoading();
 
             try {
+                // Försök läsa från lokal JSON-fil (uppdaterad av GitHub Actions)
                 const response = await fetch('menus.json?t=' + Date.now());
                 
                 if (response.ok) {
@@ -355,6 +326,7 @@
                     document.getElementById('updateInfo').textContent = 
                         `Senast uppdaterad: ${new Date(data.lastUpdate).toLocaleString('sv-SE')}`;
                 } else {
+                    // Om filen inte finns än, visa standardmeddelande
                     document.getElementById('content').innerHTML = `
                         <div class="menu-grid">
                             ${RESTAURANTS.map(restaurant => `
@@ -370,7 +342,7 @@
                                         <div class="menu-title">Dagens rätter</div>
                                         <div class="menu-items">
                                             <p>Menyer kommer att uppdateras automatiskt kl 07:00 varje dag via GitHub Actions.</p>
-                                            <p style="margin-top: 10px;">Kör workflowen manuellt för att hämta dagens menyer.</p>
+                                            <p style="margin-top: 10px;">Kontrollera att du har konfigurerat GitHub Actions enligt instruktionerna.</p>
                                         </div>
                                     </div>
                                 </div>
