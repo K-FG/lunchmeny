@@ -7,61 +7,12 @@ const RESTAURANTS = [
         id: 'partymakarna',
         name: 'Partymakarna',
         url: 'https://www.partymakarna.se/',
-        location: 'Slakthusområdet, Stockholm',
-        scraper: 'partymakarna'
-    },
-    {
-        id: 'mukbang',
-        name: 'Mukbang',
-        url: 'https://www.compass-group.se/restauranger-och-menyer/foodandco/mukbang/',
-        location: 'Stockholm',
-        scraper: 'compass'
-    },
-    {
-        id: 'olearys',
-        name: "O'Learys Tolv",
-        url: 'https://olearys.com/sv-se/tolv-stockholm/food/lunchmeny/',
-        location: 'Tolv Stockholm',
-        scraper: 'olearys'
-    },
-    {
-        id: 'blues',
-        name: 'Blues Bar & Kök',
-        url: 'https://bluesbarokok.gastrogate.com/lunch/',
-        location: 'Stockholm',
-        scraper: 'gastrogate'
-    },
-    {
-        id: 'tillmarie',
-        name: 'Till Marie',
-        url: 'https://tillmarie.se/meny/#lunch',
-        location: 'Stockholm',
-        scraper: 'tillmarie'
-    },
-    {
-        id: 'tastory',
-        name: 'Tastory Hammarbybacken',
-        url: 'https://www.compass-group.se/restauranger-och-menyer/tastory/tastory-hammarbybacken/',
-        location: 'Hammarbybacken, Stockholm',
-        scraper: 'compass'
+        location: 'Slakthusområdet, Stockholm'
     }
 ];
 
 function getDayName() {
     const days = ['Söndag', 'Måndag', 'Tisdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lördag'];
-    const today = new Date();
-    const dayIndex = today.getDay();
-    
-    // Om helg, visa senaste fredagens meny
-    if (dayIndex === 0 || dayIndex === 6) {
-        return 'Fredag';
-    }
-    
-    return days[dayIndex];
-}
-
-function getDayNameEnglish() {
-    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const today = new Date();
     return days[today.getDay()];
 }
@@ -75,6 +26,7 @@ async function scrapePartymakarna(url) {
         const dayName = getDayName();
         console.log(`Letar efter menyer för: ${dayName}`);
         
+        // Hitta rätt dag i menyn
         let menuText = '';
         let foundDay = false;
         
@@ -82,6 +34,7 @@ async function scrapePartymakarna(url) {
             const heading = $(elem).text().trim();
             if (heading === dayName) {
                 foundDay = true;
+                // Samla alla list-items efter denna rubrik tills nästa h4
                 let current = $(elem).next();
                 const items = [];
                 
@@ -98,11 +51,12 @@ async function scrapePartymakarna(url) {
                 }
                 
                 menuText = items.join('\n');
-                return false;
+                return false; // Break the loop
             }
         });
         
         if (!foundDay || !menuText) {
+            // Försök alternativ metod - leta i textinnehåll
             const fullText = $('body').text();
             const dayPattern = new RegExp(`${dayName}([\\s\\S]*?)(?=Måndag|Tisdag|Onsdag|Torsdag|Fredag|Lördag|Söndag|$)`, 'i');
             const match = fullText.match(dayPattern);
@@ -116,7 +70,7 @@ async function scrapePartymakarna(url) {
                         !line.includes('####') &&
                         !line.match(/^\d{4}-\d{2}-\d{2}/)
                     )
-                    .slice(0, 10)
+                    .slice(0, 10) // Ta max 10 rätter
                     .map(line => '• ' + line);
                 
                 menuText = content.join('\n');
@@ -126,176 +80,7 @@ async function scrapePartymakarna(url) {
         return menuText || 'Ingen meny hittades för idag';
         
     } catch (error) {
-        console.error(`Fel vid scraping:`, error.message);
-        throw error;
-    }
-}
-
-async function scrapeCompass(url) {
-    try {
-        const response = await axios.get(url);
-        const html = response.data;
-        const $ = cheerio.load(html);
-        
-        const dayName = getDayName();
-        const items = [];
-        
-        // Compass Group använder olika strukturer, försök flera metoder
-        // Metod 1: Leta efter dagens dag i rubriker
-        $('h2, h3, h4, strong').each((i, elem) => {
-            const text = $(elem).text().trim();
-            if (text.includes(dayName)) {
-                let current = $(elem).parent().next();
-                let count = 0;
-                while (current.length && count < 5) {
-                    const itemText = current.text().trim();
-                    if (itemText && itemText.length > 5) {
-                        items.push('• ' + itemText);
-                    }
-                    current = current.next();
-                    count++;
-                }
-            }
-        });
-        
-        // Metod 2: Sök i all text
-        if (items.length === 0) {
-            const fullText = $('body').text();
-            const dayPattern = new RegExp(`${dayName}[\\s\\S]{0,500}`, 'i');
-            const match = fullText.match(dayPattern);
-            
-            if (match) {
-                const lines = match[0]
-                    .split('\n')
-                    .map(l => l.trim())
-                    .filter(l => l.length > 10 && l.length < 150)
-                    .slice(1, 6);
-                
-                lines.forEach(line => items.push('• ' + line));
-            }
-        }
-        
-        return items.length > 0 ? items.join('\n') : 'Ingen meny hittades för idag';
-        
-    } catch (error) {
-        console.error(`Fel vid scraping:`, error.message);
-        throw error;
-    }
-}
-
-async function scrapeOlearys(url) {
-    try {
-        const response = await axios.get(url);
-        const html = response.data;
-        const $ = cheerio.load(html);
-        
-        const items = [];
-        
-        // O'Learys har ofta lunchrätter i en lista
-        $('.lunch-item, .menu-item, .dish').each((i, elem) => {
-            const text = $(elem).text().trim();
-            if (text && text.length > 5) {
-                items.push('• ' + text);
-            }
-        });
-        
-        // Om det inte finns specifika klasser, ta all text från main content
-        if (items.length === 0) {
-            $('main p, article p, .content p').each((i, elem) => {
-                const text = $(elem).text().trim();
-                if (text && text.length > 10 && text.length < 200) {
-                    items.push('• ' + text);
-                }
-            });
-        }
-        
-        return items.length > 0 ? items.slice(0, 10).join('\n') : 'Ingen lunchmeny hittades';
-        
-    } catch (error) {
-        console.error(`Fel vid scraping:`, error.message);
-        throw error;
-    }
-}
-
-async function scrapeGastrogate(url) {
-    try {
-        const response = await axios.get(url);
-        const html = response.data;
-        const $ = cheerio.load(html);
-        
-        const dayName = getDayName();
-        const dayNameEng = getDayNameEnglish();
-        const items = [];
-        
-        // Gastrogate använder ofta veckodagar som rubriker
-        $('h2, h3, h4, .day-title').each((i, elem) => {
-            const text = $(elem).text().trim();
-            if (text.includes(dayName) || text.includes(dayNameEng)) {
-                let current = $(elem).next();
-                let count = 0;
-                while (current.length && count < 8) {
-                    if (current.is('p') || current.is('li') || current.is('div')) {
-                        const itemText = current.text().trim();
-                        if (itemText && itemText.length > 5 && !itemText.match(/^\d+\s*kr/i)) {
-                            items.push('• ' + itemText);
-                        }
-                    }
-                    current = current.next();
-                    count++;
-                }
-            }
-        });
-        
-        // Fallback: ta alla lunchrätter
-        if (items.length === 0) {
-            $('.menu-item, .lunch-dish, li').each((i, elem) => {
-                const text = $(elem).text().trim();
-                if (text && text.length > 10 && text.length < 200) {
-                    items.push('• ' + text);
-                }
-            });
-        }
-        
-        return items.length > 0 ? items.slice(0, 10).join('\n') : 'Ingen lunchmeny hittades';
-        
-    } catch (error) {
-        console.error(`Fel vid scraping:`, error.message);
-        throw error;
-    }
-}
-
-async function scrapeTillMarie(url) {
-    try {
-        const response = await axios.get(url);
-        const html = response.data;
-        const $ = cheerio.load(html);
-        
-        const items = [];
-        
-        // Leta efter lunch-sektionen
-        $('#lunch, .lunch-menu, [id*="lunch"]').each((i, section) => {
-            $(section).find('p, li, .dish, .menu-item').each((j, elem) => {
-                const text = $(elem).text().trim();
-                if (text && text.length > 10 && text.length < 200 && !text.toLowerCase().includes('meny')) {
-                    items.push('• ' + text);
-                }
-            });
-        });
-        
-        // Fallback
-        if (items.length === 0) {
-            $('main .menu-item, article p').each((i, elem) => {
-                const text = $(elem).text().trim();
-                if (text && text.length > 10 && text.length < 200) {
-                    items.push('• ' + text);
-                }
-            });
-        }
-        
-        return items.length > 0 ? items.slice(0, 10).join('\n') : 'Ingen lunchmeny hittades';
-        
-    } catch (error) {
-        console.error(`Fel vid scraping:`, error.message);
+        console.error(`Fel vid scraping av ${url}:`, error.message);
         throw error;
     }
 }
@@ -309,24 +94,11 @@ async function scrapeAllMenus() {
         try {
             let menu;
             
-            switch(restaurant.scraper) {
-                case 'partymakarna':
-                    menu = await scrapePartymakarna(restaurant.url);
-                    break;
-                case 'compass':
-                    menu = await scrapeCompass(restaurant.url);
-                    break;
-                case 'olearys':
-                    menu = await scrapeOlearys(restaurant.url);
-                    break;
-                case 'gastrogate':
-                    menu = await scrapeGastrogate(restaurant.url);
-                    break;
-                case 'tillmarie':
-                    menu = await scrapeTillMarie(restaurant.url);
-                    break;
-                default:
-                    menu = 'Scraper inte implementerad för denna restaurang';
+            // Anpassa scraper baserat på restaurang
+            if (restaurant.id === 'partymakarna') {
+                menu = await scrapePartymakarna(restaurant.url);
+            } else {
+                menu = 'Scraper inte implementerad för denna restaurang';
             }
             
             results.push({
@@ -370,10 +142,11 @@ async function main() {
     fs.writeFileSync('menus.json', JSON.stringify(output, null, 2));
     console.log('\n✓ menus.json har skapats/uppdaterats');
     
+    // Skriv ut resultat
     console.log('\n=== Resultat ===');
     menus.forEach(menu => {
         console.log(`\n${menu.restaurant}:`);
-        console.log(menu.menu.substring(0, 150) + '...');
+        console.log(menu.menu.substring(0, 200) + '...');
     });
 }
 
