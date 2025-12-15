@@ -7,80 +7,125 @@ const RESTAURANTS = [
         id: 'partymakarna',
         name: 'Partymakarna',
         url: 'https://www.partymakarna.se/',
-        location: 'Slakthusområdet, Stockholm'
+        location: 'Slakthusområdet, Stockholm',
+        scraper: 'partymakarna'
     }
 ];
 
-function getDayName() {
+function getTargetDayName() {
     const days = ['Söndag', 'Måndag', 'Tisdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lördag'];
     const today = new Date();
-    return days[today.getDay()];
+    const dayIndex = today.getDay();
+    
+    // På helgen (lördag/söndag), visa måndagens meny
+    if (dayIndex === 0) { // Söndag
+        return 'Måndag';
+    } else if (dayIndex === 6) { // Lördag
+        return 'Måndag';
+    }
+    
+    // Vardagar - visa dagens meny
+    return days[dayIndex];
+}
+
+function getDisplayMessage() {
+    const today = new Date();
+    const dayIndex = today.getDay();
+    
+    if (dayIndex === 0 || dayIndex === 6) {
+        return '(Visar måndagens meny)';
+    }
+    return '';
 }
 
 async function scrapePartymakarna(url) {
     try {
-        const response = await axios.get(url);
+        const response = await axios.get(url, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+        });
         const html = response.data;
         const $ = cheerio.load(html);
         
-        const dayName = getDayName();
-        console.log(`Letar efter menyer för: ${dayName}`);
+        const targetDay = getTargetDayName();
+        console.log(`Letar efter meny för: ${targetDay}`);
         
-        // Hitta rätt dag i menyn
         let menuText = '';
-        let foundDay = false;
         
+        // Metod 1: Leta efter h4 med veckodagar
         $('h4').each((i, elem) => {
             const heading = $(elem).text().trim();
-            if (heading === dayName) {
-                foundDay = true;
-                // Samla alla list-items efter denna rubrik tills nästa h4
-                let current = $(elem).next();
+            if (heading === targetDay) {
+                // Samla alla textnoder efter denna rubrik tills nästa h4
+                let current = $(elem);
                 const items = [];
                 
-                while (current.length && !current.is('h4')) {
-                    if (current.is('ul') || current.is('ol')) {
-                        current.find('li').each((j, li) => {
-                            const text = $(li).text().trim();
-                            if (text && !text.includes('####')) {
-                                items.push('• ' + text);
+                // Gå igenom alla siblings efter h4 tills nästa h4
+                current.nextAll().each((j, sibling) => {
+                    if ($(sibling).is('h4')) {
+                        return false; // Stoppa vid nästa h4
+                    }
+                    
+                    const text = $(sibling).text().trim();
+                    if (text && text.length > 10 && !text.includes('####')) {
+                        // Ta inte med extra whitespace eller tomma rader
+                        const lines = text.split('\n')
+                            .map(line => line.trim())
+                            .filter(line => line.length > 10);
+                        
+                        lines.forEach(line => {
+                            if (!items.some(item => item.includes(line))) {
+                                items.push('• ' + line);
                             }
                         });
                     }
-                    current = current.next();
-                }
+                });
                 
                 menuText = items.join('\n');
-                return false; // Break the loop
+                return false; // Stoppa loopen
             }
         });
         
-        if (!foundDay || !menuText) {
-            // Försök alternativ metod - leta i textinnehåll
+        // Metod 2: Om h4-metoden inte fungerade, sök i all text
+        if (!menuText) {
+            console.log('Försöker alternativ metod...');
             const fullText = $('body').text();
-            const dayPattern = new RegExp(`${dayName}([\\s\\S]*?)(?=Måndag|Tisdag|Onsdag|Torsdag|Fredag|Lördag|Söndag|$)`, 'i');
+            
+            // Hitta rätt dag och extrahera text till nästa dag
+            const dayPattern = new RegExp(
+                `####\\s*${targetDay}([\\s\\S]*?)(?=####\\s*(?:Måndag|Tisdag|Onsdag|Torsdag|Fredag|Lördag|Söndag)|$)`,
+                'i'
+            );
             const match = fullText.match(dayPattern);
             
             if (match && match[1]) {
                 const content = match[1]
                     .split('\n')
                     .map(line => line.trim())
-                    .filter(line => line && 
-                        line.length > 10 && 
+                    .filter(line => 
+                        line.length > 15 && 
+                        line.length < 200 &&
                         !line.includes('####') &&
-                        !line.match(/^\d{4}-\d{2}-\d{2}/)
+                        !line.match(/^\d{4}-\d{2}-\d{2}/) &&
+                        !line.includes('Veckans meny')
                     )
-                    .slice(0, 10) // Ta max 10 rätter
+                    .slice(0, 10)
                     .map(line => '• ' + line);
                 
                 menuText = content.join('\n');
             }
         }
         
-        return menuText || 'Ingen meny hittades för idag';
+        const displayMsg = getDisplayMessage();
+        if (displayMsg && menuText) {
+            menuText = displayMsg + '\n\n' + menuText;
+        }
+        
+        return menuText || 'Ingen meny hittades';
         
     } catch (error) {
-        console.error(`Fel vid scraping av ${url}:`, error.message);
+        console.error(`Fel vid scraping:`, error.message);
         throw error;
     }
 }
@@ -94,11 +139,10 @@ async function scrapeAllMenus() {
         try {
             let menu;
             
-            // Anpassa scraper baserat på restaurang
-            if (restaurant.id === 'partymakarna') {
+            if (restaurant.scraper === 'partymakarna') {
                 menu = await scrapePartymakarna(restaurant.url);
             } else {
-                menu = 'Scraper inte implementerad för denna restaurang';
+                menu = 'Scraper inte implementerad';
             }
             
             results.push({
@@ -129,24 +173,23 @@ async function scrapeAllMenus() {
 async function main() {
     console.log('=== Lunch Menu Scraper ===');
     console.log(`Datum: ${new Date().toLocaleString('sv-SE')}`);
-    console.log(`Dag: ${getDayName()}\n`);
+    console.log(`Måldag: ${getTargetDayName()}\n`);
     
     const menus = await scrapeAllMenus();
     
     const output = {
         lastUpdate: new Date().toISOString(),
-        day: getDayName(),
+        day: getTargetDayName(),
         menus: menus
     };
     
     fs.writeFileSync('menus.json', JSON.stringify(output, null, 2));
     console.log('\n✓ menus.json har skapats/uppdaterats');
     
-    // Skriv ut resultat
     console.log('\n=== Resultat ===');
     menus.forEach(menu => {
         console.log(`\n${menu.restaurant}:`);
-        console.log(menu.menu.substring(0, 200) + '...');
+        console.log(menu.menu.substring(0, 300));
     });
 }
 
