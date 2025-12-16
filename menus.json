@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2025-12-15T07:59:37.183Z",
-  "day": "Måndag",
+  "lastUpdate": "2025-12-16T06:26:13.756Z",
+  "day": "Tisdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt torskfilé med dill och romsås, kokt potatis och varma grönsaker\n• Våra goda köttbullar med kantarellsås, Lingonsylt och kokt potatis\n• Syrliga isterband med persiljestuvad potatis och rödbetor\n• Veg: kikärtsbiff med kantarellsås och varma grönsaker\n• Grekisk fetaostsallad med kalamataoliver och picklad lök",
+      "menu": "• Stekt strömming med potatismos, lingonsylt och brynt smör\n• Fransk högrevsragu med bacon, lök, rödvin, champinjoner ris eller mos\n• Veg: Fylld paprika med linser, aubergine och tomatsås\n• Räksallad med bulgur, avokado, kokt ägg och örtdressing",
       "status": "success"
     }
   ]
