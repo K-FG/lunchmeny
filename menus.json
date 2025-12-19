@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2025-12-18T06:25:35.165Z",
-  "day": "Torsdag",
+  "lastUpdate": "2025-12-19T06:25:07.831Z",
+  "day": "Fredag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Ärtsoppa med eller utan fläsk, pannkaka med sylt och grädde\n• Bifflindström med råstekt rosmarinpotatis, örtsmör och rödvinssky\n• Laxfärsqueneller med vitvinsås, gröna ärtor och kokt potatis\n• Veg: Fylld paprika med kikärtor, tomat och aivar, stekt potatis\n• Stor portion pannkaka med sylt och grädde\n• Asiatisk biffsallad med nudlar, mango, bönor och sesamdressing",
+      "menu": "• Halstrad lättgravad regnbågsfile med ljummen potatissallad och dillcreme\n• Fläskschnitzel med råstekt rosmarinpotatis, bearnaisesås och rödvinssky\n• Bifflindström med råstekt rosmarinpotatis, örtsmör och rödvinssky\n• Vegetariska grönsaksbiffar med gröna ärtor, bearnaisesås och stekt potatis\n• Kycklingsallad med avokado, rostade grönsaker och caesardressing",
       "status": "success"
     }
   ]
