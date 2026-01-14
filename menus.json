@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-01-13T06:26:51.792Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-01-14T06:27:07.510Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt strömming med potatismos, lingonsylt och brynt smör\n• Pannbiff med stekt potatis, ratatouille och gurkyoghurt\n• Lammcurrygryta med basmatiris och yoghurt ( extrarätt,kan ta slut)\n• Veg: panerad haloumiost med stekt potatis, ratatouille och gurkyoghurt\n• Tomat och mozzarellasallad med fänkålssalami",
+      "menu": "• Laxfärsbiff med skagendressing, kokt potatis och fänkålssallad\n• Panerad kycklingfilé med tobbes coleslaw och rosmarinpotatis\n• Lasagne med nötfärs, fänkålssallad och riven grana padano\n• Veg: panerad haloumiost med stekt potatis, ratatouille och tzatziki\n• Räksallad med kokt ägg, avokado och chilidressing",
       "status": "success"
     }
   ]
