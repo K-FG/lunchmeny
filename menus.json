@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-01-18T06:24:28.398Z",
+  "lastUpdate": "2026-01-19T06:30:58.383Z",
   "day": "Måndag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "(Visar måndagens meny)\n\n• Stekt panerad havsabborre med remouladsås, citron och kokt potatis\n• Helstekt fläskkarré med äpple, lök, gräddsås och kokt potatis\n• Pyttipanna, stuvad eller ostuvad, stekt ägg och rödbetor\n• Veg: Zucchini och kikärtsbiff, remouladsås, ärtor och kokt potatis\n• Biffsallad med grillade grönsaker och örtdressing",
+      "menu": "• Stekt panerad havsabborre med remouladsås, citron och kokt potatis\n• Helstekt fläskkarré med äpple, lök, gräddsås och kokt potatis\n• Pyttipanna, stuvad eller ostuvad, stekt ägg och rödbetor\n• Veg: Zucchini och kikärtsbiff, remouladsås, ärtor och kokt potatis\n• Biffsallad med grillade grönsaker och örtdressing",
       "status": "success"
     }
   ]
