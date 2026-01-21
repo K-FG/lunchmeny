@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-01-20T06:28:37.144Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-01-21T06:29:08.992Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "Ingen meny hittades",
+      "menu": "• Laxpudding med brynt smör, dill, citron och pepparrot\n• Italienska köttbullar med krämig tomatsås, potatismos och örtsallad\n• Veg: rödbetsbullar med krämig tomatsås, potatismos och örtsallad\n• Caesarsallad med kyckling, knaperstekt bacon och krutonger",
       "status": "success"
     }
   ]
