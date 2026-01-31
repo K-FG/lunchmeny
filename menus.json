@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-01-30T06:40:35.912Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-01-31T06:31:52.935Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Fläskschnitzel med rödvinssky, stekt potatis, bearnaisesås\n• Fisk och skaldjurspaella med stora räkor, bläckfisk, grönsaker och aioli\n• Wallenbergare, brynt smör, gröna ärtor, rårörda lingon och potatismos\n• Vegetariska grönsaksbiffar med gröna ärtor, bearnaisesås och stekt potatis\n• Kycklingsallad med avokado, surdegskrutonger och caesardressing",
+      "menu": "(Visar måndagens meny)\n\n• Stekt panerad koljafilé med remouladsås, blomkål och kokt potatis\n• Bifflindström med rödvinssås, persiljesmör, saltgurka och stekt potatis\n• Wokat fläsk med röd thaicurrysås, basmatiris och grönsaker\n• Pokebowl med friterade kikärtsbullar, mango, bönor, avokado och sesamsås",
       "status": "success"
     }
   ]
