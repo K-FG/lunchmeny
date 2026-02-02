@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-01T06:41:53.906Z",
+  "lastUpdate": "2026-02-02T06:56:46.503Z",
   "day": "Måndag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "(Visar måndagens meny)\n\n• Stekt panerad koljafilé med remouladsås, blomkål och kokt potatis\n• Bifflindström med rödvinssås, persiljesmör, saltgurka och stekt potatis\n• Wokat fläsk med röd thaicurrysås, basmatiris och grönsaker\n• Pokebowl med friterade kikärtsbullar, mango, bönor, avokado och sesamsås",
+      "menu": "• Stekt panerad koljafilé med remouladsås, blomkål och kokt potatis\n• Bifflindström med rödvinssås, persiljesmör, saltgurka och stekt potatis\n• Wokat fläsk med röd thaicurrysås, basmatiris och grönsaker\n• Pokebowl med friterade kikärtsbullar, mango, bönor, avokado och sesamsås",
       "status": "success"
     }
   ]
