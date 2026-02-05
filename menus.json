@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-04T06:43:14.939Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-02-05T06:51:56.024Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt långafilé  med pepparrot, ägg, persilja, gröna ärtor och vitvinssås\n• Oxbringa Lyonnais- Stekt oxbringa, potatis, lök och senapsgrädde\n• Stekt svensk kycklingfilé med basmatiris, sesamdressing och asiatisk kålsallad\n• Veg: Haloumibiffar med basmatiris, sesamdressing och asiatisk kålsallad\n• Tomat och mozzarellasallad med  grillade grönsaker och fänkålssalami",
+      "menu": "• Ärtsoppa med eller utan fläsk, pannkaka med sylt och grädde\n• Kalvfärsbiff med karljohansvamp, rödvinssås och potatismos\n• Stekt koljafilé med remouladsås, kokt potatis och örtsallad\n• Stor portion pannkaka med sylt och grädde\n• Veg: Kikärtsbiffar med karljohansvamp och potatismos\n• Räksallad med ägg, avokado och rhodeislandsås",
       "status": "success"
     }
   ]
