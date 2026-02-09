@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-08T06:42:39.590Z",
+  "lastUpdate": "2026-02-09T06:58:41.149Z",
   "day": "Måndag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "(Visar måndagens meny)\n\n• Stekt panerad fjällbrosme, grebbestadsås, gröna ärtor och kokt potatis\n• Kycklingcurrygryta med basmatiris, mangochutney och rostade nötter\n• Vegetarisk linsbiff med basmatiris, currysås, mangochutney och rostade nötter\n• Lammhults syrliga isterband med stuvad potatis och inlagda rödbetor\n• Laxsallad med ugnsbakade rotfrukter och västerbottendressing",
+      "menu": "• Stekt panerad fjällbrosme, grebbestadsås, gröna ärtor och kokt potatis\n• Kycklingcurrygryta med basmatiris, mangochutney och rostade nötter\n• Vegetarisk linsbiff med basmatiris, currysås, mangochutney och rostade nötter\n• Lammhults syrliga isterband med stuvad potatis och inlagda rödbetor\n• Laxsallad med ugnsbakade rotfrukter och citron och ostdressing",
       "status": "success"
     }
   ]
