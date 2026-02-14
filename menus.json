@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-13T06:53:16.602Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-02-14T06:37:37.040Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt koljafilé med rostade rotfrukter, ört-salsa , citron och potatismos\n• Fläskschnitzel Cordon bleu ( fylld med rökt skinka, dijon, ost) rödvinssky, bearnaise\n• Köttbullar med potatismos, lingonsylt, gräddsås och farmorgurka\n• Dagens sallad",
+      "menu": "(Visar måndagens meny)\n\n• Stekt panerad fjällbrosme, grebbestadsås, gröna ärtor och kokt potatis\n• Kycklingcurrygryta med basmatiris, mangochutney och rostade nötter\n• Vegetarisk linsbiff med basmatiris, currysås, mangochutney och rostade nötter\n• Lammhults syrliga isterband med stuvad potatis och inlagda rödbetor\n• Laxsallad med ugnsbakade rotfrukter och citron och ostdressing",
       "status": "success"
     }
   ]
