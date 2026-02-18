@@ -1,17 +1,11 @@
 {
-  "lastUpdate": "2026-02-18T14:37:38.918Z",
+  "lastUpdate": "2026-02-18T14:40:24.550Z",
   "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
       "menu": "• Laxfärsbiff med dill och tångromsås, gröna ärtor och kokt potatis\n• Skånsk kalops med kokt potatis och inlagda rödbetor\n• Stekt kycklinglårfilé med asiatiska grönsaker, basmatiris och wasabisås\n• Sesampanerade kikärtsbullar med asiatiska grönsaker, basmatiris och wasabisås\n• Fetaostsallad med oliver och rostad broccoli\n• Kycklingsallad med avokado, mango, bulgur och ingefäradressing",
-      "status": "success"
-    },
-    {
-      "restaurant": "O'Learys",
-      "location": "Tolv, Stockholm",
-      "menu": "Ingen meny hittades",
       "status": "success"
     }
   ]
