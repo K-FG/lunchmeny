@@ -9,13 +9,6 @@ const RESTAURANTS = [
         url: 'https://www.partymakarna.se/',
         location: 'Slakthusområdet, Stockholm',
         scraper: 'partymakarna'
-    },
-    {
-        id: 'olearys',
-        name: 'O\'Learys',
-        url: 'https://olearys.se/stockholm-tolv-event-center/food/lunch/',
-        location: 'Tolv, Stockholm',
-        scraper: 'olearys'
     }
 ];
 
@@ -136,6 +129,8 @@ async function scrapePartymakarna(url) {
         throw error;
     }
 }
+
+
 
 async function scrapeAllMenus() {
     const results = [];

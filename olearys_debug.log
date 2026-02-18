@@ -1,0 +1,27 @@
+=== Lunch Menu Scraper ===
+Datum: 2026-02-18 15:31:33
+Måldag: Onsdag
+
+
+Hämtar meny för Partymakarna...
+Letar efter meny för: Onsdag
+✓ Partymakarna: Meny hämtad
+
+Hämtar meny för O'Learys...
+__NEXT_DATA__ script tag found: false
+Letar efter meny för: Onsdag
+✓ O'Learys: Meny hämtad
+
+✓ menus.json har skapats/uppdaterats
+
+=== Resultat ===
+
+Partymakarna:
+• Laxfärsbiff med dill och tångromsås, gröna ärtor och kokt potatis
+• Skånsk kalops med kokt potatis och inlagda rödbetor
+• Stekt kycklinglårfilé med asiatiska grönsaker, basmatiris och wasabisås
+• Sesampanerade kikärtsbullar med asiatiska grönsaker, basmatiris och wasabisås
+• Fetaostsallad med oliv
+
+O'Learys:
+Ingen meny hittades

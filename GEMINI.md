@@ -31,7 +31,8 @@ To build and run this project, you need to have Node.js and npm installed.
 
 *   **Adding a new restaurant:**
     1.  Add a new restaurant object to the `RESTAURANTS` array in `scrape-menus.js`.
-    2.  Add a new scraper function for the restaurant. The scraper function should take the restaurant's URL as input and return the menu as a string.
+    2.  Implement a new scraper function for the restaurant. This function should take the restaurant's URL as input and return the menu as a string.
+        *   **Note:** If the restaurant's menu page is dynamically rendered using client-side JavaScript (e.g., a Next.js application), it might not be possible to scrape it using `axios` and `cheerio`. In such cases, a headless browser (like Puppeteer or Playwright) would be required, which is outside the current scope of this project.
     3.  Update the `scrapeAllMenus` function to call the new scraper function.
     4.  Add the new restaurant to the `RESTAURANTS` array in `index.html`.
 

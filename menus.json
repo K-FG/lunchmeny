@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-18T07:30:19.176Z",
+  "lastUpdate": "2026-02-18T14:37:38.918Z",
   "day": "Onsdag",
   "menus": [
     {
@@ -11,9 +11,8 @@
     {
       "restaurant": "O'Learys",
       "location": "Tolv, Stockholm",
-      "menu": "Kunde inte hämta meny",
-      "status": "error",
-      "error": "Scraper not implemented for O'Learys"
+      "menu": "Ingen meny hittades",
+      "status": "success"
     }
   ]
 }
