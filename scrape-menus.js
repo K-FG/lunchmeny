@@ -9,6 +9,13 @@ const RESTAURANTS = [
         url: 'https://www.partymakarna.se/',
         location: 'Slakthusområdet, Stockholm',
         scraper: 'partymakarna'
+    },
+    {
+        id: 'olearys',
+        name: 'O\'Learys',
+        url: 'https://olearys.se/stockholm-tolv-event-center/food/lunch/',
+        location: 'Tolv, Stockholm',
+        scraper: 'olearys'
     }
 ];
 
@@ -142,7 +149,7 @@ async function scrapeAllMenus() {
             if (restaurant.scraper === 'partymakarna') {
                 menu = await scrapePartymakarna(restaurant.url);
             } else {
-                menu = 'Scraper inte implementerad';
+                throw new Error(`Scraper not implemented for ${restaurant.name}`);
             }
             
             results.push({

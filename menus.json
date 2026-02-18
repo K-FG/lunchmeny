@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-18T06:55:20.203Z",
+  "lastUpdate": "2026-02-18T07:30:19.176Z",
   "day": "Onsdag",
   "menus": [
     {
@@ -7,6 +7,13 @@
       "location": "Slakthusområdet, Stockholm",
       "menu": "• Laxfärsbiff med dill och tångromsås, gröna ärtor och kokt potatis\n• Skånsk kalops med kokt potatis och inlagda rödbetor\n• Stekt kycklinglårfilé med asiatiska grönsaker, basmatiris och wasabisås\n• Sesampanerade kikärtsbullar med asiatiska grönsaker, basmatiris och wasabisås\n• Fetaostsallad med oliver och rostad broccoli\n• Kycklingsallad med avokado, mango, bulgur och ingefäradressing",
       "status": "success"
+    },
+    {
+      "restaurant": "O'Learys",
+      "location": "Tolv, Stockholm",
+      "menu": "Kunde inte hämta meny",
+      "status": "error",
+      "error": "Scraper not implemented for O'Learys"
     }
   ]
 }
