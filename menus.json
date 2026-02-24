@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-23T06:57:48.261Z",
-  "day": "Måndag",
+  "lastUpdate": "2026-02-24T06:54:06.377Z",
+  "day": "Tisdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt panerad torskfilé med kokt potatis, varma grönsaker och remouladsås\n• Grillad fläskkarré med rotfrukter, kål, äpple och potatismos\n• Skånsk kalops med inlagda rödbetor\n• Vegetarisk haloumibiff med rotfrukter, kål, äpple och potatismos\n• Kycklingsallad med mango, mukamamibönor, rödkål och currydressing",
+      "menu": "• Stekt strömming med potatismos, lingonsylt och brynt smör\n• Italienska köttbullar med potatisgnocci, champinjoner och krämig tomatsås\n• Grillad fläskkarré med rotfrukter, kål, äpple och potatismos\n• Vegetarisk biff med potatisgnocci, champinjoner, grönsaker och krämig tomatsås\n• Clubsandwich med lax och räkröra, mixsallad och bakad tomat",
       "status": "success"
     }
   ]
