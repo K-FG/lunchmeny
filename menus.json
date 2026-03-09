@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-03-08T06:35:54.640Z",
+  "lastUpdate": "2026-03-09T06:54:57.164Z",
   "day": "Måndag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "(Visar måndagens meny)\n\n• Gratinerad sejfilé med skaldjurssås, potatismos och fänkålssallad\n• Pasta tortelloni med riccotta, spenat och salsiccia-ragu\n• Pyttipanna, stuvad eller ostuvad stekt ägg och rödbetor\n• Vegetarisk pasta tortelloni med riccotta, spenat och grönsaksragu\n• Räksallad med kokt ägg, avokado, grillade grönsaker och chilidressing",
+      "menu": "• Stekt panerad sejfilé med kokt potatis, ärtor och dillremoladsås\n• Köttbullar med gräddsås, potatismos och lingonsylt\n• Kycklingcurrygryta med basmatiris och mangochutney\n• Vegetarisk currygryta med basmatiris och mangochutney\n• Grekisk fetaostsallad med rostad broccoli, oliver och picklad rödlök",
       "status": "success"
     }
   ]
