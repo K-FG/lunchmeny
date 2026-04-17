@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-04-16T07:24:04.492Z",
-  "day": "Torsdag",
+  "lastUpdate": "2026-04-17T07:24:42.418Z",
+  "day": "Fredag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Ärtsoppa med eller utan fläsk, pannkaka med sylt och grädde\n• Pannbiff med stekt lök, bacon, rödvinssås och potatismos\n• Laxfärsbiff med ljummen färskpotatissallad och skagensås\n• Veg: Haloumi och rödbetsbiffar, mos eller färskpotatissallad\n• Stor portion pannkaka med sylt och grädde\n• Sallad med gravlax, pocherat ägg och senapsås",
+      "menu": "• Halstrad regnbågslax med dillstuvad potatis och citron\n• Fläskschnitzel med stekt färskpotatis, bearnaisesås och rödvinssås\n• Helstekt kalvrostbiff med potatisgratäng och rödvinssås\n• Dagens sallad",
       "status": "success"
     }
   ]
