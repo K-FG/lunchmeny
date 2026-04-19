@@ -119,59 +119,25 @@ async function scrapeBlues(url) {
     console.log(`Hämtar: ${url} (letar efter ${targetDay})`);
 
     const response = await axios.get(url, { headers: HEADERS, timeout: 15000 });
-    console.log(`Blues HTTP status: ${response.status}`);
-
     const $ = cheerio.load(response.data);
-
-    // Debug: log all headings found on the page
-    const headings = [];
-    $('h1,h2,h3,h4,h5,h6').each((_, el) => headings.push(`<${el.name}>: ${$(el).text().trim().substring(0, 80)}`));
-    console.log('Blues headings:', JSON.stringify(headings));
-
-    // Debug: log first 800 chars of body text
-    const bodySnippet = $('body').text().replace(/\s+/g, ' ').trim().substring(0, 800);
-    console.log('Blues body snippet:', bodySnippet);
-
     $('nav, header, footer, aside, script, style').remove();
 
-    // Blues has all days on one page — find the heading matching the target day
-    // and collect items until the next day heading
-    const DAY_NAMES = ['Måndag', 'Tisdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lördag', 'Söndag'];
-    const dayPattern = new RegExp(`^${targetDay}`, 'i');
-    const nextDayPattern = new RegExp(`^(${DAY_NAMES.join('|')})`, 'i');
-
-    const headingSelectors = 'h1, h2, h3, h4, h5, h6, strong, b';
-    let found = false;
+    // Days are <h3> tags, day name may be lowercase (e.g. "fredag")
     const items = [];
-
-    // Walk all elements in document order
-    $('*').each((_, elem) => {
-        if (items.length >= 12) return false;
-        const tag = elem.name;
-        const isHeading = /^h[1-6]$/.test(tag) || tag === 'strong' || tag === 'b';
-        const text = $(elem).clone().children().remove().end().text().trim();
-
-        if (!found) {
-            if (isHeading && dayPattern.test(text)) {
-                found = true;
-            }
-            return;
-        }
-
-        // Stop at next day heading
-        if (isHeading && nextDayPattern.test(text)) return false;
-
-        // Collect non-empty, non-noise text from leaf-ish elements
-        if (['p', 'li', 'td', 'span'].includes(tag)) {
-            const full = $(elem).text().trim();
-            if (full.length > 5 && full.length < 250 && !isNoise(full)) {
-                items.push('• ' + full);
-            }
+    $('h3').each((_, el) => {
+        if ($(el).text().trim().toLowerCase() === targetDay.toLowerCase()) {
+            $(el).nextUntil('h3').each((_, sibling) => {
+                const text = $(sibling).text().trim();
+                if (text.length > 5 && text.length < 250 && !isNoise(text)) {
+                    items.push('• ' + text);
+                }
+            });
+            return false;
         }
     });
 
     const displayMsg = getDisplayMessage();
-    const menuText = items.join('\n');
+    const menuText = items.slice(0, 12).join('\n');
     if (!menuText) return 'Ingen meny hittades';
     return displayMsg ? displayMsg + '\n\n' + menuText : menuText;
 }
