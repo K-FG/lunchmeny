@@ -17,14 +17,11 @@ function getTargetDayName() {
     const today = new Date();
     const dayIndex = today.getDay();
 
-    // På helgen (lördag/söndag), visa måndagens meny
-    if (dayIndex === 0) { // Söndag
-        return 'Måndag';
-    } else if (dayIndex === 6) { // Lördag
-        return 'Måndag';
+    // På helgen, visa fredagens meny (senaste vardagen)
+    if (dayIndex === 0 || dayIndex === 6) {
+        return 'Fredag';
     }
 
-    // Vardagar - visa dagens meny
     return days[dayIndex];
 }
 
@@ -33,7 +30,7 @@ function getDisplayMessage() {
     const dayIndex = today.getDay();
 
     if (dayIndex === 0 || dayIndex === 6) {
-        return '(Visar måndagens meny)';
+        return '(Visar fredagens meny)';
     }
     return '';
 }
