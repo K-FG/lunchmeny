@@ -36,6 +36,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update menus - $(date +'%Y-%m-%d %H:%M')"
+            git restore .
             git fetch origin main
             git rebase origin/main
             git push
