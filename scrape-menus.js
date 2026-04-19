@@ -122,27 +122,24 @@ async function scrapeBlues(url) {
     const $ = cheerio.load(response.data);
     $('nav, header, footer, aside, script, style').remove();
 
-    // Days are <h3> tags, day name may be lowercase (e.g. "fredag")
+    const DAY_NAMES = ['måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag', 'söndag'];
     const items = [];
-    $('h3').each((_, el) => {
-        if ($(el).text().trim().toLowerCase() === targetDay.toLowerCase()) {
-            // nextUntil gets sibling containers; find() digs into nested p/li/span
-            $(el).nextUntil('h3').each((_, sibling) => {
-                const $sib = $(sibling);
-                // Try nested p/li first, fall back to the element's own text
-                const leaves = $sib.find('p, li, span').length
-                    ? $sib.find('p, li, span')
-                    : $sib;
-                leaves.each((_, leaf) => {
-                    const text = $(leaf).text().trim();
-                    if (text.length > 5 && text.length < 250 && !isNoise(text)) {
-                        items.push('• ' + text);
-                    }
-                });
-            });
-            return false;
+
+    // Extract text lines from the page and find the target day's section
+    const lines = $('body').text().split('\n').map(l => l.trim()).filter(l => l.length > 0);
+    let collecting = false;
+    for (const line of lines) {
+        if (line.toLowerCase() === targetDay.toLowerCase()) {
+            collecting = true;
+            continue;
         }
-    });
+        if (collecting) {
+            if (DAY_NAMES.includes(line.toLowerCase())) break;
+            if (line.length > 5 && line.length < 250 && !isNoise(line)) {
+                items.push('• ' + line);
+            }
+        }
+    }
 
     const displayMsg = getDisplayMessage();
     const menuText = items.slice(0, 12).join('\n');
