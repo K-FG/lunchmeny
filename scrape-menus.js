@@ -126,11 +126,19 @@ async function scrapeBlues(url) {
     const items = [];
     $('h3').each((_, el) => {
         if ($(el).text().trim().toLowerCase() === targetDay.toLowerCase()) {
+            // nextUntil gets sibling containers; find() digs into nested p/li/span
             $(el).nextUntil('h3').each((_, sibling) => {
-                const text = $(sibling).text().trim();
-                if (text.length > 5 && text.length < 250 && !isNoise(text)) {
-                    items.push('• ' + text);
-                }
+                const $sib = $(sibling);
+                // Try nested p/li first, fall back to the element's own text
+                const leaves = $sib.find('p, li, span').length
+                    ? $sib.find('p, li, span')
+                    : $sib;
+                leaves.each((_, leaf) => {
+                    const text = $(leaf).text().trim();
+                    if (text.length > 5 && text.length < 250 && !isNoise(text)) {
+                        items.push('• ' + text);
+                    }
+                });
             });
             return false;
         }
