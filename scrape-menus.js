@@ -9,6 +9,13 @@ const RESTAURANTS = [
         url: 'https://www.partymakarna.se/veckans/',
         location: 'Slakthusområdet, Stockholm',
         scraper: 'partymakarna'
+    },
+    {
+        id: 'blues',
+        name: 'Blues Restaurang',
+        url: 'https://bluesrestaurang.se/veckans-lunchmeny',
+        location: 'Stockholm',
+        scraper: 'blues'
     }
 ];
 
@@ -57,14 +64,7 @@ async function scrapePartymakarna(baseUrl) {
 
     console.log(`Hämtar: ${url}`);
 
-    const response = await axios.get(url, {
-        headers: {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'sv-SE,sv;q=0.9,en;q=0.8',
-        },
-        timeout: 15000,
-    });
+    const response = await axios.get(url, { headers: HEADERS, timeout: 15000 });
 
     const $ = cheerio.load(response.data);
 
@@ -108,6 +108,62 @@ async function scrapePartymakarna(baseUrl) {
 
 
 
+const HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'sv-SE,sv;q=0.9,en;q=0.8',
+};
+
+async function scrapeBlues(url) {
+    const targetDay = getTargetDayName();
+    console.log(`Hämtar: ${url} (letar efter ${targetDay})`);
+
+    const response = await axios.get(url, { headers: HEADERS, timeout: 15000 });
+    const $ = cheerio.load(response.data);
+    $('nav, header, footer, aside, script, style').remove();
+
+    // Blues has all days on one page — find the heading matching the target day
+    // and collect items until the next day heading
+    const DAY_NAMES = ['Måndag', 'Tisdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lördag', 'Söndag'];
+    const dayPattern = new RegExp(`^${targetDay}`, 'i');
+    const nextDayPattern = new RegExp(`^(${DAY_NAMES.join('|')})`, 'i');
+
+    const headingSelectors = 'h1, h2, h3, h4, h5, h6, strong, b';
+    let found = false;
+    const items = [];
+
+    // Walk all elements in document order
+    $('*').each((_, elem) => {
+        if (items.length >= 12) return false;
+        const tag = elem.name;
+        const isHeading = /^h[1-6]$/.test(tag) || tag === 'strong' || tag === 'b';
+        const text = $(elem).clone().children().remove().end().text().trim();
+
+        if (!found) {
+            if (isHeading && dayPattern.test(text)) {
+                found = true;
+            }
+            return;
+        }
+
+        // Stop at next day heading
+        if (isHeading && nextDayPattern.test(text)) return false;
+
+        // Collect non-empty, non-noise text from leaf-ish elements
+        if (['p', 'li', 'td', 'span'].includes(tag)) {
+            const full = $(elem).text().trim();
+            if (full.length > 5 && full.length < 250 && !isNoise(full)) {
+                items.push('• ' + full);
+            }
+        }
+    });
+
+    const displayMsg = getDisplayMessage();
+    const menuText = items.join('\n');
+    if (!menuText) return 'Ingen meny hittades';
+    return displayMsg ? displayMsg + '\n\n' + menuText : menuText;
+}
+
 async function scrapeAllMenus() {
     const results = [];
 
@@ -119,6 +175,8 @@ async function scrapeAllMenus() {
 
             if (restaurant.scraper === 'partymakarna') {
                 menu = await scrapePartymakarna(restaurant.url);
+            } else if (restaurant.scraper === 'blues') {
+                menu = await scrapeBlues(restaurant.url);
             } else {
                 throw new Error(`Scraper not implemented for ${restaurant.name}`);
             }
