@@ -119,7 +119,19 @@ async function scrapeBlues(url) {
     console.log(`Hämtar: ${url} (letar efter ${targetDay})`);
 
     const response = await axios.get(url, { headers: HEADERS, timeout: 15000 });
+    console.log(`Blues HTTP status: ${response.status}`);
+
     const $ = cheerio.load(response.data);
+
+    // Debug: log all headings found on the page
+    const headings = [];
+    $('h1,h2,h3,h4,h5,h6').each((_, el) => headings.push(`<${el.name}>: ${$(el).text().trim().substring(0, 80)}`));
+    console.log('Blues headings:', JSON.stringify(headings));
+
+    // Debug: log first 800 chars of body text
+    const bodySnippet = $('body').text().replace(/\s+/g, ' ').trim().substring(0, 800);
+    console.log('Blues body snippet:', bodySnippet);
+
     $('nav, header, footer, aside, script, style').remove();
 
     // Blues has all days on one page — find the heading matching the target day
