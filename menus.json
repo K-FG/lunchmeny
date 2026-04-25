@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-25T13:31:15.549Z",
+  "lastUpdate": "2026-04-25T13:39:53.304Z",
   "day": "Fredag",
   "menus": [
     {
@@ -11,7 +11,7 @@
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "(Visar fredagens meny)\n\n• Nattbakad ryggbiff med rödvinssås, bearnasiesås, sparris & råstekt potatis.Gremolatamarinerad kycklingbröstfilé med örtcreme & bulgursallad.Leffes Special! kalvfärsbiff med choronsås, haricots verts & stekt vitkål.Glassbuffé ingår till dagens lunch!Fiskgratäng med sparris, handskalade räkor, citron, dill & potatismos.Noisette med champinjonsås, bakad tomat & råstekt potatis.Laxpasta med saffran, dill & parmesan.Vegetarisk! Stekt ris med bönor, soya & koriander.",
+      "menu": "(Visar fredagens meny)\n\n• Nattbakad ryggbiff med rödvinssås, bearnasiesås, sparris & råstekt potatis\n• Gremolatamarinerad kycklingbröstfilé med örtcreme & bulgursallad\n• Leffes Special! kalvfärsbiff med choronsås, haricots verts & stekt vitkål\n• Glassbuffé ingår till dagens lunch!Fiskgratäng med sparris, handskalade räkor, citron, dill & potatismos\n• Noisette med champinjonsås, bakad tomat & råstekt potatis\n• Laxpasta med saffran, dill & parmesan\n• Vegetarisk! Stekt ris med bönor, soya & koriander.",
       "status": "success"
     }
   ]
