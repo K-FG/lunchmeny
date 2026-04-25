@@ -138,8 +138,8 @@ async function scrapeBlues(url) {
         const rawText = section.text().replace(/\s+/g, ' ').trim();
         // Remove the day heading itself (e.g. "fredag") from the start
         const cleaned = rawText.replace(/^(måndag|tisdag|onsdag|torsdag|fredag)\s*/i, '');
-        // Split on common separators: period+space, newline, or long runs of whitespace
-        const sentences = cleaned.split(/\.\s+|\n+/).map(s => s.trim()).filter(s => s.length > 8 && !isNoise(s));
+        // Split on period followed by capital letter or whitespace (Blues concatenates items without spaces)
+        const sentences = cleaned.split(/\.(?=[A-ZÅÄÖ])|\.(?:\s+)|\n+/).map(s => s.trim()).filter(s => s.length > 8 && !isNoise(s));
         sentences.forEach(s => items.push('• ' + s));
     }
 
