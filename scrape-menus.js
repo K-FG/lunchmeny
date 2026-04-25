@@ -125,18 +125,42 @@ async function scrapeBlues(url) {
     const DAY_NAMES = ['måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag', 'söndag'];
     const items = [];
 
-    // Extract text lines from the page and find the target day's section
-    const lines = $('body').text().split('\n').map(l => l.trim()).filter(l => l.length > 0);
-    let collecting = false;
-    for (const line of lines) {
-        if (line.toLowerCase() === targetDay.toLowerCase()) {
-            collecting = true;
-            continue;
+    // Blues uses <h3> tags for day headings — find the matching one and collect siblings until next <h3>
+    let targetH3 = null;
+    $('h3').each((_, elem) => {
+        if ($(elem).text().trim().toLowerCase() === targetDay.toLowerCase()) {
+            targetH3 = elem;
         }
-        if (collecting) {
-            if (DAY_NAMES.includes(line.toLowerCase())) break;
-            if (line.length > 5 && line.length < 250 && !isNoise(line)) {
-                items.push('• ' + line);
+    });
+
+    if (targetH3) {
+        let node = $(targetH3).next();
+        while (node.length && !node.is('h3')) {
+            const tag = node.prop('tagName') || '';
+            const text = node.text().trim();
+            if (['H4', 'P', 'LI'].includes(tag.toUpperCase()) && text.length > 5 && !isNoise(text)) {
+                items.push('• ' + text);
+            }
+            // Also collect nested li/p within divs
+            if (tag.toUpperCase() === 'DIV' || tag.toUpperCase() === 'UL') {
+                node.find('p, li, h4').each((_, child) => {
+                    const ct = $(child).text().trim();
+                    if (ct.length > 5 && !isNoise(ct)) items.push('• ' + ct);
+                });
+            }
+            node = node.next();
+        }
+    }
+
+    // Fallback: scan all text nodes grouped by h3 headings
+    if (items.length === 0) {
+        const lines = $('body').text().split('\n').map(l => l.trim()).filter(l => l.length > 0);
+        let collecting = false;
+        for (const line of lines) {
+            if (line.toLowerCase() === targetDay.toLowerCase()) { collecting = true; continue; }
+            if (collecting) {
+                if (DAY_NAMES.includes(line.toLowerCase())) break;
+                if (line.length > 5 && line.length < 250 && !isNoise(line)) items.push('• ' + line);
             }
         }
     }
