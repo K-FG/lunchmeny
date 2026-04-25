@@ -114,55 +114,33 @@ const HEADERS = {
     'Accept-Language': 'sv-SE,sv;q=0.9,en;q=0.8',
 };
 
+const BLUES_DAY_IDS = {
+    'Måndag':  'lunch_mån',
+    'Tisdag':  'lunch_tis',
+    'Onsdag':  'lunch_ons',
+    'Torsdag': 'lunch_tor',
+    'Fredag':  'lunch_fre',
+};
+
 async function scrapeBlues(url) {
     const targetDay = getTargetDayName();
-    console.log(`Hämtar: ${url} (letar efter ${targetDay})`);
+    const sectionId = BLUES_DAY_IDS[targetDay];
+    console.log(`Hämtar: ${url} (letar efter #${sectionId})`);
 
     const response = await axios.get(url, { headers: HEADERS, timeout: 15000 });
     const $ = cheerio.load(response.data);
-    $('nav, header, footer, aside, script, style').remove();
 
-    const DAY_NAMES = ['måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag', 'söndag'];
+    const section = $(`[id="${sectionId}"]`);
     const items = [];
 
-    // Blues uses <h3> tags for day headings — find the matching one and collect siblings until next <h3>
-    let targetH3 = null;
-    $('h3').each((_, elem) => {
-        if ($(elem).text().trim().toLowerCase() === targetDay.toLowerCase()) {
-            targetH3 = elem;
-        }
-    });
-
-    if (targetH3) {
-        let node = $(targetH3).next();
-        while (node.length && !node.is('h3')) {
-            const tag = node.prop('tagName') || '';
-            const text = node.text().trim();
-            if (['H4', 'P', 'LI'].includes(tag.toUpperCase()) && text.length > 5 && !isNoise(text)) {
-                items.push('• ' + text);
-            }
-            // Also collect nested li/p within divs
-            if (tag.toUpperCase() === 'DIV' || tag.toUpperCase() === 'UL') {
-                node.find('p, li, h4').each((_, child) => {
-                    const ct = $(child).text().trim();
-                    if (ct.length > 5 && !isNoise(ct)) items.push('• ' + ct);
-                });
-            }
-            node = node.next();
-        }
-    }
-
-    // Fallback: scan all text nodes grouped by h3 headings
-    if (items.length === 0) {
-        const lines = $('body').text().split('\n').map(l => l.trim()).filter(l => l.length > 0);
-        let collecting = false;
-        for (const line of lines) {
-            if (line.toLowerCase() === targetDay.toLowerCase()) { collecting = true; continue; }
-            if (collecting) {
-                if (DAY_NAMES.includes(line.toLowerCase())) break;
-                if (line.length > 5 && line.length < 250 && !isNoise(line)) items.push('• ' + line);
-            }
-        }
+    if (section.length) {
+        // Get all text content from the section, split on sentence boundaries
+        const rawText = section.text().replace(/\s+/g, ' ').trim();
+        // Remove the day heading itself (e.g. "fredag") from the start
+        const cleaned = rawText.replace(/^(måndag|tisdag|onsdag|torsdag|fredag)\s*/i, '');
+        // Split on common separators: period+space, newline, or long runs of whitespace
+        const sentences = cleaned.split(/\.\s+|\n+/).map(s => s.trim()).filter(s => s.length > 8 && !isNoise(s));
+        sentences.forEach(s => items.push('• ' + s));
     }
 
     const displayMsg = getDisplayMessage();
