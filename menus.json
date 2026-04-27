@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-04-26T07:20:48.150Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-04-27T08:12:05.836Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "(Visar fredagens meny)\n\n• Stekt kummelfilé med potatismos, vårprimörer, tomat och olivtapenad och pangrato\n• Fläskschnitzel med stekt potatis, gröna ärtor, bearnaisesås och rödvinssky\n• Bifflindström med stekt potatis, persiljesmör, saltgurka och rödvinssky\n• Veg: Panerad haloumiost med grönsaksragu, stekt potatis och bearnaise\n• Asiatisk kycklingsallad med mango, nudlar, avokado och chilidressing",
+      "menu": "• Stekt sejfilé med citron och dillremoulad, färskpotatis och vårsallad\n• Köttbullar med gräddsås, potatismos och lingonsylt\n• Japansk fläskkarré med grönsaker, basmatiris och wasabicrème\n• Vegetarisk lasagne med bechamelsås och lagrad ost\n• Sallad med grillad tonfisk, gröna bönor, avokado, färskpotatis och parmesandressing",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "(Visar fredagens meny)\n\n• Nattbakad ryggbiff med rödvinssås, bearnasiesås, sparris & råstekt potatis\n• Gremolatamarinerad kycklingbröstfilé med örtcreme & bulgursallad\n• Leffes Special! kalvfärsbiff med choronsås, haricots verts & stekt vitkål\n• Glassbuffé ingår till dagens lunch!Fiskgratäng med sparris, handskalade räkor, citron, dill & potatismos\n• Noisette med champinjonsås, bakad tomat & råstekt potatis\n• Laxpasta med saffran, dill & parmesan\n• Vegetarisk! Stekt ris med bönor, soya & koriander.",
+      "menu": "• Biff stroganoff av högrev grädde, champinjoner och basmatiris\n• Dragon pasta kycklingbröstfilé,grädde pasta linguine och parmesan\n• Leffes specialVitlökskyckling i parmesanostsås och ugnsbakad spetskål\n• Ångad koljafile gräslökssås, fänkål sallad, citron, dill och kokt potatis\n• Schnitzel tryffelmayo, rödvinssås, friterad kapris, rostad purjolök & stekt potatisIsterband persiljestuvad potatis och skivade rödbetor\n• VegetariskSmörstekt spetskål tahiniyoghurt, örtcrisp och kålsallad.",
       "status": "success"
     }
   ]
