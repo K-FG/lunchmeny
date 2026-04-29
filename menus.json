@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-04-28T08:14:04.370Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-04-29T08:07:23.471Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt strömming med potatismos, brynt smör och lingonsylt\n• Stekt panerad kycklinglårfilé med örtstekt färskpotatis, coleslaw och rödvinssky\n• Veg: Haloumi och sötpotatisbullar med örtstekt färskpotatis och coleslaw\n• Syrliga isterband med persiljestuvad potatis, rödbetor och senap\n• Sallad med gravad lax, kokt ägg, avokado och hovmästarsås\n• Caesarsallad med kyckling",
+      "menu": "• Fiskgryta med lax, sejfilé, havskräftfond, tomat, fänkål och örtaioli\n• Pannbiff med brynta champinjoner, lök, skysås och potatismos\n• Vegetarisk zucchini och kikärtsbiff med brynta champinjoner, lök och potatismos\n• Kycklingcurrygryta med ris och chutney\n• Caesarsallad med kyckling, surdegskrutonger och grana padano",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Lasagne al forno nötfärs, tomatsås, ostsås, parmesan\n• Raggmunk lingonsylt, stekt rimmat fläsk\n• Blodpudding lingonsylt, stekt äpple, stekt rimmat fläsk\n• Fläskfilé Rödvinsbrässerad fläskfilé gorgonzolasås och rostad potatis\n• Leffes specialÅngad torskfilé brynt smör, ägg, handskalade räkor, dill, citron och smörslungad broccoli\n• Provensalisk kycklinggryta med basmatiris\n• Stekt rimmat fläsk löksås eller bruna bönor och kokt potatis\n• Klassisk laxpudding skirat smör och citron och dill\n• VegetariskRaggmunk keso och granatäpple.",
+      "menu": "• Dagens Soppa ingår i dagens lunch idag!Köttbullar Blues egna köttbullar(nötfärs) Gräddsås, pressgurka, Lingon och Potatismos\n• Lunchkorv pepparrotsås, färskriven pepparrot, och kokt potatis\n• Kyckling cordon bleu rödvinssås och stekt potatis\n• Leffes specialGrekisk köttgryta av högrev med oliver och blomkålsris\n• Fläskkarré Plommonspäckad fläskkarré, gräddsås, äppelmos, och kokt potatis\n• Panerad flundrafilé remouladesås, citron, dill & kokt potatis\n• VegetariskKrämig pasta burrata med tomatsås och örtolja.",
       "status": "success"
     }
   ]
