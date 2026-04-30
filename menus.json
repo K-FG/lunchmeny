@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-04-29T08:07:23.471Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-04-30T08:10:44.765Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Fiskgryta med lax, sejfilé, havskräftfond, tomat, fänkål och örtaioli\n• Pannbiff med brynta champinjoner, lök, skysås och potatismos\n• Vegetarisk zucchini och kikärtsbiff med brynta champinjoner, lök och potatismos\n• Kycklingcurrygryta med ris och chutney\n• Caesarsallad med kyckling, surdegskrutonger och grana padano",
+      "menu": "• Ärtsoppa med eller utan fläsk, pannkaka med sylt och grädde\n• Fylld fläskschnitzel med mozzarella, rökt skinka, stekt potatis och choronsås\n• Varmrökt lax med stuvad potatis, senapsås och citron\n• Stor portion pannkaka med sylt och grädde\n• Vegetarisk zucchini och kikärtsbiff med brynta champinjoner, lök och potatismos\n• Räksallad med kokt ägg, rostade rotfrukter och chilidressing",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Dagens Soppa ingår i dagens lunch idag!Köttbullar Blues egna köttbullar(nötfärs) Gräddsås, pressgurka, Lingon och Potatismos\n• Lunchkorv pepparrotsås, färskriven pepparrot, och kokt potatis\n• Kyckling cordon bleu rödvinssås och stekt potatis\n• Leffes specialGrekisk köttgryta av högrev med oliver och blomkålsris\n• Fläskkarré Plommonspäckad fläskkarré, gräddsås, äppelmos, och kokt potatis\n• Panerad flundrafilé remouladesås, citron, dill & kokt potatis\n• VegetariskKrämig pasta burrata med tomatsås och örtolja.",
+      "menu": "• Pannkaksbuffé ingår till dagens lunch med sylt och grädde\n• Kåldolmar gräddsås, lingon pressgurka och kokt potatis\n• Rimmat fläsklägg rotmos och god senap\n• Stekt kycklingbröstfilé i tomatsås med fetaost, basilika och basmatiris\n• Leffes specialSkaldjursfylld flundrafilé med vitvinssås, handskalade räkor, citron, dill och blomkålsmos\n• Nils-Emils strömmingslåda lax, grädde, dill och potatismos\n• Pasta Diablo strimlad biff, grädde, sambal oelek, vitlök, pasta linguine och parmesan\n• Ärtsoppa pannkaka sylt och grädde\n• VegetariskBroccolipaj med fetaost och blandsallad.",
       "status": "success"
     }
   ]
