@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-04-30T08:10:44.765Z",
-  "day": "Torsdag",
+  "lastUpdate": "2026-05-01T08:05:33.143Z",
+  "day": "Fredag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Ärtsoppa med eller utan fläsk, pannkaka med sylt och grädde\n• Fylld fläskschnitzel med mozzarella, rökt skinka, stekt potatis och choronsås\n• Varmrökt lax med stuvad potatis, senapsås och citron\n• Stor portion pannkaka med sylt och grädde\n• Vegetarisk zucchini och kikärtsbiff med brynta champinjoner, lök och potatismos\n• Räksallad med kokt ägg, rostade rotfrukter och chilidressing",
+      "menu": "• Fläskschnitzel med stekt potatis, bearnaisesås och rödvinssky\n• Pljeskavica med råstekt potatis, aivar, gräddfil och rödlök\n• Panerad torskfilé med klyftpotatis, skarpsås och citron\n• Dagens sallad",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Pannkaksbuffé ingår till dagens lunch med sylt och grädde\n• Kåldolmar gräddsås, lingon pressgurka och kokt potatis\n• Rimmat fläsklägg rotmos och god senap\n• Stekt kycklingbröstfilé i tomatsås med fetaost, basilika och basmatiris\n• Leffes specialSkaldjursfylld flundrafilé med vitvinssås, handskalade räkor, citron, dill och blomkålsmos\n• Nils-Emils strömmingslåda lax, grädde, dill och potatismos\n• Pasta Diablo strimlad biff, grädde, sambal oelek, vitlök, pasta linguine och parmesan\n• Ärtsoppa pannkaka sylt och grädde\n• VegetariskBroccolipaj med fetaost och blandsallad.",
+      "menu": "• Luchen stängd, prova gärna vår a la carte..\n• Glassbuffé ingår till dagens lunch!....",
       "status": "success"
     }
   ]
