@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-03T07:53:31.002Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-05-04T08:22:32.631Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "(Visar fredagens meny)\n\n• Fläskschnitzel med stekt potatis, bearnaisesås och rödvinssky\n• Pljeskavica med råstekt potatis, aivar, gräddfil och rödlök\n• Panerad torskfilé med klyftpotatis, skarpsås och citron\n• Dagens sallad",
+      "menu": "• Stekt panerad kummelfilé med kokt potatis, gröna ärtor och tartarsås\n• Oxbringa Lyonnais= stekt potatis, rimmad oxbringa, lök, senapsgrädde\n• Fläskschnitzel med potatismos, rödvinssky, kapris, anjovis och lök\n• Vegetarisk kikärtsbiff med råstekt potatis, lök, senapsgrädde och inlagd gurka\n• Caesarsallad med kyckling, surdegskrutonger och lagrad ost",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "(Visar fredagens meny)\n\n• Wallenbergare kalvfärs, gröna ärtor, skirat smör, lingonsylt, potatismosRöd curry kycklingbröstfilé, cocosgrädde, limeblad, paprika, basmatiris\n• Leffes SpecialLammfärsbiff, tomatsås, tsatsiki, oliver, stekt vitkål\n• Glassbuffé ingår till dagens lunch!Stekt fläsknoisette potatisgratäng, rödvinssås, aromsmör\n• Planka regnbåge, vitvinssås, sparris, handskalade räkor, citron, dill, duchesse potatis\n• Stekt chorizo chilisås, picklad lök, potatismos\n• VegetariskRostad sötpotatis, fetaost, kikärtor, chilimajonnäs.",
+      "menu": "• Johanssons köttgryta av högrev, rotfrukter, svamp, persilja, basmatiris\n• Pasta kycklingbröstfilé, soltorkade tomater, bacon, grädde, basilika, parmesan\n• Leffes Specialoxbringa, pepparrotssås, färskriven pepparrot, smörstekta grönsaker\n• Ångad koljafilé saffranssås, gurksallad, citron, dill, kokt potatis\n• Schnitzel rödvinssås, bearnaisesås, gröna ärtor, stekt potatis\n• Korv Stroganoff gräddfil, saltgurka, tomat, basmatiris\n• VegetariskEnchiladas med quorn, grädde, grönsaker, blandsallad.",
       "status": "success"
     }
   ]
