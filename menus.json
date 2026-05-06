@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-05T08:00:20.928Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-05-06T08:14:31.087Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt strömming med potatismos, brynt smör och lingonsylt\n• Stekt panerad kycklingfilé med basmatiris, asiatiska grönsaker och sesamsås\n• Pannbiff med champinjonsås, inlagd gurka\n• Veg: Panerad haloumiost med basmatiris, asiatiska grönsaker och sesamsås\n• Räksallad med avokado, kokt ägg, bulgur och örtdressing",
+      "menu": "• Fläsknoisette med grönpepparsås, örtstekt färskpotatis och picklade grönsaker\n• Laxfärsbiff med havskräftsås, gröna ärtor och potatismos\n• Stekt panerad kycklingfilé med basmatiris, asiatiska grönsaker och sesamsås\n• Veg: Rödbetsbiffar med grönpepparsås, örtstekt färskpotatis och picklade grönsaker\n• Asiatisk biffsallad med nudlar, mango, rödkål, ingefära, bönor och chilidressing",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Färsbiff (nötfärs) svampsås, haricots verts och rostad potatis\n• Raggmunk lingonsylt, stekt rimmat fläsk\n• Gul currykyckling paprika, grädde, basmatiris\n• Leffes SpecialGräddig skaldjursgryta med saffran, dill, kolja, skaldjur\n• Ångad kolja hummersås, citron, dill, rotfruktsmos\n• Stekt rimmat fläsk löksås eller bruna bönor och kokt potatis\n• Pasta Arrabiata bacon, tomat, parmesanVegetariskStekt halloumi, bearnaisesås, tomatsallad, pommes frites.",
+      "menu": "• Dagens Soppa ingår i dagens lunch idag!Köttbullar Blues egna köttbullar(nötfärs) Gräddsås, pressgurka, Lingon och Potatismos\n• Panerad kycklinglårfilé friterad kapris, tryffelmajonnäs, rödvinssås, stekt tärnad potatis\n• Stekt fläsknoisette baconsås, haricots verts, stekt potatis\n• Leffes specialViltfärsbiff med gräddig rosmarinsås, ugnsbakad tomat, stekt spetskål\n• Dillkött av högrev, grädde, ättika, dill, kokt potatis\n• Panerad flundrafilé curryremoulad, citron, dill, kokt potatis\n• VegetariskSötpotatisgryta, bönor, tomat, basmatiris.",
       "status": "success"
     }
   ]
