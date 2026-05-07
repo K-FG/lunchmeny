@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-06T08:14:31.087Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-05-07T08:25:36.046Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Fläsknoisette med grönpepparsås, örtstekt färskpotatis och picklade grönsaker\n• Laxfärsbiff med havskräftsås, gröna ärtor och potatismos\n• Stekt panerad kycklingfilé med basmatiris, asiatiska grönsaker och sesamsås\n• Veg: Rödbetsbiffar med grönpepparsås, örtstekt färskpotatis och picklade grönsaker\n• Asiatisk biffsallad med nudlar, mango, rödkål, ingefära, bönor och chilidressing",
+      "menu": "• Ärtsoppa med eller utan fläsk, pannkaka med sylt och grädde\n• Pljeskavica med råstekt potatis, aivar, gräddfil och rödlök\n• Laxfärsbiff med havskräftsås, färskpotatis och sommarsallad\n• Stor portion pannkaka med sylt och grädde\n• Vegetarisk zucchini och kikärtsbiff med råstekt potatis, aivar, gräddfil och rödlök\n• Sallad med räkor och varmrökt laxröra, färskpotatissallad och sparris",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Dagens Soppa ingår i dagens lunch idag!Köttbullar Blues egna köttbullar(nötfärs) Gräddsås, pressgurka, Lingon och Potatismos\n• Panerad kycklinglårfilé friterad kapris, tryffelmajonnäs, rödvinssås, stekt tärnad potatis\n• Stekt fläsknoisette baconsås, haricots verts, stekt potatis\n• Leffes specialViltfärsbiff med gräddig rosmarinsås, ugnsbakad tomat, stekt spetskål\n• Dillkött av högrev, grädde, ättika, dill, kokt potatis\n• Panerad flundrafilé curryremoulad, citron, dill, kokt potatis\n• VegetariskSötpotatisgryta, bönor, tomat, basmatiris.",
+      "menu": "• Pannkaksbuffé ingår till dagens lunch med sylt och grädde\n• Kalvfärsbiff kantarellsås, lingonsylt, potatismos\n• Pasta Salmone hummersås, parmesan, pasta linguineLeffes SpecialÅngad Färsk sejfilé, fänkålssås, syrad lök, stuvade grönsaker\n• Flygande Jacob bacon, kycklingbröstfilé, banan, chiligräddsås, basmatiris\n• Lågtemperaturbakad fläskkarré pepparsås, haricots verts, rostad potatis\n• Ärtsoppa pannkaka sylt och grädde\n• VegetariskHalloumi Stroganoff, linser, grädde, basmatiris.",
       "status": "success"
     }
   ]
