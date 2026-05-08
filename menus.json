@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-07T08:25:36.046Z",
-  "day": "Torsdag",
+  "lastUpdate": "2026-05-08T07:21:46.103Z",
+  "day": "Fredag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Ärtsoppa med eller utan fläsk, pannkaka med sylt och grädde\n• Pljeskavica med råstekt potatis, aivar, gräddfil och rödlök\n• Laxfärsbiff med havskräftsås, färskpotatis och sommarsallad\n• Stor portion pannkaka med sylt och grädde\n• Vegetarisk zucchini och kikärtsbiff med råstekt potatis, aivar, gräddfil och rödlök\n• Sallad med räkor och varmrökt laxröra, färskpotatissallad och sparris",
+      "menu": "• Fläskschnitzel med stekt potatis, bearnaisesås och rödvinssky\n• Pljeskavica med råstekt potatis, aivar, gräddfil och rödlök\n• Panerad stekt kummelfilé med klyftpotatis, skarpsås och citron\n• Vegetariska zucchinibiffar  med råstekt potatis, aivar, gräddfil och rödlök\n• Caesarsallad med kyckling, bacon, krutonger och lagrad ost",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Pannkaksbuffé ingår till dagens lunch med sylt och grädde\n• Kalvfärsbiff kantarellsås, lingonsylt, potatismos\n• Pasta Salmone hummersås, parmesan, pasta linguineLeffes SpecialÅngad Färsk sejfilé, fänkålssås, syrad lök, stuvade grönsaker\n• Flygande Jacob bacon, kycklingbröstfilé, banan, chiligräddsås, basmatiris\n• Lågtemperaturbakad fläskkarré pepparsås, haricots verts, rostad potatis\n• Ärtsoppa pannkaka sylt och grädde\n• VegetariskHalloumi Stroganoff, linser, grädde, basmatiris.",
+      "menu": "• Nötfärsbiff med oliver, basilikasås, haricots verts, stekt potatis\n• Röd curry kycklingbröstfilé, cocosgrädde, limeblad, paprika, basmatiris\n• Leffes SpecialLammfärsbiff, tomatsås, tsatsiki, oliver, stekt vitkål\n• Glassbuffé ingår till dagens lunch!Stekt fläsknoisette potatisgratäng, rödvinssås, aromsmör\n• Planka regnbåge, vitvinssås, sparris, handskalade räkor, citron, dill, duchesse potatis\n• Stekt chorizo chilisås, picklad lök, potatismos\n• VegetariskRostad sötpotatis, fetaost, kikärtor, chilimajonnäs.",
       "status": "success"
     }
   ]
