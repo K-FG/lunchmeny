@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-08T07:21:46.103Z",
+  "lastUpdate": "2026-05-09T07:48:36.187Z",
   "day": "Fredag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Fläskschnitzel med stekt potatis, bearnaisesås och rödvinssky\n• Pljeskavica med råstekt potatis, aivar, gräddfil och rödlök\n• Panerad stekt kummelfilé med klyftpotatis, skarpsås och citron\n• Vegetariska zucchinibiffar  med råstekt potatis, aivar, gräddfil och rödlök\n• Caesarsallad med kyckling, bacon, krutonger och lagrad ost",
+      "menu": "(Visar fredagens meny)\n\n• Fläskschnitzel med stekt potatis, bearnaisesås och rödvinssky\n• Pljeskavica med råstekt potatis, aivar, gräddfil och rödlök\n• Panerad stekt kummelfilé med klyftpotatis, skarpsås och citron\n• Vegetariska zucchinibiffar  med råstekt potatis, aivar, gräddfil och rödlök\n• Caesarsallad med kyckling, bacon, krutonger och lagrad ost",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Nötfärsbiff med oliver, basilikasås, haricots verts, stekt potatis\n• Röd curry kycklingbröstfilé, cocosgrädde, limeblad, paprika, basmatiris\n• Leffes SpecialLammfärsbiff, tomatsås, tsatsiki, oliver, stekt vitkål\n• Glassbuffé ingår till dagens lunch!Stekt fläsknoisette potatisgratäng, rödvinssås, aromsmör\n• Planka regnbåge, vitvinssås, sparris, handskalade räkor, citron, dill, duchesse potatis\n• Stekt chorizo chilisås, picklad lök, potatismos\n• VegetariskRostad sötpotatis, fetaost, kikärtor, chilimajonnäs.",
+      "menu": "(Visar fredagens meny)\n\n• Nötfärsbiff med oliver, basilikasås, haricots verts, stekt potatis\n• Röd curry kycklingbröstfilé, cocosgrädde, limeblad, paprika, basmatiris\n• Leffes SpecialLammfärsbiff, tomatsås, tsatsiki, oliver, stekt vitkål\n• Glassbuffé ingår till dagens lunch!Stekt fläsknoisette potatisgratäng, rödvinssås, aromsmör\n• Planka regnbåge, vitvinssås, sparris, handskalade räkor, citron, dill, duchesse potatis\n• Stekt chorizo chilisås, picklad lök, potatismos\n• VegetariskRostad sötpotatis, fetaost, kikärtor, chilimajonnäs.",
       "status": "success"
     }
   ]
