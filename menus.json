@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-12T08:31:46.463Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-05-13T08:37:23.793Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt strömming med potatismos, brynt smör och lingonsylt\n• Fransk högrevsragu med rödvin, bacon, lök, ris eller mos\n• Fläskschnitzel med stekt potatis, rödvinssky och bearnaisesås\n• Vegetarisk lasagne med zucchini, tomat och aubergine\n• Sallad med grillade stora räkor, grönsaker, oliver, avokado och örtdressing",
+      "menu": "• Varmrökt lax med dillstuvad potatis, senapssås och vårsallad\n• Stekt kycklingfilé teriyaki med krämig asiatisk kålsallad och basmatiris\n• Lammhults syrliga isterband med stuvad potatis och inlagda rödbetor\n• Vegetariska kikärtsbullar med krämig asiatisk kålsallad och basmatiris\n• Dagens sallad",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Nötfärslimpa gräddsås, gröna ärtor, lingonsylt, kokt potatis\n• Raggmunk lingonsylt, stekt rimmat fläsk\n• Fläskfilépasta fläskfilé, grönsaker, parmesan, grädde\n• Leffes SpecialRegnbåge, dillsås, gurksallad, citron, dillslungade grönsaker\n• Fiskgratäng hand skalade räkor, vitvinssås, dill, citron, sparris, potatismos\n• Stekt rimmat fläsk löksås eller bruna bönor och kokt potatis\n• Kycklinggryta Krämig Italiensk kycklinggryta, oliver, soltorkade tomater, basilika, basmatiris\n• Vegetarisk Chili sin carne qournfärs, bönor, tomat, basmatiris.",
+      "menu": "• Dagens Soppa ingår i dagens lunch idag!Köttbullar Blues egna köttbullar(nötfärs) Gräddsås, pressgurka, Lingon och Potatismos\n• Fläskfilé Fläskfilé black & White, stekt haricots verts, stekt potatis\n• Kyckling Tikka Masala grädde, basmatiris\n• Leffes special Kalvfrikadeller i tomatsås med smörslungad broccoli\n• Panerad flundrafilé dillsås, citron, dill, kokt potatis\n• Snickarlåda Falukorv, bacon, tomat, potatis\n• Vegetarisk Fajjitas med qourn, grönsaker, ost",
       "status": "success"
     }
   ]
