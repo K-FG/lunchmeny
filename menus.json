@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-13T08:37:23.793Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-05-14T08:31:15.966Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Varmrökt lax med dillstuvad potatis, senapssås och vårsallad\n• Stekt kycklingfilé teriyaki med krämig asiatisk kålsallad och basmatiris\n• Lammhults syrliga isterband med stuvad potatis och inlagda rödbetor\n• Vegetariska kikärtsbullar med krämig asiatisk kålsallad och basmatiris\n• Dagens sallad",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Dagens Soppa ingår i dagens lunch idag!Köttbullar Blues egna köttbullar(nötfärs) Gräddsås, pressgurka, Lingon och Potatismos\n• Fläskfilé Fläskfilé black & White, stekt haricots verts, stekt potatis\n• Kyckling Tikka Masala grädde, basmatiris\n• Leffes special Kalvfrikadeller i tomatsås med smörslungad broccoli\n• Panerad flundrafilé dillsås, citron, dill, kokt potatis\n• Snickarlåda Falukorv, bacon, tomat, potatis\n• Vegetarisk Fajjitas med qourn, grönsaker, ost",
+      "menu": "• Pannkaksbuffé ingår till dagens lunch med sylt och grädde\n• Lunchen är stängd, välkommen att prova vår a la carte....",
       "status": "success"
     }
   ]
