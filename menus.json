@@ -1,18 +1,19 @@
 {
-  "lastUpdate": "2026-05-18T09:50:42.027Z",
-  "day": "Måndag",
+  "lastUpdate": "2026-05-19T09:32:46.091Z",
+  "day": "Tisdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt panerad sejfilé med kokt potatis, örtremoladsås, citron och fänkålssallad\n• Köttbullar med potatismos, gräddsås, lingonsylt och pressgurka\n• Syrliga Isterband med stuvad potatis, rödbetor och senap\n• Vegetarisk linsbiff med ugnsbakade rotfrukter och örtremoladsås\n• Asiatisk kycklingsallad med avokado, mango, rödkål, bönor och sesamdressing",
+      "menu": "• Stekt strömming med potatismos, brynt smör och lingonsylt\n• Stekt svensk kycklingfilé med dijonnaise, rosmarinpotatis och rödvinssås\n• Köttbullar med gräddsås, potatismos och lingonsylt\n• Vegetarisk fylld paprika med bönor, zucchini, ris och tomatsås\n• Räkmacka på grovt rågbröd, kokt ägg, majonnäs och mixad sallad",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Färsbiff med svampsås, haricots verts & stekt potatis\n• Dragonkyckling gryta, kycklingbröstfilé, soltorkade tomater, creme fraiche, basmatiris\n• Korv stroganoff Gräddfil, saltgurka, chili, vitlök, grädde, basmatiris\n• Leffes Special Sous vide kokt oxbringa med pepparrotssås, färskriven pepparrot, stekta grönsakerÅngad koljafilé med saffranssås, fänkålssallad, citron, dill, kokt potatis\n• Schnitzel rödvinssås, tryffelcreme, friterad kapris, purjolök, stekt tärnad potatis\n• Vegetarisk Krämig pasta burrata med tomatsås, basilikaolja, parmesan.",
-      "status": "success"
+      "menu": "Kunde inte hämta meny",
+      "status": "error",
+      "error": ""
     }
   ]
 }
