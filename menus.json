@@ -1,19 +1,18 @@
 {
-  "lastUpdate": "2026-05-19T09:32:46.091Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-05-20T08:57:46.037Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt strömming med potatismos, brynt smör och lingonsylt\n• Stekt svensk kycklingfilé med dijonnaise, rosmarinpotatis och rödvinssås\n• Köttbullar med gräddsås, potatismos och lingonsylt\n• Vegetarisk fylld paprika med bönor, zucchini, ris och tomatsås\n• Räkmacka på grovt rågbröd, kokt ägg, majonnäs och mixad sallad",
+      "menu": "• Fiskgratäng med skaldjurssås, vårsallad och potatismos\n• Nattbakad bbq-fläskkarre med tobbes coleslaw och kryddstekt potatis\n• Stekt svensk kycklingbröst med rödvinssky, stekt potatis eller ris, coleslaw\n• Vegetarisk fylld paprika med bönor, zucchini, ris och tomatsås\n• Sallad med varm Chevré, rödbetor, honung, hasselnötter och vinegrett",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "Kunde inte hämta meny",
-      "status": "error",
-      "error": ""
+      "menu": "• Dagens Soppa ingår i dagens lunch idag!Köttbullar Blues egna köttbullar(nötfärs) Gräddsås, pressgurka, Lingon och Potatismos\n• Fläskfilépasta, soltorkad tomat, grädde, persilja, parmesan\n• Kycklingschnitzel med kantarellsås, haricots verts, stekt potatis\n• Leffes special Lågtemperaturbakad fläskkarré med rosépepparsås, ugnsbakad spetskål\n• Panerad flundrafilé Remouladesås, citron, dill, kokt potatis\n• Texas chili Av högrev, chili, vitlök, bönor, gräddfil, basmatiris\n• Vegetarisk Qourngryta med grönsaker, grädde, basmatiris.",
+      "status": "success"
     }
   ]
 }
