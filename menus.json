@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-21T09:28:45.599Z",
-  "day": "Torsdag",
+  "lastUpdate": "2026-05-22T08:53:02.210Z",
+  "day": "Fredag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Ärtsoppa med eller utan fläsk, pannkaka med sylt och grädde\n• Wallenbergare med potatismos, gröna ärtor, brynt smör och lingon\n• Fiskgratäng med skaldjurssås, vårsallad och potatismos\n• Vegetariska kikärtsbiffar med coleslaw och stekt potatis\n• Stor portion pannkaka med sylt och grädde\n• Caesarsallad med sotad laxfilé, surdegskrutonger och lagrad ost\n• Caesarsallad med kyckling, surdegskrutonger och lagrad ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Pannkaksbuffé ingår till dagens lunch med sylt och grädde\n• Pljescavica Jugoslavisk pannbiff med ajvar, gräddfil, röd lök, rösti potatis\n• BBQ Fläskkarré Cole slaw, majskolv, pommes frites\n• Ärtsoppa med fläsk Pannkaka, sylt & gräddeLeffe Special Ångad laxfilé vitvinssås, curry, handskalade räkor, citron, dill, smörslungad blomkål\n• Fisk & skaldjursgryta med grädde, saffran, fänkål, morot, dill\n• Gul Currygryta Kycklingbrösstfile, paprika, grädde, creme fraiche, basmatiris\n• Salsicciapasta med fänkål, grädde, vitt vin, chili, pasta linguine, parmesanVegetarisk Halloumiburgare, cole slaw, lökringar, smoke dressing, pommes frites.",
+      "menu": "• Wallenbergare Klassiska, skirat smör, gröna ärtor, lingonsylt, potatismos\n• Stekt fläsknoisette med lökringar, bearnaisesås, pommes fritesLeffes Special Hjortfärsbiff, lingonsås, timjan, stekt vitkål\n• Glassbuffé ingår till dagens lunch!Fiskgratäng, handskalade räkor, dill, citron, sparris, potatismos\n• Kycklingrisotto Krämig kycklingrisotto, soltorkad tomat, basilika, parmesanKroppkakor Småländska, skirat smör, lingonsylt\n• Vegetarisk Friterad avokado, örtcreme, bulgursallad",
       "status": "success"
     }
   ]
