@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-22T08:53:02.210Z",
+  "lastUpdate": "2026-05-23T08:10:27.257Z",
   "day": "Fredag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "Ingen meny hittades",
+      "menu": "(Visar fredagens meny)\n\n• Stekt kummelfilé med tångromsås, gröna ärtor, mos eller klyftpotatis\n• Fläskschnitzel med klyftpotatis, bearnaisesås och rödvinssky\n• Wallenbergare med potatismos, gröna ärtor, brynt smör och lingon\n• Vegetariska zucchini och morotsbullar med ärtor, bearnaise och klyftpotatis\n• Caesarsallad med sotad laxfilé, surdegskrutonger och lagrad ost",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Wallenbergare Klassiska, skirat smör, gröna ärtor, lingonsylt, potatismos\n• Stekt fläsknoisette med lökringar, bearnaisesås, pommes fritesLeffes Special Hjortfärsbiff, lingonsås, timjan, stekt vitkål\n• Glassbuffé ingår till dagens lunch!Fiskgratäng, handskalade räkor, dill, citron, sparris, potatismos\n• Kycklingrisotto Krämig kycklingrisotto, soltorkad tomat, basilika, parmesanKroppkakor Småländska, skirat smör, lingonsylt\n• Vegetarisk Friterad avokado, örtcreme, bulgursallad",
+      "menu": "(Visar fredagens meny)\n\n• Wallenbergare Klassiska, skirat smör, gröna ärtor, lingonsylt, potatismos\n• Stekt fläsknoisette med lökringar, bearnaisesås, pommes fritesLeffes Special Hjortfärsbiff, lingonsås, timjan, stekt vitkål\n• Glassbuffé ingår till dagens lunch!Fiskgratäng, handskalade räkor, dill, citron, sparris, potatismos\n• Kycklingrisotto Krämig kycklingrisotto, soltorkad tomat, basilika, parmesanKroppkakor Småländska, skirat smör, lingonsylt\n• Vegetarisk Friterad avokado, örtcreme, bulgursallad",
       "status": "success"
     }
   ]
