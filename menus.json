@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-23T08:10:27.257Z",
+  "lastUpdate": "2026-05-24T08:22:02.717Z",
   "day": "Fredag",
   "menus": [
     {
@@ -11,7 +11,7 @@
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "(Visar fredagens meny)\n\n• Wallenbergare Klassiska, skirat smör, gröna ärtor, lingonsylt, potatismos\n• Stekt fläsknoisette med lökringar, bearnaisesås, pommes fritesLeffes Special Hjortfärsbiff, lingonsås, timjan, stekt vitkål\n• Glassbuffé ingår till dagens lunch!Fiskgratäng, handskalade räkor, dill, citron, sparris, potatismos\n• Kycklingrisotto Krämig kycklingrisotto, soltorkad tomat, basilika, parmesanKroppkakor Småländska, skirat smör, lingonsylt\n• Vegetarisk Friterad avokado, örtcreme, bulgursallad",
+      "menu": "(Visar fredagens meny)\n\n• Biff a la lindström rödvinssås, saltgurka, persiljesmör, kokt potatis\n• Stekt fläsknoisette rödvinssås, persiljesmör, potatisgratäng\n• Leffes Special Kalvgryta med vitt vin, morot, grädde, blomkålsris\n• Glassbuffé ingår till dagens lunch!Fiskgratäng, handskalade räkor, dill, citron, sparris, potatismos\n• Gremolatamarinerad kycklingbröstfilé krämig kantarellrisotto\n• Bratwurst portersås, potatismos, grillad aubergine\n• Vegetarisk Hallomipasta med citron, vitlök, chili, parmesan.",
       "status": "success"
     }
   ]
