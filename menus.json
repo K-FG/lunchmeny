@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-24T08:22:02.717Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-05-25T09:55:41.503Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "(Visar fredagens meny)\n\n• Stekt kummelfilé med tångromsås, gröna ärtor, mos eller klyftpotatis\n• Fläskschnitzel med klyftpotatis, bearnaisesås och rödvinssky\n• Wallenbergare med potatismos, gröna ärtor, brynt smör och lingon\n• Vegetariska zucchini och morotsbullar med ärtor, bearnaise och klyftpotatis\n• Caesarsallad med sotad laxfilé, surdegskrutonger och lagrad ost",
+      "menu": "• Stekt panerad sejfilé med kokt potatis, tartarsås, gröna ärtor och citron\n• Långkokt högrevschili med pico de gallo, gräddfil och ris\n• Vegetarisk grönsakschili med pico de gallo, gräddfil och ris\n• Stekt rimmat sidfläsk med kokt potatis och löksås\n• Sallad med grillad tonfisk, avokado, gröna bönor, färskpotatis och citrondressing",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "(Visar fredagens meny)\n\n• Biff a la lindström rödvinssås, saltgurka, persiljesmör, kokt potatis\n• Stekt fläsknoisette rödvinssås, persiljesmör, potatisgratäng\n• Leffes Special Kalvgryta med vitt vin, morot, grädde, blomkålsris\n• Glassbuffé ingår till dagens lunch!Fiskgratäng, handskalade räkor, dill, citron, sparris, potatismos\n• Gremolatamarinerad kycklingbröstfilé krämig kantarellrisotto\n• Bratwurst portersås, potatismos, grillad aubergine\n• Vegetarisk Hallomipasta med citron, vitlök, chili, parmesan.",
+      "menu": "• Johanssons köttgryta högrev, svamp, rotfrukter, persilja, basmatiris\n• Flygande Jacob Kycklingbröstfilé, bacon, banan, chiligräddsås, basmatiris\n• Isterband persiljestuvad potatis, skivade rödbetor\n• Leffes Special Viltskav, grädde, timjan, lingonsylt, broccoligratängÅngad koljafilé dillsås, gruksallad, citron, dill, kokt potatis\n• Schnitzel rödvinssås, bearnaisesås, gröna ärtor, stekt potatis\n• Wallenbergare av kalvfärs, gröna ärtor, lingonsylt, skirat smör, potatismos\n• Vegetarisk Vegetarisk bolognese, tomat, vitlök, örter, parmesan, pasta linguine.",
       "status": "success"
     }
   ]
