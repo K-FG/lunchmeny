@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-25T09:55:41.503Z",
-  "day": "Måndag",
+  "lastUpdate": "2026-05-26T09:41:40.547Z",
+  "day": "Tisdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt panerad sejfilé med kokt potatis, tartarsås, gröna ärtor och citron\n• Långkokt högrevschili med pico de gallo, gräddfil och ris\n• Vegetarisk grönsakschili med pico de gallo, gräddfil och ris\n• Stekt rimmat sidfläsk med kokt potatis och löksås\n• Sallad med grillad tonfisk, avokado, gröna bönor, färskpotatis och citrondressing",
+      "menu": "• Stekt strömming med potatismos, brynt smör och lingonsylt\n• Ungsbakad kycklingfilé tandoori, myntayoghurt och basmatiris\n• Pannbiff med lök, rödvinssås, saltgurka och klyftpotatis\n• Veg: rödbeta och kikärtsbiffar tandoori, myntayoghurt och basmatiris\n• Räksallad med kokt ägg, bulgur, rostade grönsaker och tångromsås",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Johanssons köttgryta högrev, svamp, rotfrukter, persilja, basmatiris\n• Flygande Jacob Kycklingbröstfilé, bacon, banan, chiligräddsås, basmatiris\n• Isterband persiljestuvad potatis, skivade rödbetor\n• Leffes Special Viltskav, grädde, timjan, lingonsylt, broccoligratängÅngad koljafilé dillsås, gruksallad, citron, dill, kokt potatis\n• Schnitzel rödvinssås, bearnaisesås, gröna ärtor, stekt potatis\n• Wallenbergare av kalvfärs, gröna ärtor, lingonsylt, skirat smör, potatismos\n• Vegetarisk Vegetarisk bolognese, tomat, vitlök, örter, parmesan, pasta linguine.",
+      "menu": "• Pannbiff löksky, saltgurka, lingonsylt, kokt potatisRaggmunk eller blodpudding lingonsylt, stekt rimmat fläsk\n• Stekt falukorv persiljestuvade makaroner, senapLeffes Special Stekt regnbåge, vitvinssås, örtolja, stenbitsrom, ugnsbakad spetskål\n• Gräddig saffransgryta flundra, fänkål, morot, dill, kräftstjärtar\n• Stekt rimmat fläsk löksås eller bruna bönor och kokt potatis\n• Stekt marinerad kycklingbröstfilé porta bellosås, haricots verts, stekt potatis\n• Vegetarisk Chili sin carne, gräddfil, bönor, nachochips, basmatiris.",
       "status": "success"
     }
   ]
