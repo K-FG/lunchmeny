@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-26T09:41:40.547Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-05-27T09:35:33.145Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt strömming med potatismos, brynt smör och lingonsylt\n• Ungsbakad kycklingfilé tandoori, myntayoghurt och basmatiris\n• Pannbiff med lök, rödvinssås, saltgurka och klyftpotatis\n• Veg: rödbeta och kikärtsbiffar tandoori, myntayoghurt och basmatiris\n• Räksallad med kokt ägg, bulgur, rostade grönsaker och tångromsås",
+      "menu": "• Krämig fiskgryta med kolja, lax, fänkål, tomat och örtaioli\n• Fläsknoisette med potatis och rotfruktsgratäng, rödvinssås och örter\n• Kycklingcurrygryta med ris och mangochutney\n• Vegetarisk grönsaksbiff med potatis och rotfruktsgratäng, grönsaksragu\n• Asiatisk kycklingsallad med nudlar, mango, böngroddar,",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Pannbiff löksky, saltgurka, lingonsylt, kokt potatisRaggmunk eller blodpudding lingonsylt, stekt rimmat fläsk\n• Stekt falukorv persiljestuvade makaroner, senapLeffes Special Stekt regnbåge, vitvinssås, örtolja, stenbitsrom, ugnsbakad spetskål\n• Gräddig saffransgryta flundra, fänkål, morot, dill, kräftstjärtar\n• Stekt rimmat fläsk löksås eller bruna bönor och kokt potatis\n• Stekt marinerad kycklingbröstfilé porta bellosås, haricots verts, stekt potatis\n• Vegetarisk Chili sin carne, gräddfil, bönor, nachochips, basmatiris.",
+      "menu": "• Dagens Soppa ingår i dagens lunch idag!Köttbullar Blues egna köttbullar(nötfärs) Gräddsås, pressgurka, Lingon och Potatismos\n• Plommonspäckad fläskkarré, gräddsås, äppelmos, kokt potatis\n• Grön currygryta med kycklingbröstfilé, grönsaker, cocosgrädde, basmatiris\n• Leffes special Lågtemperaturbakad högrev med ingefärasås, chili & smörstekta grönsaker, ugnsbakad tomat\n• Panerad flundrafilé skagenröra, citron, dill, kokt potatis\n• Fläskfilépasta soltorkat tomat, grädde, persilja, parmesan, pasta linguine\n• Vegetarisk Ugnsbakad spetskål, potatismos, sparris, sockerärtor, örtolja",
       "status": "success"
     }
   ]
