@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-27T09:35:33.145Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-05-28T09:52:09.156Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Krämig fiskgryta med kolja, lax, fänkål, tomat och örtaioli\n• Fläsknoisette med potatis och rotfruktsgratäng, rödvinssås och örter\n• Kycklingcurrygryta med ris och mangochutney\n• Vegetarisk grönsaksbiff med potatis och rotfruktsgratäng, grönsaksragu\n• Asiatisk kycklingsallad med nudlar, mango, böngroddar,",
+      "menu": "• Ärtsoppa med eller utan fläsk, pannkaka med sylt och grädde\n• Kalvfärsbiff med bacon, lök, gurka, rödvinssås och potatismos\n• Stekt panerad sejfilé med remouladsås och kokt potatis\n• Veg: Kikärtsplättar med grönsaksragu och potatismos\n• Stor portion pannkaka med sylt och grädde\n• Caesarsallad med grillade stora räkor, lagrad ost och surdegskrutonger",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Dagens Soppa ingår i dagens lunch idag!Köttbullar Blues egna köttbullar(nötfärs) Gräddsås, pressgurka, Lingon och Potatismos\n• Plommonspäckad fläskkarré, gräddsås, äppelmos, kokt potatis\n• Grön currygryta med kycklingbröstfilé, grönsaker, cocosgrädde, basmatiris\n• Leffes special Lågtemperaturbakad högrev med ingefärasås, chili & smörstekta grönsaker, ugnsbakad tomat\n• Panerad flundrafilé skagenröra, citron, dill, kokt potatis\n• Fläskfilépasta soltorkat tomat, grädde, persilja, parmesan, pasta linguine\n• Vegetarisk Ugnsbakad spetskål, potatismos, sparris, sockerärtor, örtolja",
+      "menu": "• Pannkaksbuffé ingår till dagens lunch med sylt och grädde\n• Porterstek gräddsås, morötter, svartvinbärsgele, kokt potatis\n• Stekt fläsknoisette champinjonsås, bönsallad, stekt potatis\n• Ärtsoppa med fläsk Pannkaka, sylt & gräddeLeffe Special Ångad koljafilé sandefjordsås, handskalade räkor, citron, dill, smörkokt rättika\n• Ört och crispöverbakad flundrafilé med hummersås, citron, dill, kokt potatis\n• Kyckling cordon bleu fylld med skinka, ost\n• rödvinssås, haricots verts, stekt potatis\n• Lasagne al forno med ostsås, parmesan\n• Vegetarisk Kantarellrisotto, parmesan, pankokrisp, picklad lök, ärtskott,",
       "status": "success"
     }
   ]
