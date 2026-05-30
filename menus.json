@@ -1,18 +1,19 @@
 {
-  "lastUpdate": "2026-05-29T09:42:43.579Z",
+  "lastUpdate": "2026-05-30T08:21:35.164Z",
   "day": "Fredag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "• Stekt lättgravad laxfilé med ljummen färskpotatissallad, senapsdressing\n• Fläskschnitzel med klyftpotatis, bearnaisesås och rödvinssky\n• Kalvfärsbiff med bacon, lök, rödvinssås och potatismos\n• Veg: Panerad haloumiost med ugnsbakade rotfrukter, potatis och bea\n• Caesarsallad med kyckling, surdegskrutonger och lagrad ost",
+      "menu": "(Visar fredagens meny)\n\n• Fiskgryta med lax, kolja, fänkål och saffransaioli\n• Fläskschnitzel med klyftpotatis, bearnaisesås och rödvinssky\n• Köttbullar med potatismos, gräddsås och lingonsylt\n• Dagens sallad",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "• Biff a la lindström rödvinssås, saltgurka, persiljesmör, kokt potatis\n• Stekt fläsknoisette rödvinssås, persiljesmör, potatisgratäng\n• Leffes Special Kalvgryta med vitt vin, morot, grädde, blomkålsris\n• Glassbuffé ingår till dagens lunch!Fiskgratäng, handskalade räkor, dill, citron, sparris, potatismos\n• Gremolatamarinerad kycklingbröstfilé krämig kantarellrisotto\n• Bratwurst portersås, potatismos, grillad aubergine\n• Vegetarisk Hallomipasta med citron, vitlök, chili, parmesan.",
-      "status": "success"
+      "menu": "Kunde inte hämta meny",
+      "status": "error",
+      "error": ""
     }
   ]
 }
