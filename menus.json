@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-30T08:21:35.164Z",
+  "lastUpdate": "2026-05-31T08:37:41.192Z",
   "day": "Fredag",
   "menus": [
     {
@@ -11,9 +11,8 @@
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "Kunde inte hämta meny",
-      "status": "error",
-      "error": ""
+      "menu": "(Visar fredagens meny)\n\n• Pljescavica - (nöt) Jugoslavisk pannbiff med ajvar, gräddfil, röd lök, rösti potatis\n• Stekt fläsknoisette lökringar, bearnaisesås, pommes fritesLeffes Special Oxrullader baconfylld, saltgurka, gräddsås, stekta grönsakerGlassbuffé ingår till dagens lunch!Fiskgratäng, handskalade räkor, dill, citron, sparris, potatismos\n• Röd curry Kycklinggryta, grönsaker, cocosgrädde, basmatiris\n• Scampipasta Pasta linguine, grädde, tomat, chili, citron, persilja, parmesanVegetarisk Lins och halloumistroganoff",
+      "status": "success"
     }
   ]
 }
