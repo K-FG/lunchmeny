@@ -1,17 +1,17 @@
 {
-  "lastUpdate": "2026-05-31T08:37:41.192Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-06-01T11:20:44.002Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Partymakarna",
       "location": "Slakthusområdet, Stockholm",
-      "menu": "(Visar fredagens meny)\n\n• Fiskgryta med lax, kolja, fänkål och saffransaioli\n• Fläskschnitzel med klyftpotatis, bearnaisesås och rödvinssky\n• Köttbullar med potatismos, gräddsås och lingonsylt\n• Dagens sallad",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Blues Restaurang",
       "location": "Stockholm",
-      "menu": "(Visar fredagens meny)\n\n• Pljescavica - (nöt) Jugoslavisk pannbiff med ajvar, gräddfil, röd lök, rösti potatis\n• Stekt fläsknoisette lökringar, bearnaisesås, pommes fritesLeffes Special Oxrullader baconfylld, saltgurka, gräddsås, stekta grönsakerGlassbuffé ingår till dagens lunch!Fiskgratäng, handskalade räkor, dill, citron, sparris, potatismos\n• Röd curry Kycklinggryta, grönsaker, cocosgrädde, basmatiris\n• Scampipasta Pasta linguine, grädde, tomat, chili, citron, persilja, parmesanVegetarisk Lins och halloumistroganoff",
+      "menu": "• Boeuf Bourguignon - Fransk köttgryta, bacon, högrev, smålök, rött vin, champinjoner, basmatiris\n• Pasta Kycklingbröstfilé, parmesan, grädde, pasta rigatoni, kantareller, persilja\n• Pytt Bellman Gräddig pytt i panna med skivade rödbetor, stekt ägg\n• Leffes Special Grekisk kycklinggratäng fetaost, oliver, soltorkade tomater, stekt spetskål\n• Ångad koljafilé sparrissås, kräftstjärtar, citron, dill, kokt potatis\n• Schnitzel rödvinssås, tryffelcreme, friterad kapris, purjolök, stekt tärnad potatis\n• Vegetarisk Bulgur med grönsaker, toppas med stekt halloumi & chilimajonnäs.",
       "status": "success"
     }
   ]
