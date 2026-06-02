@@ -1,6 +1,7 @@
 {
   "lastUpdate": "2026-06-02T12:16:53.178Z",
   "day": "Tisdag",
+  "area": "Tyresö",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
@@ -14,13 +15,6 @@
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
       "menu": "• Veckans tallrik: Gravad Lax med dillstuvad potatis\n• Knapriga raggmunkar med nystekt fläsk samt lingon\n• Nystekt fläsk med krämig löksås samt kokt potatis\n• Wallenbergare med gräddsås, lingonsylt, gröna ärtor och potatismos\n• Saffran- och fänkålsgrartinerad Flundrafilé med potatismos\n• Panerad Rödspättafilé med remouladsås, citron och kokt potatis\n• Slottsstek med gräddsås, lingon och potatismos\n• Biffstroganoff med basmatiris\n• Friterad kycklingburgare med briochebröd, tomat, krispsallad, dressing, rostad lök, pommes och bearnaisedipp\n• Flygande Jacob med banan i chiligräddsås samt basmatiris\n• Dagens pasta med kycklingfilé, champinjoner, kantareller, vitlök, grädde och riven ost\n• Veckas vegetariska: Friterad falafel med tomatsås, hummus, tzatziki, melon, rödkålssallad och pommes",
-      "status": "success"
-    },
-    {
-      "restaurant": "Tant Maja & Fröken Emilia",
-      "location": "Marievik",
-      "price": "119 kr",
-      "menu": "Ingen meny hittades",
       "status": "success"
     }
   ]
