@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-02T12:16:53.178Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-06-03T10:48:15.045Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Stekt laxfilé med kokt potatis och stuvade spenat\n• Ugnsgratinerad falukorv med potatismos\n• Skånsk kalops med kokt potatis och rödbetor\n• Marinerad kycklingfilé med stekt potatis och BBQ-sås & Bea\n• Wallenbergare med potatismos, gräddsås och lingonsylt\n• Raggmunk med stekt fläsk och lingonsylt\n• Stekt fläsk med löksås och kokt potatis\n• Spagetti carbonara med riven ost och äggula\n• Veg: Raggmunk med lingonsylt",
+      "menu": "• Helstekt kotlettrad med potatisgratäng och rödvinssås\n• Smörstekt sejfilé med kokt potatis och gräslöksås\n• Flygande Jacob med jasminris\n• Oxstek med kokt potatis och gräddsås\n• Stekt strömmingsfilé med potatismos och skirat smör\n• Viltfärsbiff med potatismos och skogsvampsås\n• Pasta med skinka, gorgonzola och riven ost\n• Veg: Pasta med broccoli och gorgonzola torsdag\n• Ärtsoppa med pannkakor, sylt och vispgrädde\n• Blomkålssoppa med pannkakor, sylt och vispgrädde\n• Gravad lax med dillstuvade potatis\n• Nattbakad biff med stekt potatis och pepparsås\n• Panerad kummelfilé med kokt potatis och tartarsås\n• Femöring (pannbiff,lök,rödvinssås,stekt ägg,stekt potatis )\n• Kycklinggryta med jasminris",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Gravad Lax med dillstuvad potatis\n• Knapriga raggmunkar med nystekt fläsk samt lingon\n• Nystekt fläsk med krämig löksås samt kokt potatis\n• Wallenbergare med gräddsås, lingonsylt, gröna ärtor och potatismos\n• Saffran- och fänkålsgrartinerad Flundrafilé med potatismos\n• Panerad Rödspättafilé med remouladsås, citron och kokt potatis\n• Slottsstek med gräddsås, lingon och potatismos\n• Biffstroganoff med basmatiris\n• Friterad kycklingburgare med briochebröd, tomat, krispsallad, dressing, rostad lök, pommes och bearnaisedipp\n• Flygande Jacob med banan i chiligräddsås samt basmatiris\n• Dagens pasta med kycklingfilé, champinjoner, kantareller, vitlök, grädde och riven ost\n• Veckas vegetariska: Friterad falafel med tomatsås, hummus, tzatziki, melon, rödkålssallad och pommes",
+      "menu": "• Veckans tallrik: Gravad Lax med dillstuvad potatis\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Fläskfilé Oscar med sparris, kräftstjärtar, bearnaisesås, rödvinssås och stekt potatis\n• Kalvfärslimpa med gräddsås, lingon och potatismos\n• Halloumipanerad kycklingfilé med tomatsås, aioli och basmatiris\n• Grillad Biff med rödvinssås, bearnaisesås och rostad potatis\n• Korvstroganoff med basmatiris\n• Ugnsbakad Regnbågsfilé med hummersås, citron och potatismos\n• Angus Cheeseburgare med rostad lök, cheddarost, krispsallad, tomat, dressing och pommes\n• Pasta Scampi med kantareller, purjolök, vitlök, vitvin, grädde och riven ost\n• Veckas vegetariska: Friterad falafel med tomatsås, hummus, tzatziki, melon, rödkålssallad och pommes",
       "status": "success"
     },
     {
