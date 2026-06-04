@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-03T10:48:15.045Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-06-04T09:47:57.570Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Helstekt kotlettrad med potatisgratäng och rödvinssås\n• Smörstekt sejfilé med kokt potatis och gräslöksås\n• Flygande Jacob med jasminris\n• Oxstek med kokt potatis och gräddsås\n• Stekt strömmingsfilé med potatismos och skirat smör\n• Viltfärsbiff med potatismos och skogsvampsås\n• Pasta med skinka, gorgonzola och riven ost\n• Veg: Pasta med broccoli och gorgonzola torsdag\n• Ärtsoppa med pannkakor, sylt och vispgrädde\n• Blomkålssoppa med pannkakor, sylt och vispgrädde\n• Gravad lax med dillstuvade potatis\n• Nattbakad biff med stekt potatis och pepparsås\n• Panerad kummelfilé med kokt potatis och tartarsås\n• Femöring (pannbiff,lök,rödvinssås,stekt ägg,stekt potatis )\n• Kycklinggryta med jasminris",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Gravad Lax med dillstuvad potatis\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Fläskfilé Oscar med sparris, kräftstjärtar, bearnaisesås, rödvinssås och stekt potatis\n• Kalvfärslimpa med gräddsås, lingon och potatismos\n• Halloumipanerad kycklingfilé med tomatsås, aioli och basmatiris\n• Grillad Biff med rödvinssås, bearnaisesås och rostad potatis\n• Korvstroganoff med basmatiris\n• Ugnsbakad Regnbågsfilé med hummersås, citron och potatismos\n• Angus Cheeseburgare med rostad lök, cheddarost, krispsallad, tomat, dressing och pommes\n• Pasta Scampi med kantareller, purjolök, vitlök, vitvin, grädde och riven ost\n• Veckas vegetariska: Friterad falafel med tomatsås, hummus, tzatziki, melon, rödkålssallad och pommes",
+      "menu": "• Veckans tallrik: Gravad Lax med dillstuvad potatis\n• Ärtsoppa/Spenatsoppa med vitlöksbröd samt pannkaksbuffé, sylt och grädde\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Panerad Torskfilé med pepparrotscrème, citron och kokt potatis\n• Pannbiff med grönpepparsås och potatisgratäng\n• Kåldolmar med gräddsås, lingon och kokt potatis\n• Nattbakad Angushögrev med rödvinssky, bearnaisesås och potatisgratäng\n• Grillad Laxfilé med hummersås, citron och duschesspotatis\n• Skomakarlåda på noisette med purjolök- och bacon i rödvinssky samt potatismos\n• Dagens Pasta med oxfilé, kantareller, purjolök, grädde, vitlök och riven ost\n• Veckas vegetariska: Friterad falafel med tomatsås, hummus, tzatziki, melon, rödkålssallad och pommes",
       "status": "success"
     },
     {
