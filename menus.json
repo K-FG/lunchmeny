@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-04T09:47:57.570Z",
-  "day": "Torsdag",
+  "lastUpdate": "2026-06-05T09:36:30.986Z",
+  "day": "Fredag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "Ingen meny hittades",
+      "menu": "• Husets Pljeskavica med rösti, mexikansås & bearnaisesås\n• Fläsknoisette med stekt potatis och black & white\n• Broccoligratäng med skinka och stekt potatis\n• Panerad kycklingschnitzel med stekt potatis chilibearnaisesås\n• Smörstekt flundrafilé med kokt potatis och remouladsås\n• Kalvlever Anglaise med kokt potatis och rårörda lingon",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Gravad Lax med dillstuvad potatis\n• Ärtsoppa/Spenatsoppa med vitlöksbröd samt pannkaksbuffé, sylt och grädde\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Panerad Torskfilé med pepparrotscrème, citron och kokt potatis\n• Pannbiff med grönpepparsås och potatisgratäng\n• Kåldolmar med gräddsås, lingon och kokt potatis\n• Nattbakad Angushögrev med rödvinssky, bearnaisesås och potatisgratäng\n• Grillad Laxfilé med hummersås, citron och duschesspotatis\n• Skomakarlåda på noisette med purjolök- och bacon i rödvinssky samt potatismos\n• Dagens Pasta med oxfilé, kantareller, purjolök, grädde, vitlök och riven ost\n• Veckas vegetariska: Friterad falafel med tomatsås, hummus, tzatziki, melon, rödkålssallad och pommes",
+      "menu": "• Veckans tallrik: Gravad Lax med dillstuvad potatis\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (Ost- och skinkfylld) med rödvinssås, bea och stekt potatis\n• Biff minute med rödvinssås, vitlökssmör och potatisgratäng\n• Husets fisk- och skaldjursgryta med saffran, aioli och vitlöksbröd\n• Kycklingfilé ”Provencale” med vitlöksfrästa haricotsverts, vitlökssmör, rödvinssås och råstekt potatis\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Kalvlever Anglaise med kapris- och bacon i rödvinssås samt kokt potatis\n• Dagens Pasta med fläskfilé, kantareller, champinjoner, vitvin, grädde och riven ost\n• Veckas vegetariska: Friterad falafel med tomatsås, hummus, tzatziki, melon, rödkålssallad och pommes",
       "status": "success"
     },
     {
