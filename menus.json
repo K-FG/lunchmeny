@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-07T08:48:17.370Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-06-08T10:25:34.324Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "(Visar fredagens meny)\n\n• Husets Pljeskavica med rösti, mexikansås & bearnaisesås\n• Hemlagat köttbullar med potatismos och gräddsås\n• Kycklinggryta med jasminris\n• Helstekt fläskfile med stekt potatis och Black&white\n• Smörstekt fiskfilé med kokt potatis och remouladsås\n• Dagens pasta med riven ost",
+      "menu": "• Panerad fläskschnitzel med stekt potatis och rödvinssås\n• Chicken a la King med jasminris\n• Panerad kummelfile med kokt potatis och dillsås\n• Persiljejärpar med gräddsås och kokt potatis\n• Plommonspäckad fläskkarré med kokt potatis och äppelmos\n• Pasta med fläskfilé, babyspenat, lök, grädde och riven ost\n• Vegetarisk: Vårrullar med jasminris",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Gravad Lax med dillstuvad potatis\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (Ost- och skinkfylld) med rödvinssås, bea och stekt potatis\n• Biff minute med rödvinssås, vitlökssmör och potatisgratäng\n• Husets fisk- och skaldjursgryta med saffran, aioli och vitlöksbröd\n• Kycklingfilé ”Provencale” med vitlöksfrästa haricotsverts, vitlökssmör, rödvinssås och råstekt potatis\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Kalvlever Anglaise med kapris- och bacon i rödvinssås samt kokt potatis\n• Dagens Pasta med fläskfilé, kantareller, champinjoner, vitvin, grädde och riven ost\n• Veckas vegetariska: Friterad falafel med tomatsås, hummus, tzatziki, melon, rödkålssallad och pommes",
+      "menu": "• Veckans tallrik: Scampi- och laxspett med fin potatissallad, aioli och vitlöksbröd\n• Wienerschnitzel med anjovis, kapris, gröna ärtor, rödvinssås och stekt potatis\n• Kalvfärsjärpar med gräddsås, lingon, inlagd gurka och potatismos\n• Fläsknoisette med haricotsverts, skysås, bearnaisesås och pommes frites\n• Gräddstuvad Pyttipanna med stekt ägg och rödbetor\n• Biff ”minute” med vitlökssmör, rödvinssås och potatisgratäng\n• Ugnsbakad Regnbågsfilé med citronsås och kokt potatis\n• Gratinerad Flundrafilé på Västerbottenosst- och kantareller med hummersås och potatismos\n• Kantarell- och pestofylld kycklingfilé med rödvinssås, örtaioli och potatisgratäng\n• Pasta Biff Diablo med biff, vitlök, sambal, chili, grädde och riven ost\n• Veckas vegetariska: Vegetarisk hamburgare med, briochebröd dressing, tomat, sallad, pommes och bearnaisedipp",
       "status": "success"
     },
     {
