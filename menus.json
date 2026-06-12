@@ -1,21 +1,20 @@
 {
-  "lastUpdate": "2026-06-11T10:14:09.903Z",
-  "day": "Torsdag",
+  "lastUpdate": "2026-06-12T10:01:21.733Z",
+  "day": "Fredag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "Ingen meny hittades",
+      "menu": "• Husets Pljeskavica med rösti, mexikansås & bearnaisesås\n• Hemlagade köttbullar med potatismos och gräddsås\n• Kycklinggryta med jasminris\n• Helstekt fläskfile med stekt potatis och black & white\n• Smörstekt fiskfilé med kokt potatis och remouladsås\n• Dagens pasta med riven ost",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "Kunde inte hämta meny",
-      "status": "error",
-      "error": "timeout of 15000ms exceeded"
+      "menu": "• Veckans tallrik: Scampi- och laxspett med fin potatissallad, aioli och vitlöksbröd\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (Ost, lök- och baconfylld) med rödvinssås, bearnaisesås och stekt potatis\n• Husets fisk- och skaldjursgryta med saffran, aioli och vitlöksbröd\n• Grillad Entrecote med vitlökssmör, skysås och råstekt potatis\n• Inkokt Laxfilé med hummersås alt. aioli, citron och potatismos\n• Panerad Bergtungafilé med skagenröra, citron och kokt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Örtmarinerad- och skivad kycklingfilé med aioli, tomatsås, grillade grönsaker och bulgur\n• Dagens Pasta med fläskfilé, kantareller, champinjoner, vitvin, grädde och riven ost\n• Veckas vegetariska: Vegetarisk hamburgare med, briochebröd dressing, tomat, sallad, pommes och bearnaisedipp",
+      "status": "success"
     },
     {
       "restaurant": "Tant Maja & Fröken Emilia",
