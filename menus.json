@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-14T09:24:38.632Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-06-15T11:52:47.782Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "(Visar fredagens meny)\n\n• Husets Pljeskavica med rösti mexikansås & bearnaisesås\n• Pyttipanna med stekt ägg och rödbetor\n• Varmrostbiff med potatisgratäng\n• Panerad kycklings schnitzel med B&W och stekt potatis\n• Fisch and chips med remouladsås\n• Dagens pasta med riven ost",
+      "menu": "• Köttfärslimpa med stekt potatis och kantarellsås\n• Falukorv med stuvade makaroner\n• Panerad fläskschnitzel med stekt potatis och rödvinssås\n• Panerad flundrafilé med kokt potatis och skagenröra\n• Pasta med kycklingfile ,sambal,vitlök ,grädde och riven ost\n• Vegetarisk:Falafel med pommes frites och tomatsås, vitlök dressing",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Scampi- och laxspett med fin potatissallad, aioli och vitlöksbröd\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (Ost, lök- och baconfylld) med rödvinssås, bearnaisesås och stekt potatis\n• Husets fisk- och skaldjursgryta med saffran, aioli och vitlöksbröd\n• Grillad Entrecote med vitlökssmör, skysås och råstekt potatis\n• Inkokt Laxfilé med hummersås alt. aioli, citron och potatismos\n• Panerad Bergtungafilé med skagenröra, citron och kokt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Örtmarinerad- och skivad kycklingfilé med aioli, tomatsås, grillade grönsaker och bulgur\n• Dagens Pasta med fläskfilé, kantareller, champinjoner, vitvin, grädde och riven ost\n• Veckas vegetariska: Vegetarisk hamburgare med, briochebröd dressing, tomat, sallad, pommes och bearnaisedipp",
+      "menu": "• Veckans tallrik: Midsommar-tallrik med friterad halloumi, kalkon, kräftstjärtar, räkor, avokado, keso, rödkålssallad, kokt ägg, bulgur och vitlöksbröd\n• Wienerschnitzel med rödvinssås, bearnaisesås och stekt potatis\n• Pannbiff med stekt lök, rödvinssås, stekt ägg och stekt potatis\n• Pepparstekta Fläsknoisette med grönpepparsås och råstekt potatis\n• Biff ”minute” med bearnaisesås, rödvinssås och potatisgratäng\n• Ugnsbakad kycklingfilé med rödvinssås och potatisgratäng\n• Gratinerad Flundrafilé på champinjoner och räkor med vitvinssås och potatismos\n• Bräckt Falukorv med stuvade makaroner\n• Ugnsbakad Gösfilé med grönsaker, skagenröra, citron och kokt potatis\n• Dagens Pasta med oxfilé, kantareller, purjolök, grädde, vitlök och riven ost\n• Veckas vegetariska: Vegetariskpasta med kantareller, kronärtskockar, sparris, cocktailtomat, grädde, vitlök och riven ost",
       "status": "success"
     },
     {
