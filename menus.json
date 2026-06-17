@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-16T11:00:35.357Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-06-17T10:44:50.712Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Marinerad kycklingfilé med klyftpotatis och chilibearnaisesås\n• Ugnsgratinerad falukorv med potatismos\n• Rostbiff med potatissallad och pickles\n• Smörstekt sejfilé med kokt potatis och gräslöksås\n• Raggmunk med stekt fläsk och lingonsylt\n• Wallenbergare med potatismos, gräddsås och lingonsylt\n• Stekt fläsk med löksås och kokt potatis\n• Spagetti köttfärssås med riven ost\n• Vegetarisk: Morotbiffar med stekt potatis och tomatsås",
+      "menu": "• Isterband med stuvade potatis och rödbetor\n• Panerad kummelfilé med kokt potatis och dillmajonnäs\n• Nattbakad entrecoté med råstekt potatis och rödvinssås\n• Mozzarella fylld kycklingfilé med jasminris och krämig tomatsås\n• Laxpudding med skirat smör\n• Oxbringa med kokt potatis och pepparrotssås\n• Pasta med biff, paprika, gorgonzola, grädde och riven ost\n• Veg: Grönsaksbiffar med stekt potatis och pepparsås torsdag\n• Ärtsoppa med pannkakor, sylt och vispgrädde\n• Purjolöksoppa med pannkakor, sylt och vispgrädde\n• Helstekt ytterfilé med stekt potatis och kantarellsås\n• Pannbiff med potatisgratäng och B&W\n• Panerad fiskfilé med kokt potatis och skagenröra\n• Thai kycklinggryta med jasminris\n• Pasta diablo (kyckling) med riven ost",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Midsommar-tallrik med friterad halloumi, kalkon, kräftstjärtar, räkor, avokado, keso, rödkålssallad, kokt ägg, bulgur och vitlöksbröd\n• Knapriga raggmunkar med nystekt fläsk samt lingon\n• Nystekt fläsk med krämig löksås samt kokt potatis\n• Wallenbergare med gräddsås, lingonsylt, gröna ärtor och potatismos\n• Nystekt fläsk med krämig löksås samt kokt potatis\n• Slottsstek med gräddsås, svartvinbärsgelé och kokt potatis\n• Gratinerad Flundrafilé på räkor- och sparris med hummersås, citron och kokt potatis\n• Skånsk Kalops med rödbetor och kokt potatis\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Kycklingfilé med grönpepparsås och råstekt potatis\n• Dagens pasta med fläskfilé, gorgonzolaost, kantareller, purjolök, grädde och riven ost\n• Veckas vegetariska: Vegetariskpasta med kantareller, kronärtskockar, sparris, cocktailtomat, grädde, vitlök och riven ost",
+      "menu": "• Veckans tallrik: Midsommar-tallrik med friterad halloumi, kalkon, kräftstjärtar, räkor, avokado, keso, rödkålssallad, kokt ägg, bulgur och vitlöksbröd\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Fläskfilé Oscar med kräftstjärtar, grön sparris, rödvinssås, bearnaisesås och pommes\n• Nattbakad Angushögrev med rödvinssky, bearnaisesås och potatisgratäng\n• Ugnsbakad Regnbågsfilé med hummersås, citron och kokt potatis\n• Parmesanöverbakad Kycklingfilé med rödvinssås och råstekt potatis\n• Korvstroganoff med basmatiris\n• Viltfärsbiff med skogsvampsås, lingon och potatismos\n• Skaldjurspasta med lax, räkor, kräftstjärtar, blåmusslor, paprika, spenat, grädde, riven ost och vitlöksbröd\n• Veckas vegetariska: Vegetarisk hamburgare med, briochebröd dressing, tomat, sallad, pommes och bearnaisedipp",
       "status": "success"
     },
     {
