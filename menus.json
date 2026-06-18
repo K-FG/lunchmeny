@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-17T10:44:50.712Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-06-18T10:12:34.055Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Isterband med stuvade potatis och rödbetor\n• Panerad kummelfilé med kokt potatis och dillmajonnäs\n• Nattbakad entrecoté med råstekt potatis och rödvinssås\n• Mozzarella fylld kycklingfilé med jasminris och krämig tomatsås\n• Laxpudding med skirat smör\n• Oxbringa med kokt potatis och pepparrotssås\n• Pasta med biff, paprika, gorgonzola, grädde och riven ost\n• Veg: Grönsaksbiffar med stekt potatis och pepparsås torsdag\n• Ärtsoppa med pannkakor, sylt och vispgrädde\n• Purjolöksoppa med pannkakor, sylt och vispgrädde\n• Helstekt ytterfilé med stekt potatis och kantarellsås\n• Pannbiff med potatisgratäng och B&W\n• Panerad fiskfilé med kokt potatis och skagenröra\n• Thai kycklinggryta med jasminris\n• Pasta diablo (kyckling) med riven ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Midsommar-tallrik med friterad halloumi, kalkon, kräftstjärtar, räkor, avokado, keso, rödkålssallad, kokt ägg, bulgur och vitlöksbröd\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Fläskfilé Oscar med kräftstjärtar, grön sparris, rödvinssås, bearnaisesås och pommes\n• Nattbakad Angushögrev med rödvinssky, bearnaisesås och potatisgratäng\n• Ugnsbakad Regnbågsfilé med hummersås, citron och kokt potatis\n• Parmesanöverbakad Kycklingfilé med rödvinssås och råstekt potatis\n• Korvstroganoff med basmatiris\n• Viltfärsbiff med skogsvampsås, lingon och potatismos\n• Skaldjurspasta med lax, räkor, kräftstjärtar, blåmusslor, paprika, spenat, grädde, riven ost och vitlöksbröd\n• Veckas vegetariska: Vegetarisk hamburgare med, briochebröd dressing, tomat, sallad, pommes och bearnaisedipp",
+      "menu": "• Veckans tallrik: Midsommar-tallrik med friterad halloumi, kalkon, kräftstjärtar, räkor, avokado, keso, rödkålssallad, kokt ägg, bulgur och vitlöksbröd\n• Gulaschsoppa/Ärtsoppa med pannkaksbuffé, sylt och grädde\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Skomakarlåda på noisette med bacon- och purjolök i rödvinssky samt potatismos\n• Fläsknoisette ”Black and White” med rödvinssås, bearnaisesås och stekt potatis\n• Fish n’ Chips med remouladsås, citron och pommes frites\n• Pocherad Torskfilé med pepparrot, ägg i persiljesås, fänkål, bacon och potatismos\n• Pasta Biff Diablo med biff, vitlök, sambal, chili, grädde och riven ost\n• Veckas vegetariska: Vegetariskpasta med kantareller, kronärtskockar, sparris, cocktailtomat, grädde, vitlök och riven ost och bearnaisedipp",
       "status": "success"
     },
     {
