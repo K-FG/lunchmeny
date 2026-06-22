@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-21T09:41:07.330Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-06-22T11:42:37.339Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "(Visar fredagens meny)\n\n• Husets Pljeskavica med rösti mexikansås & bearnaisesås\n• Kycklingspett med klyftpotatis och tzatziki\n• Hackadbiff med pommes och bearnaisesås\n• Panerad fiskfilé med kokt potatis och tartasås\n• Fläsknoisette med stekt potatis och pepparsås\n• Pasta gratäng med köttfärs och riven ost",
+      "menu": "• Korv Stroganoff med jasminris\n• Rostbiff med potatissallad\n• Panerad kummelfilé med kokt potatis och danskremouladsås\n• Panerad fläskschitzel, stekt potatis och rödvinssås\n• Ugnstekt kycklingfilé med dragonsås och jasminris\n• Dagens pasta med riven ost\n• Dagens Vegitariska Grönsaksbiff med pommes frites och tomatsås",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Kantarell- och sparrisrisotto med smörstekta scampi, toppad med riven ost och örtolja\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (Västerbottenost- och skinkfylld) med rödvinssås, bearnaises och stekt potatis\n• Grillbiff med vitlökssmör, rödvinssås och potatisgratäng\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Havssalt- och örtöverbakad Regnbågsfilé med kall rom- och dillsås, rotfrukter och potatismos\n• Fläsknoisette ”Black and White” med rödvinssås, bearnaisesås och stekt potatis\n• Kycklingfilé ”Provencale” med vitlöksfrästa haricotsverts, rödvinssky, aioli och stekt potatis\n• Veckas vegetariska: Grönsaksspett med friterad halloumi, tomatsås, aioli och pommes frites",
+      "menu": "• Veckans tallrik: Kantarell- och sparrisrisotto med smörstekta scampi, toppad med riven ost och örtolja\n• Köttbullar med gräddsås, lingon och potatismos\n• Schnitzel med friterade lökringar, tomatsås, bearnaisesås och stekt potatis\n• Ugnsgrillad gös med grillade grönsaker, vitvinssås och kokt potatis\n• Gratinerad Flundrafilé med västerbottenost, kantareller- och kräftstjärtar och potatismos\n• Ört- och cajunkryddad kycklingfilé, rödvinssås, bearnaisesås och potatisgratäng\n• Grillade Entrecote med rödvinssås, bearnaisesås och stekt potatis\n• Pytt Bellman (Gräddstuvad pyttipanna) med stekt ägg och rödbetor\n• Dagens Pasta med oxfilé, kantareller, purjolök, grädde, vitlök och riven ost\n• Veckas vegetariska: Grönsaksspett med friterad halloumi, tomatsås, aioli och pommes frites",
       "status": "success"
     },
     {
