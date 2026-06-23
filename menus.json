@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-22T11:42:37.339Z",
-  "day": "Måndag",
+  "lastUpdate": "2026-06-23T09:28:28.871Z",
+  "day": "Tisdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Korv Stroganoff med jasminris\n• Rostbiff med potatissallad\n• Panerad kummelfilé med kokt potatis och danskremouladsås\n• Panerad fläskschitzel, stekt potatis och rödvinssås\n• Ugnstekt kycklingfilé med dragonsås och jasminris\n• Dagens pasta med riven ost\n• Dagens Vegitariska Grönsaksbiff med pommes frites och tomatsås",
+      "menu": "• Wallenbergare med potatismos, gräddsås och lingonsylt\n• Raggmunk med stekt fläsk och lingonsylt\n• Dillkött med kokt potatis\n• Stekt fläsk med löksås och kokt potatis\n• Ugnstekt kycklingfilé med stekt potatis och srirachamajonnäs\n• Smörstekt fiskfilé med kokt potatis och gräslöksås\n• Spagetti carbonara med riven ost\n• Dagens vegitariska: Raggmunk med lingonsylt",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Kantarell- och sparrisrisotto med smörstekta scampi, toppad med riven ost och örtolja\n• Köttbullar med gräddsås, lingon och potatismos\n• Schnitzel med friterade lökringar, tomatsås, bearnaisesås och stekt potatis\n• Ugnsgrillad gös med grillade grönsaker, vitvinssås och kokt potatis\n• Gratinerad Flundrafilé med västerbottenost, kantareller- och kräftstjärtar och potatismos\n• Ört- och cajunkryddad kycklingfilé, rödvinssås, bearnaisesås och potatisgratäng\n• Grillade Entrecote med rödvinssås, bearnaisesås och stekt potatis\n• Pytt Bellman (Gräddstuvad pyttipanna) med stekt ägg och rödbetor\n• Dagens Pasta med oxfilé, kantareller, purjolök, grädde, vitlök och riven ost\n• Veckas vegetariska: Grönsaksspett med friterad halloumi, tomatsås, aioli och pommes frites",
+      "menu": "• Veckans tallrik: Kantarell- och sparrisrisotto med smörstekta scampi, toppad med riven ost och örtolja\n• Knapriga raggmunkar med nystekt fläsk samt lingon\n• Nystekt fläsk med krämig löksås samt kokt potatis\n• Wallenbergare med gräddsås, lingonsylt, gröna ärtor och potatismos\n• Gratinerad Flundrafilé (Saffran, cocktailtomater, broccoli och dill) med citron och potatismos\n• Panerad Rödspättafilé med remouladsås, citron och kokt potatis\n• Friterad kycklingfilé med tomatsås, aioli och grönsaksris\n• Slottsstek med gräddsås, svartvinbärsgelé och kokt potatis\n• Fläsknoisette ”Black and White” med rödvinssås, bearnaisesås och stekt potatis\n• Dagens pasta med kycklingfilé, paprika, grädde, broccoli och riven ost\n• Veckas vegetariska: Grönsaksspett med friterad halloumi, tomatsås, aioli och pommes",
       "status": "success"
     },
     {
