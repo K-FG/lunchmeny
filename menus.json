@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-24T08:57:25.177Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-06-25T08:51:58.862Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Rostbiff med potatisgratäng och rödvinssås\n• Kycklingwok med äggnudlar\n• Pannbiff med löksås och stekt potatis\n• Smörstekt strömmingsfilé med potatismos och skirat smör\n• Kokt lunchkorv med kokt potatis och pepparrotssås\n• Pasta med räkor, färsk tomat, paprika och hummersås, riven ostDagens vegitariska: Grönsaksbiffar med stekt potatis torsdag\n• Ärtsoppa med pannkakor, sylt och vispgrädde\n• Köttsoppa med pannkakor, sylt och vispgrädde\n• Lättpanerad kummelfilé med kokt potatis och löjromsås\n• Kalvlevergryta med kokt potatis och lingonsylt\n• Grillbiff med råstekt potatis och skysås\n• Baconlindad kycklingfilé med stekt potatis och bearnaisesås\n• Pasta med kyckling, spenat och riven ost\n• Dagens vegitariska Lasagne med tomatsås och riven ost Fredag\n• Husets Pljeskavica med rösti, mexikansås & bearnaisesås",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Kantarell- och sparrisrisotto med smörstekta scampi, toppad med riven ost och örtolja\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Lammstek med skysås, aioli och rostad potatis\n• Halstrad Regnbåge med hummersås, citron och gratinerad potatismos\n• Skomakarlåda på noisette med bacon- och purjolök i rödvinssky samt potatismos\n• Pepparbiff (pannbiff) med rödvinssås, bearnaisesås och potatisgratäng\n• Falukorv med pepparrotssås, bacon, stekt ägg och potatismos\n• Friterad kycklingburgare med chilibearnaise, rostad lök, sallad, tomat och pommes\n• Kyckling Piccata med tomatsås, örtdipp och basmatiris\n• Dagen Pasta med fläskfilé, kantareller, champinjoner, grädde, vitlök, pesto och riven ost\n• Veckas vegetariska: Grönsaksspett med friterad halloumi, tomatsås, aioli och pommes",
+      "menu": "• Veckans tallrik: Kantarell- och sparrisrisotto med smörstekta scampi, toppad med riven ost och örtolja\n• Ärtsoppa med pannkaksbuffé, sylt och grädde\n• Panerad Torskfilé med tartarsås, citron och kokt potatis\n• Gratinerad Koljafilé på kräftstjärtar, räkor och purjolök med hummersås, citron och potatismos\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Nattbakad Angushögrev med potatisgratäng, rödvinssås och bearnaisesås\n• Lunchkorv med pepparrotssås och kokt potatis\n• Biff a la Lindström med stekt ägg, rödvinssås och stekt potatis\n• Flygande Jacob med jordnötter, banan i chiligräddsås toppad med bacon samt basmatiris\n• Pasta Biff Diablo med biff, vitlök, sambal, chili, grädde och riven ost\n• Veckas vegetariska: Grönsaksspett med friterad halloumi, tomatsås, aioli och pommes frites",
       "status": "success"
     },
     {
