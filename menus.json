@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-06-25T08:51:58.862Z",
-  "day": "Torsdag",
+  "lastUpdate": "2026-06-26T08:55:04.865Z",
+  "day": "Fredag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "Ingen meny hittades",
+      "menu": "• Husets Pljeskavica med rösti, mexikansås & bearnaisesås\n• Kycklingspett med klyftpotatis och tzatziki\n• Hackad biff med pommes frites och bearnaisesås\n• Panerad fiskfilé med kokt potatis och tartasås\n• Fläsknoisette med stekt potatis och pepparsås\n• Pastagratäng med köttfärs och riven ost",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Kantarell- och sparrisrisotto med smörstekta scampi, toppad med riven ost och örtolja\n• Ärtsoppa med pannkaksbuffé, sylt och grädde\n• Panerad Torskfilé med tartarsås, citron och kokt potatis\n• Gratinerad Koljafilé på kräftstjärtar, räkor och purjolök med hummersås, citron och potatismos\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Nattbakad Angushögrev med potatisgratäng, rödvinssås och bearnaisesås\n• Lunchkorv med pepparrotssås och kokt potatis\n• Biff a la Lindström med stekt ägg, rödvinssås och stekt potatis\n• Flygande Jacob med jordnötter, banan i chiligräddsås toppad med bacon samt basmatiris\n• Pasta Biff Diablo med biff, vitlök, sambal, chili, grädde och riven ost\n• Veckas vegetariska: Grönsaksspett med friterad halloumi, tomatsås, aioli och pommes frites",
+      "menu": "• Veckans tallrik: Kantarell- och sparrisrisotto med smörstekta scampi, toppad med riven ost och örtolja\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (Västerbottenost- och skinkfylld) med rödvinssås, bearnaises och stekt potatis\n• Grillbiff med vitlökssmör, rödvinssås och potatisgratäng\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Havssalt- och örtöverbakad Regnbågsfilé med kall rom- och dillsås, rotfrukter och potatismos\n• Fläsknoisette ”Black and White” med rödvinssås, bearnaisesås och stekt potatis\n• Kycklingfilé ”Provencale” med vitlöksfrästa haricotsverts, rödvinssky, aioli och stekt potatis\n• Veckas vegetariska: Grönsaksspett med friterad halloumi, tomatsås, aioli och pommes frites",
       "status": "success"
     },
     {
