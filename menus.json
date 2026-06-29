@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-28T08:44:21.373Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-06-29T10:45:42.400Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
@@ -13,7 +13,7 @@
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Kantarell- och sparrisrisotto med smörstekta scampi, toppad med riven ost och örtolja\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (Västerbottenost- och skinkfylld) med rödvinssås, bearnaises och stekt potatis\n• Grillbiff med vitlökssmör, rödvinssås och potatisgratäng\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Havssalt- och örtöverbakad Regnbågsfilé med kall rom- och dillsås, rotfrukter och potatismos\n• Fläsknoisette ”Black and White” med rödvinssås, bearnaisesås och stekt potatis\n• Kycklingfilé ”Provencale” med vitlöksfrästa haricotsverts, rödvinssky, aioli och stekt potatis\n• Veckas vegetariska: Grönsaksspett med friterad halloumi, tomatsås, aioli och pommes frites",
+      "menu": "• Veckans tallrik: Gravad lax med dillstuvad potatis\n• Wienerschnitzel med anjovis, kapris, gröna ärtor, citron och stekt potatis\n• Falukorv med stuvade makaroner\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Gratinerad Flundrafilé med prästost, kantareller och kräftstjärtar samt potatismos\n• Angusfärsbiff med champinjonsås, lingon och potatismos\n• Grillbiff med rödvinssås, bearnaisesås och stekt potatis\n• Kycklingspett med hummus, tzatziki, tomatsås, grillade grönsaker samt bulgur\n• Dagens Pasta med oxfilé, kantareller, purjolök, grädde, vitlök och riven ost\n• Veckas vegetariska: Friterad chevréost med turkisk bondsallad, valnötter, stekt potatis och tomatsås",
       "status": "success"
     },
     {
