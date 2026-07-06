@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-07-05T08:45:14.209Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-07-06T10:05:34.075Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "(Visar fredagens meny)\n\n• Rostbiff med potatissallad och pickles\n• Husets Pljeskavica med rösti mexikansås & bearnaisesås\n• Fläsknoisette med stekt potatis och bearnaisesås\n• Panerad kycklingschnitzel med stekt potatis och grönpepparsås\n• Kålpudding med gräddsås och rårörda lingon\n• Panerad flundrafilé med kokt potatis och remouladsås\n• Dagens pasta med riven ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Gravad lax med dillstuvad potatis\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel ”Josefine” fylld med champinjonstuvning med rödvinssås och stekt potatis\n• Husets fisk- och skaldjursgryta med saffran, aioli och vitlöksbröd\n• Panerad Bergtungafilé med Skagenröra, citron och kokt potatis\n• Fläsknoisette ”Black and White” med rödvinssås, bearnaisesås och stekt potatis\n• Marinerad- och skivad kycklingfilé med klyftpotatis, aioli och rödvinssås\n• Grillbiff med vitlökssmör, rödvinssås och potatisgratäng\n• Pasta Biff Diablo med biff, vitlök, sambal, chili, grädde och riven ost\n• Veckas vegetariska: Friterad chevréost med turkisk bondsallad, valnötter, stekt potatis och tomatsås",
+      "menu": "• Veckans tallrik: Kantarell- och sparrisrisotto toppad med vitlök- och smörfrästa Scampi och riven ost\n• Wienerschnitzel med rödvinssås, bearnaises och stekt potatis\n• Nattbakad Angushögrev med rödvinssås och råstekt potatis\n• Pannbiff med löksky, stekt potatis och stekt ägg\n• Pankopanerad Rödspätta med skagenröra, citron och kokt potatis\n• Räk- och sparrisgratinerad Flundrafilé med potatismos\n• Brieostfylld kycklingfilé med timjanssky och potatisgratäng\n• Lunchkorv med pepparrotssås och kokt potatis\n• Fläsknoisette ”Black n’ White” med rödvinssås, bearnaisesås och pommes frites\n• Pasta Biff Diablo med biff, sambal, chili, vitlök, grädde och riven ost\n• Veckas vegetariska: Krämig risotto toppad med cocktailtomater, smör- och\n• vitlöksfrästa champinjoner, riven ost samt vitlöksbröd",
       "status": "success"
     },
     {
