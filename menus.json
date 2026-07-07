@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-07-06T10:05:34.075Z",
-  "day": "Måndag",
+  "lastUpdate": "2026-07-07T09:30:56.037Z",
+  "day": "Tisdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "Ingen meny hittades",
+      "menu": "• Rostbiff med potatissallad och pickles\n• Hemlagade köttbullar med gräddsås och potatismos\n• Ugnstekt laxfilé med dillkokt potatis och gräslöksås\n• Kyckling Tikka Masala med jasminris\n• Wallenbergare med potatismos, gräddsås och lingonsylt\n• Raggmunk med stekt fläsk och lingonsylt\n• Stekt fläsk med löksås och kokt potatis\n• Spagetti carbonara med äggula och riven os\n• VEG Grönsaksbiff med potatismos",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Kantarell- och sparrisrisotto toppad med vitlök- och smörfrästa Scampi och riven ost\n• Wienerschnitzel med rödvinssås, bearnaises och stekt potatis\n• Nattbakad Angushögrev med rödvinssås och råstekt potatis\n• Pannbiff med löksky, stekt potatis och stekt ägg\n• Pankopanerad Rödspätta med skagenröra, citron och kokt potatis\n• Räk- och sparrisgratinerad Flundrafilé med potatismos\n• Brieostfylld kycklingfilé med timjanssky och potatisgratäng\n• Lunchkorv med pepparrotssås och kokt potatis\n• Fläsknoisette ”Black n’ White” med rödvinssås, bearnaisesås och pommes frites\n• Pasta Biff Diablo med biff, sambal, chili, vitlök, grädde och riven ost\n• Veckas vegetariska: Krämig risotto toppad med cocktailtomater, smör- och\n• vitlöksfrästa champinjoner, riven ost samt vitlöksbröd",
+      "menu": "• Veckans tallrik: Kantarell- och sparrisrisotto toppad med vitlök- och smörfrästa Scampi och riven ost\n• Knapriga raggmunkar med nystekt fläsk samt lingon\n• Nystekt fläsk med krämig löksås samt kokt potatis\n• Wallenbergare med gräddsås, lingonsylt, gröna ärtor och potatismos\n• Kalvstek med skysås och potatisgratäng\n• Ugnsbakad Gösfilé med pepparrotssås och kokt potatis\n• Angus Högrevsgryta med rotfrukter, smetana och basmatiris\n• Örtmarinerad Kycklingfilé med rödvinssås, bearnaisesås och potatisgratäng\n• Champinjoner- och västerbottenostgratinerad Flundrafilé med citron och potatismos\n• Fläsknoisette med kantarellssås och potatismos\n• Pasta med kycklingfilé, purjolök, champinjoner, grädde och riven ost\n• Veckas vegetariska: Krämig risotto toppad med cocktailtomater, smör- och vitlöksfrästa champinjoner, riven ost samt vitlöksbröd",
       "status": "success"
     },
     {
