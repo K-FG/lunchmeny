@@ -1,12 +1,12 @@
 {
-  "lastUpdate": "2026-07-11T07:45:40.697Z",
+  "lastUpdate": "2026-07-12T08:07:14.343Z",
   "day": "Fredag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "(Visar fredagens meny)\n\n• Rostbiff med potatissallad och pickles\n• Husets Pljeskavica med rösti mexikansås & bearnaisesås\n• Fläsknoisette med stekt potatis och bearnaisesås\n• Panerad kycklingschnitzel med stekt potatis och grönpepparsås\n• Kålpudding med gräddsås och rårörda lingon\n• Panerad flundrafilé med kokt potatis och remouladsås\n• Dagens pasta med riven ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
