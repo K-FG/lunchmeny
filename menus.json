@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-07-19T08:06:34.175Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-07-20T08:47:30.918Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "Ingen meny hittades",
+      "menu": "• Veg:Pasta med oliver,fetaost ,tomatsås och riven ost",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Kycklingspett med grillade grönsaker, örtaioli, tomatsås och bulgur\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Honung- och vitvinsspenslad Laxfjärill med kall rom- och dillsås, rotfrukter samt potatismos\n• Husets fisk- och skaldjursgryta med saffran, grädde, aioli och vitlöksbröd\n• Schnitzel (västerbottenost- och kantarellfylld) med rödvinssås, bearnaisesås & stekt potatis\n• Grillad Entrecote med haricotsverts, Calvadossås och potatisgratäng\n• Fläsknoisette ”Black n’ White” med rödvinssås, bearnaisesås och stekt potatis\n• Chilimarinerad kycklingfilé med pepparsås och potatisgratäng\n• Pankopanerad Bergtungafilé med kokt potatis, citron och remouladsås\n• Dagens pasta med fläskfilé, kantareller, vitlök, grädde och riven ost\n• Veckas vegetariska: Stekt chevréost, med valnötter, rödbetor, tomatsås och stekt potatis",
+      "menu": "• Grillad kycklingbröstfilé, grillad halloumiost, bulgur, tzatziki, hummus, melon och vitlöksbröd\n• Wienerschnitzel med anjovis, kapris, rödvinssås och stekt potatis\n• Pannbiff med stekt ägg, stekt lök och stekt potatis samt rödvinssås\n• Halloumipanerad Kycklingfilé med aioli, tomatsås och basmatiris\n• Panerad Rödspättafilé med remouladsås, citron och kokt potatis\n• Västerbottenost, cocktailtomat- och kantarellgratinerad Flundrafilé med potatismos\n• Fläsknoisette ”Black n’ White” med rödvinssås, bearnaisesås och pommes frites\n• Helstekt Oxfilé med skysås, haricotsverts, vitlökssmör och potatisgratäng\n• Dagens Pasta med kycklingfilé, curry, paprika, broccoli, grädde och riven ost\n• Veckas vegetariska: Grönsak- och chevréostfylld paprika med vitlökskräm, kryddig tomatsås samt basmatiris",
       "status": "success"
     },
     {
