@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-07-20T08:47:30.918Z",
-  "day": "Måndag",
+  "lastUpdate": "2026-07-21T08:15:11.697Z",
+  "day": "Tisdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Veg:Pasta med oliver,fetaost ,tomatsås och riven ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Grillad kycklingbröstfilé, grillad halloumiost, bulgur, tzatziki, hummus, melon och vitlöksbröd\n• Wienerschnitzel med anjovis, kapris, rödvinssås och stekt potatis\n• Pannbiff med stekt ägg, stekt lök och stekt potatis samt rödvinssås\n• Halloumipanerad Kycklingfilé med aioli, tomatsås och basmatiris\n• Panerad Rödspättafilé med remouladsås, citron och kokt potatis\n• Västerbottenost, cocktailtomat- och kantarellgratinerad Flundrafilé med potatismos\n• Fläsknoisette ”Black n’ White” med rödvinssås, bearnaisesås och pommes frites\n• Helstekt Oxfilé med skysås, haricotsverts, vitlökssmör och potatisgratäng\n• Dagens Pasta med kycklingfilé, curry, paprika, broccoli, grädde och riven ost\n• Veckas vegetariska: Grönsak- och chevréostfylld paprika med vitlökskräm, kryddig tomatsås samt basmatiris",
+      "menu": "• Grillad kycklingbröstfilé, grillad halloumiost, bulgur, tzatziki, hummus, melon och vitlöksbröd\n• Knapriga raggmunkar med nystekt fläsk samt lingon\n• Nystekt fläsk med krämig löksås samt kokt potatis\n• Wallenbergare med gräddsås, lingonsylt, gröna ärtor och potatismos\n• Mixtallrik med biff, kycklingfilé och noisette med bea, rödvinssås och råstekt potatis\n• Flygande Jakob med jordnötter, banan i chiligräddsås och basmatiris\n• Pyttipanna med stekt ägg och rödbetor\n• Ugnsstekt Gösfilé med grillade grönsaker, Skagenröra och kokt potatis\n• Sparrislindad Bergtungafilé toppad med kräftstjärtar- & räkor samt hummersås & mos\n• Pasta Biff Diablo med biff, sambal, chili, vitlök, paprika, grädde och riven ost\n• Veckas vegetariska: Grönsak- och chevréostfylld paprika med vitlökskräm, kryddig tomatsås samt basmatiris",
       "status": "success"
     },
     {
