@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-07-26T08:14:56.119Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-07-27T09:38:35.571Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
@@ -13,7 +13,7 @@
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Grillad kycklingbröstfilé, grillad halloumiost, bulgur, tzatziki, hummus, melon och vitlöksbröd\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (fylld med champinjonstuvning) med rödvinssås, bearnaise & stekt potatis\n• Panerad Bergtungafilé med kokt potatis, citron och remouladsås\n• Västerbottenost- och sparrisgratinerad Laxfilé med hummersås, citron och potatismos\n• Marinerad- och stekt Entrecote med grönpepparsås och råstekt potatis\n• BBQ-Angusburgare med BBQ-sås, rostad lök, cheddarost, bearnaisesås och pommes\n• Ugnsgrillad Kycklingfilé med rödvinssås, aioli och potatisgratäng\n• Fläsknoisette ”Black n’ White” med rödvinssås, bearnaisesås och stekt potatis\n• Husets Lasagne al Forno toppad med rivenost och vitlöksbröd\n• Veckas vegetariska: Grönsak- och chevréostfylld paprika med vitlökskräm, kryddig tomatsås samt basmatiris",
+      "menu": "• Scampispett med tomatsås, aioli och basmatiris\n• Wienerschnitzel med kantarellsås och stekt potatis\n• Oxjärpar med dragongräddsås, lingon och potatismos\n• Ugnsgrillad Gösfilé med grillade grönsaker, chevréostcrème samt kokt potatis\n• Ugnsbakad Laxfilé med hummersås, citron och kokt potatis\n• Falukorv med stuvade makaroner\n• Mozzarella- och pestofylld kycklingfilé med rödvinssås, örtaioli och råstekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssås, bearnaisesås och stekt potatis\n• Biff minute med skysås och potatisgratäng\n• Pasta Biff Diablo med biff, sambal, chili, vitlök, paprika, grädde och riven ost\n• Veckas vegetariska: Ugnsrostade rotfrukter- och potatis med panerad samt friterad chevréost toppad med honung",
       "status": "success"
     },
     {
