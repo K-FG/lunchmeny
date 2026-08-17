@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-16T06:29:10.465Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-08-17T06:40:20.930Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
@@ -13,7 +13,7 @@
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Scampi- och laxspett med fin potatissallad, aioli och vitlöksbröd\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel Hawaii (Ost, skink- och ananasfylld) med rödvinssås, bea och stekt potatis\n• Husets fisk- och skaldjursgryta med saffran, aioli och vitlöksbröd\n• Grillad Entrecote med vitlökssmör, skysås och råstekt potatis\n• Panerad Bergtungafilé med skagenröra, citron och kokt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Örtmarinerad- och skivad kycklingfilé med aioli, tomatsås, grillade grönsaker och bulgur\n• Dagens Pasta med fläskfilé, kantareller, champinjoner, vitvin, grädde och riven ost\n• Veckas vegetariska: Halloumiburgare med, briochebröd dressing, tomat, sallad, pommes och bearnaisedipp",
+      "menu": "• Veckans tallrik: Sesam- och sweetchili-marinerat kycklingspett med potatissallad och örtdipp\n• Schnitzel med friterade lökringar, tomatsås, bearnaisesås och stekt potatis\n• Pannbiff med stekt lök, stekt ägg, rödvinssås samt stekt potatis\n• Falukorv med stuvade makaroner\n• Biffstek med rödvinssås, bearnaisesås och stekt potatis\n• Ugnsbakad Gösfilé med kräftröra med citron och kokt potatis\n• Gratinerad Flundrafilé på kantareller, sparris- och kräftstjärtar med potatismos\n• Örtmarinerad- och skivad kycklingfilé med cheddarostsås, grillade grönsaker och råstekt potatis\n• Dagens Pasta med oxfilé, kantareller, purjolök, grädde, vitlök och riven ost\n• Veckas vegetariska: Pasta med kronärtskocka, sparris, kantareller, grädde, vitlök, riven halloumi och vitlöksbröd",
       "status": "success"
     },
     {
