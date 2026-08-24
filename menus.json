@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-23T06:30:11.515Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-08-24T06:43:01.276Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
@@ -13,7 +13,7 @@
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Sesam- och sweetchili-marinerat kycklingspett med potatissallad och örtdipp\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel ”Josefine” (fylld med champoinjonsstuvning) med rödvinssås, bea och stekt potatis\n• Färskost- och sparrisöverbakad Laxfilé med kall dill- och romsås, rotfrukter samt potatismos\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Grillbiff med vitlökssmör, rödvinssås och potatisgratäng\n• Nasi Goreng med stekt ägg, ananas och mango-chutney\n• Pasta med bacon, purjolök, paprika, grädde, vitlök och riven ost\n• Veckas vegetariska: Pasta med kronärtskocka, sparris, kantareller, grädde, vitlök, riven halloumi och vitlöksbröd",
+      "menu": "• Veckans tallrik: Gravad lax med dillstuvad potatis och citron\n• Schnitzel med aromsmör, rödvinssås och stekt potatis\n• Pesto- och sesambakad Regnbågsfilé med Västerbottenostkräm och dillkokt potatis\n• Flundrafilé fylld med kräftstjärtar, räkor och kantareller med gräslökspotatismos och hummersås\n• Black Angusfärsbiff med champinjonsås, lingon och potatismos\n• Fläsknoisette med Ugnsrostad klyftpotatis och dragongräddsås\n• BBQ-marinerad kycklingfilé med ugnsrostad klyftpotatis, majskolv och örtbearnaise\n• Biff ”minute” med chilibearnaisesås, stekt potatis och rödvinssås\n• Gräddstuvad pyttipanna med rödbetor och stekt ägg\n• Pasta Biff Diablo med biff, vitlök, sambal, chili, grädde och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumiost, tzatziki,  tomatsås, vitlöksbröd och pommes frites",
       "status": "success"
     },
     {
