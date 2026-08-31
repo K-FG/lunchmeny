@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-08-30T11:03:16.901Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-08-31T12:25:49.804Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
@@ -13,7 +13,7 @@
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Paella a la valenciana toppad med örtolja, aioli och vitlöksbröd\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Husets fisk och skaldjursgryta med vitlöksbröd och aioli\n• Schnitzel ”Swedese” (Västerbottenost- och skinkfylld) med rödvinssås, bea och stekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillbiff med vitlökssmör, rödvinssky och potatisgratäng\n• Ugnsgrillad kycklingfilé med tzatziki, tomatsås, hummus och grönsaksbulgur\n• Kroppkakor med skirat smör och lingonsylt\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Dagens Pasta med fläskfilé, kantareller, champinjoner, vitvin, grädde och riven ost\n• Veckas vegetariska: Grillad halloumiost, vinbladsdolma, hummus, tzatziki, bulgur, vattenmelon samt vitlöksbröd",
+      "menu": "• Veckans tallrik: Paella a la valenciana toppad med örtolja, aioli och vitlöksbröd\n• Wienerschnitzel med rödvinssås, bearnaisesås och stekt potatis\n• Köttbullar med gräddsås, lingon och potatismos\n• Gösfilé ”Grenoble” med rödbetor, kapris i skirat smör samt citron, skagenröra & kokt potatis\n• Sparrislindad Flundrafilé toppad med räkor och kräftstjärtar samt vitvinssås och potatismos\n• Pepparstekta Fläsknoisette med grönpepparsås och råstekt potatis\n• Grillbiff med stekt lök, rödvinssås och stekt potatis\n• Kantarell- och pestofylld kycklingfilé med chilibearnaisesås, rödvinssås och råstekt potatis\n• Pasta Biff Diablo med biff, vitlök, sambal, chili, grädde och riven ost\n• Veckas vegetariska: Grillad halloumiost, vinbladsdolma, hummus, tzatziki, bulgur, vattenmelon samt vitlöksbröd",
       "status": "success"
     },
     {
