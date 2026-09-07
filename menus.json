@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-06T10:05:50.198Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-09-07T11:20:09.187Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
@@ -13,7 +13,7 @@
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Paella a la valenciana toppad med örtolja, aioli och vitlöksbröd\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Husets fisk och skaldjursgryta med vitlöksbröd och aioli\n• Schnitzel ”Swedese” (Västerbottenost- och skinkfylld) med rödvinssås, bea och stekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillbiff med vitlökssmör, rödvinssky och potatisgratäng\n• Ugnsgrillad kycklingfilé med tzatziki, tomatsås, hummus och grönsaksbulgur\n• Kroppkakor med skirat smör och lingonsylt\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Dagens Pasta med fläskfilé, kantareller, champinjoner, vitvin, grädde och riven ost\n• Veckas vegetariska: Grillad halloumiost, vinbladsdolma, hummus, tzatziki, bulgur, vattenmelon samt vitlöksbröd",
+      "menu": "• Veckans tallrik: Adana kebab med tomatröra, tzatziki, hummus samt bulgur alt. pommes\n• Wienerschnitzel med friterade lökringar, tomatsås, bearnaisesås och stekt potatis\n• Falukorv med stuvade makaroner\n• Pannbiff med löksås, stekt ägg och stekt potatis\n• Kycklingspett med aioli, BBQ-bearnaise och klyft potatis\n• Oxbringa med pepparrotssås och kokt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Gratinerad Flundrafilé med fänkål, cocktailtomat och saffran samt potatismos\n• Ugnsgrillad Regnbågsfilé med västerkuströra och kokt potatis\n• Pasta Oxfilé med champinjoner, paprika, gorgonzola, grädde och riven ost\n• Veckas vegetariska: Grillad chevréost med valnötter, rödbetor, honung, stekt potatis, vitlöksbröd och mango-chutneydressing",
       "status": "success"
     },
     {
