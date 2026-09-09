@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-08T10:25:53.856Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-09-09T10:36:20.549Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
@@ -13,7 +13,7 @@
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Adana kebab med tomatröra, tzatziki, hummus samt bulgur alt. pommes\n• Knapriga raggmunkar med nystekt fläsk samt lingon\n• Nystekt fläsk med krämig löksås samt kokt potatis\n• Wallenbergare med gräddsås, lingonsylt, gröna ärtor och potatismos\n• Skånsk Kalops med rödbetor och kokt potatis\n• Grillbiff med vitlöksfrästa champinjoner, rödvinssås, bearnaisesås och stekt potatis\n• Gratinerad Flundrafilé med prästost, räkor och kräftstjärtar samt potatismos\n• Panerad Bergtunga med skagenröra, citron och kokt potatis\n• Kycklingstroganoff med gräddfil och basmatiris\n• Pasta Biff Diablo med strimlad biff, sambal, vitlök, chili, grädde och riven ost\n• Veckas vegetariska: Grillad chevréost med valnötter, rödbetor, honung, stekt potatis, vitlöksbröd och mango-chutneydressing",
+      "menu": "• Veckans tallrik: Adana kebab med tomatröra, tzatziki, hummus samt bulgur/pommes\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Stekt salt sill med löksås och kokt potatis\n• Honungsmarinerad Revbensspjäll med gräddsås, äppelmos och kokt potatis\n• Kyckling Piccata med tomatsås, örtdipp och basmatiris\n• Köttfärslimpa med gräddsås, lingon och potatismos\n• Fläskfilé Oscar med grön sparris, kräftstjärtar, bearnaisesås och hasselbackspotatis\n• Panerad Torskfilé med lax- och kräftröra samt duchessepotatis\n• Isterband med persiljestuvad potatis och rödbetor\n• Slottsstek med gräddsås, lingon och kokt potatis\n• Veckas vegetariska: Grillad chevréost med valnötter, rödbetor, honung, stekt potatis, vitlöksbröd och mango-chutneydressing",
       "status": "success"
     },
     {
