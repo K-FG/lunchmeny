@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-09-11T10:26:12.780Z",
+  "lastUpdate": "2026-09-12T09:55:32.902Z",
   "day": "Fredag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "Ingen meny hittades",
+      "menu": "(Visar fredagens meny)\n\n• Fish and chips med remouladsås\n• Dagens pasta med riven ost",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Adana kebab med tomatröra, tzatziki, hummus samt bulgur/pommes\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Stekt salt sill med löksås och kokt potatis\n• Schnitzel (Kantarell, lök- och ostfylld) med rödvinssås, bearnaisesås och stekt potatis\n• BBQ-Angusburgare med briochebröd, friterade lökringar, rostad lök, chilicheese, cheddarost, tomat, dressing, BBQ-sås & pommes frites\n• Ugnsbakad kycklingfilé med gorgonzolasås och råstekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Teriyaki- och sesambakad laxfilé med kall rom, räk- och dillsås samt potatismos\n• Marinerad- och grillad Entrecote med rödvinssås, bearnaisesås och potatisgratäng\n• Pankopanerad Kummelfilé med remouladsås, citron och kokt potatis\n• Lasagne al Forno med béchamelsås och riven ost\n• Veckas vegetariska: Grillad chevréost med valnötter, rödbetor, honung, stekt potatis, vitlöksbröd och mango-chutneydressing",
+      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Adana kebab med tomatröra, tzatziki, hummus samt bulgur/pommes\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Stekt salt sill med löksås och kokt potatis\n• Schnitzel (Kantarell, lök- och ostfylld) med rödvinssås, bearnaisesås och stekt potatis\n• BBQ-Angusburgare med briochebröd, friterade lökringar, rostad lök, chilicheese, cheddarost, tomat, dressing, BBQ-sås & pommes frites\n• Ugnsbakad kycklingfilé med gorgonzolasås och råstekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Teriyaki- och sesambakad laxfilé med kall rom, räk- och dillsås samt potatismos\n• Marinerad- och grillad Entrecote med rödvinssås, bearnaisesås och potatisgratäng\n• Pankopanerad Kummelfilé med remouladsås, citron och kokt potatis\n• Lasagne al Forno med béchamelsås och riven ost\n• Veckas vegetariska: Grillad chevréost med valnötter, rödbetor, honung, stekt potatis, vitlöksbröd och mango-chutneydressing",
       "status": "success"
     },
     {
