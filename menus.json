@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-09-13T10:56:30.112Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-09-14T11:30:14.983Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "(Visar fredagens meny)\n\n• Fish and chips med remouladsås\n• Dagens pasta med riven ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Adana kebab med tomatröra, tzatziki, hummus samt bulgur/pommes\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Stekt salt sill med löksås och kokt potatis\n• Schnitzel (Kantarell, lök- och ostfylld) med rödvinssås, bearnaisesås och stekt potatis\n• BBQ-Angusburgare med briochebröd, friterade lökringar, rostad lök, chilicheese, cheddarost, tomat, dressing, BBQ-sås & pommes frites\n• Ugnsbakad kycklingfilé med gorgonzolasås och råstekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Teriyaki- och sesambakad laxfilé med kall rom, räk- och dillsås samt potatismos\n• Marinerad- och grillad Entrecote med rödvinssås, bearnaisesås och potatisgratäng\n• Pankopanerad Kummelfilé med remouladsås, citron och kokt potatis\n• Lasagne al Forno med béchamelsås och riven ost\n• Veckas vegetariska: Grillad chevréost med valnötter, rödbetor, honung, stekt potatis, vitlöksbröd och mango-chutneydressing",
+      "menu": "• Veckans tallrik: Scampi- och laxspett med saffransaioli, grönsaksris och tomatsås\n• Wienerschnitzel med anjovis, kapris, rödvinssås och stekt potatis\n• BBQ-marinerad kycklingfilé med ugnsbakad klyftpotatis, chilibea och äppeltzatziki\n• Viltfärsbiff med lingonsylt, skogssvampsås och potatismos\n• Ugnsbakad Regnbågsfilé med stuvad spenat, citron och kokt potatis\n• Gratinerad Flundrafilé (Västerbottenost, purjolök och kantarell) med hummersås, citron och kokt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Gräddstuvad pyttipanna med röbetor och stekt ägg\n• Dagens pasta med kycklingfilé, champinjoner, kantareller, tryffelolja, vitlök, grädde och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumi, pommes frites, tzatziki, tomatsås och vitlöksbröd",
       "status": "success"
     },
     {
