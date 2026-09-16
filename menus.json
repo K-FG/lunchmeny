@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-09-15T10:51:28.796Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-09-16T10:40:23.890Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "Ingen meny hittades",
+      "menu": "• Ärtsoppa med pannkakor, sylt och grädde\n• Fisksoppa med pannkakor, sylt och grädde\n• Kalvlevergryta med kokt potatis och lingonsylt\n• Stekt kycklingfilé med jasminris och kantarellsås\n• Helstekt ytterfilé med stekt potatis och skysås\n• Kåldolmar med kokt potatis och gräddsås & lingonsylt\n• Panerad sejfilé med kokt potatis och curryremouladsås\n• Pasta med bacon, purjolök,paprika och riven ost\n• Fish and chips med remouladsås\n• Dagens pasta med riven ost",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Scampi- och laxspett med saffransaioli, grönsaksris och tomatsås\n• Knapriga raggmunkar med nystekt fläsk samt lingon\n• Nystekt fläsk med krämig löksås samt kokt potatis\n• Wallenbergare med gräddsås, lingonsylt, gröna ärtor och potatismos\n• Ugnsbakad Gösfilé med grillade grönsaker, räk- och dillhollandaisesås samt kokt potatis\n• Black Angus-högrevs höstgryta toppad med gräddfil samt basmatiris\n• Färskostfylld kycklingfilé med gräslök- och dillsmak samt friterad klyftpotatis, saffransaioli och rödvinssås\n• Pasta Oxfilé med champinjoner, purjolök, grädde, vitlök och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumi, pommes frites, tzatziki, tomatsås och vitlöksbröd",
+      "menu": "• Veckans tallrik: Scampi- och laxspett med saffransaioli, grönsaksris och tomatsås\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Stekt salt sill med löksås och kokt potatis\n• Halstrad Regnbågsfilé med smörstekta championjoner, honung- och limecrème samt dillstekt potatis\n• Pepparbiff (pannbiff) med fem-pepparsås, potatisgratäng samt saltgurka\n• Pepparstekt Fläsknoisette med kantarellssås samt potatismos\n• Korvstroganoff med basmatiris\n• Slottsstek med gräddsås, svartvinbärsgelé samt kokt potatis\n• Biffstek med rödvinssås, bearnaisesås och stekt potatis\n• Pasta ”frutti di mare” med skaldjur, vitvin, tomatsås, vitlöksbröd samt riven ost\n• Veckas vegetariska: Grönsaksspett med halloumi, pommes frites, tzatziki, tomatsås och vitlöksbröd",
       "status": "success"
     },
     {
