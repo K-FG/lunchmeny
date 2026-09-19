@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-09-18T10:24:13.626Z",
+  "lastUpdate": "2026-09-19T10:08:29.995Z",
   "day": "Fredag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Fish and chips med remouladsås\n• Dagens pasta med riven ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Scampi- och laxspett med saffransaioli, grönsaksris och tomatsås\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Stekt salt sill med löksås och kokt potatis\n• Schnitzel ”Josefine” (Champinjonstuvning) med rödvinssås, bearnaisesås och stekt potatis\n• Inkokt laxfilé med kall dill- och romsås, citron och pressad potatis\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillbiff med potatisgratäng rödvinssås och bearnaisesås\n• Prästost- och kantarellostfylld kycklingfilé med chilibearnaise, rödvinssås och råstekt potatis\n• Dagens pasta med fläskfilé, kantareller, vitlök, grädde och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumi, pommes frites, tzatziki, tomatsås och vitlöksbröd",
+      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Scampi- och laxspett med saffransaioli, grönsaksris och tomatsås\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Stekt salt sill med löksås och kokt potatis\n• Schnitzel ”Josefine” (Champinjonstuvning) med rödvinssås, bearnaisesås och stekt potatis\n• Inkokt laxfilé med kall dill- och romsås, citron och pressad potatis\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillbiff med potatisgratäng rödvinssås och bearnaisesås\n• Prästost- och kantarellostfylld kycklingfilé med chilibearnaise, rödvinssås och råstekt potatis\n• Dagens pasta med fläskfilé, kantareller, vitlök, grädde och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumi, pommes frites, tzatziki, tomatsås och vitlöksbröd",
       "status": "success"
     },
     {
