@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-09-23T10:37:01.489Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-09-24T10:56:25.850Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Ärtsoppa med pannkakor, sylt och vispgrädde\n• Gulaschsoppa med pannkakor, sylt och vispgrädde\n• Femöring (pannbiff,lök, stekt ägg, stekt potatis) rödvinssås\n• Fläsklägg med hemlagat rotmos\n• Varm rostbiff med potatisgratäng med rödvinssås\n• Panerad fiskfilé med kokt potatis och skagenröra\n• Ugnstekt kycklingfilé med stekt potatis och gräddsås och pressgurka\n• Pasta diablo (kyckling) med riven ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Smörstekt Scampi- och gravad lax med dillstuvad potatis samt vitlöksbröd\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Havssalt- och örtöverbakad Regnbågsfilé med skaldjursrisotto samt hummersås\n• Turkisk Köfte med mezeröror och pommes frites eller bulgur\n• Fläsknoisette med kantarellssås och stekt potatis\n• Chevréost- och Pestoöverbakad kycklingfilé med klyftpotatis, tomatsallad och sweetchilicrème\n• Isterband med persiljestuvad potatis och rödbetor\n• Fläskfiléspett med BBQ-sås, chilibearnaisesås, coleslaw och klyft potatis\n• Smokey BBQ-Angusburgare med briochebröd, friterade lökringar, rostad lök, chilicheese, cheddarost, tomat, dressing, BBQ-sås & pommes frites\n• Fläskfilé med örtdipp, chilibearnaisesås och klyftpotatis\n• Dagens pasta med Scampi, champinjoner, kantareller, vitvin, grädde och riven ost\n• Veckas vegetariska: Stekt Chevréost med tomatsås, tzatziki, rödbetor, valnötter och stekt potatis",
+      "menu": "• Veckans tallrik: Smörstekt Scampi- och gravad lax med dillstuvad potatis samt vitlöksbröd\n• Ärtsoppa/Gulaschsoppa med vitlöksbröd samt pannkaksbuffé, sylt och grädde\n• Skomakarlåda på noisetter med bacon- och purjolök i rödvinssky samt potatismos\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Kalvstek med gräddsås, svartvinbärsgelé och kokt potatis\n• Husets Walewska med sparris, kräftstjärtar, hummersås, citron och gratinerad potatismos\n• Panerad Rödspätta med remouladsås, citron och kokt potatis\n• Pannbiff med fempepparssås, potatisgratäng samt saltgurka\n• Kroppkakor med lingon och skirat smör\n• Pasta Carbonara med riven ost\n• Veckas vegetariska: Stekt Chevréost med tomatsås, tzatziki, rödbetor, valnötter och stekt potatis",
       "status": "success"
     },
     {
