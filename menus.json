@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-27T11:12:23.651Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-09-28T12:39:24.714Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
@@ -13,7 +13,7 @@
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Veckans tallrik: Smörstekt Scampi- och gravad lax med dillstuvad potatis samt vitlöksbröd\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (ost- och skinkfylld) med rödvinssås, bearnaisesås och stekt potatis\n• Ugnsbakad Laxfilé med hummersås, citron, rotfrukter och potatismos\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Örtmarinerad- och skivad kycklingfilé med liten grekisk sallad, tomatsalsa, aioli och bulgur\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Entrecote med vitlökssmör, rödvinssås och potatisgratäng\n• Kalvlever Anglais med kapris- och bacon i rödvinssås samt kokt potatis\n• Dagens pasta med fläskfilé, champinjoner, kantareller, vitlök, grädde, vitlöksbröd och riven ost\n• Veckas vegetariska: Stekt Chevréost med tomatsås, tzatziki, rödbetor, valnötter och stekt potatis\n• SERVERAS VARJE VARDAG\n• Spaghetti Bolognese med riven ost – 149kr\n• Spaghetti Carbonara med äggula & riven ost – 149kr\n• Bräckt Skinka med stekt ägg & stekt potatis – 149kr",
+      "menu": "• Veckans tallrik: Kycklingspett med krämig potatissallad, tomatsås, örtdipp och vitlöksbröd\n• Schnitzel med friterade lökringar, bearnaisesås, tomatsås och stekt potatis\n• Köttbullar med gräddsås, lingonsylt och potatismos\n• Fläsknoisette med ”Black n’ White” med rödvinssås, bearnaisesås och stekt potatis\n• Ugnsbakad Laxfjärill med duchesspotatis, vitvinssås och kokt potatis\n• Gratinerad- och sparrislindad Flundrafilé med potatismos\n• Biffstek med rödvinssås, vitlökssmör och råstekt potatis\n• Grillad kycklingfilé med rödvinssås, chilibearnaise och råstekt potatis\n• Pytt Bellman (Gräddstuvad pyttipanna) med rödbetor och stekt ägg\n• Dagens pasta med biff, kantareller, purjolök, grädde och riven ost\n• Veckas vegetariska: Pasta med kronärtskocka, sparris, kantareller, grädde, vitlök, riven halloumi och vitlöksbröd",
       "status": "success"
     },
     {
