@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-09-30T11:45:47.205Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-10-01T12:14:53.516Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Ärtsoppa med pannkakor, sylt och vispgrädde\n• Svampsoppa med pannkakor, sylt och vispgrädde\n• Fläsklägg med hemlagat rotmos\n• Helstekt fläskfilé med potatisgratäng med skysås\n• Isterband med stuvad potatis och rödbetor\n• Grekisk färsbiff med rostade potatis och rödvinssås & tzatziki\n• Stekt gösfilé med kokt potatis och rödbetor,kapris,skiratsmör\n• Ostfylld baconlindad kycklingfilé med rostade potatis och rosepepparsås\n• Dagens pasta med riven ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans tallrik: Kycklingspett med krämig potatissallad, tomatsås, örtdipp och vitlöksbröd\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Skomakarlåda på noisetter med bacon- och purjolök i rödvinssky samt potatismos\n• Lättpanerad Regnbågsfilé med hummersås, citron och kokt potatis\n• Köttfärslimpa med gräddsås, lingonsylt och potatismos\n• Lågtempererad- och tunt skivad Fläskkarré med gräddsås, äppelmos och kokt potatis\n• Stekt falukorv med pepparrotssås, knaperstekt bacon samt potatismos\n• Fläskfiléspett med tomatsalsa, tzatziki, örtdipp och klyft potatis\n• Kyckling Piccata med tomatsås, örtdipp och basmatiris\n• Skaldjurspasta med havets-mix, tomatsås, grädde, vittvin, vitlöksbröd och riven ost\n• Veckas vegetariska: Pasta med kronärtskocka, sparris, kantareller, grädde, vitlök, riven halloumi och vitlöksbröd",
+      "menu": "• Veckans tallrik: Kycklingspett med krämig potatissallad, tomatsås, örtdipp och vitlöksbröd\n• Ärtsoppa/Gulaschsoppa med vitlöksbröd samt pannkaksbuffé, sylt och grädde\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Panerad Rödspätta med remouladsås, citron och kokt potatis\n• Kåldolmar med gräddsås, lingon och kokt potatis\n• Fläskfilé Oscar med sparris, kräftstjärtar, rödvinssås, bearnaisesås och stekt potatis\n• Ugnsbakad Gösfilé på grönsaksbädd med cocktailtomat, skirat smör, kronärtskocka, räkor samt Västerbottenmos\n• Biff minute med rödvinssås, bearnaisesås och råstekt potatis\n• Biff a la Lindström med stekt ägg, rödvinssås och stekt potatis\n• Pasta fläskfilé med kantareller, champinjoner, grädde, tryffelolja och riven ost\n• Veckas vegetariska: Pasta med kronärtskocka, sparris, kantareller, grädde, vitlök, riven halloumi och vitlöksbröd",
       "status": "success"
     },
     {
