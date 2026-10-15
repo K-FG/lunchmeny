@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-10-14T11:00:03.068Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-10-15T10:42:51.342Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Pasta diablo med riven ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Havs- och örtöverbakad Regnbågsfilé med hummersås, kantarell- och sparrisrisotto\n• Lammfärsbiff med tomatsås, vitlökssmör och råstekt potatis\n• Fläskfilé Oscar med sparris, kräftstjärtar, rödvinssås, bearnaisesås och stekt potatis\n• Herrgårdsstek med gräddsås, svartvinbärsgelé och kokt potatis\n• Viltskavsgryta med kantareller, champinjoner, gräddsås samt lingonsylt och potatismos\n• Baconlindad kycklingfilé med grönsaksbulgur, tomatsås, örtdipp\n• Pasta Scampi med champinjoner, kantareller, vitvin, grädde, vitlök och riven ost\n• Veckas vegetariska: Halloumiwrap med tortillabröd, rödbetshummmus, friterad halloumi, smulad fetaost,  salladslök,  orientalisk sallad, vitlökssås och tacosås",
+      "menu": "• Ärtsoppa/Gulaschsoppa med vitlöksbröd samt pannkaksbuffé, sylt och grädde\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Fläsklägg med rotmos\n• Skomakarlåda på noisette med bacon- och purjolök i rödvinssky samt potatismos\n• Husets Walewska på Bergtungafilé med gratinerad potatismos, kräftstjärtar, sparris, hummersås och citron\n• Grillbiff med rödvinssås, bearnaisesås och stekt potatis\n• Pannbiff med fempepparsås, toppad med saltgurka samt potatisgratäng\n• Panerad Torskfilé med remouladsås, citron och kokt potatis\n• Pasta fläskfilé, kantareller, champinjoner, grädde, tryffelolja och riven ost\n• Veckas vegetariska: Halloumiwrap med tortillabröd, rödbetshummmus, friterad halloumi, smulad fetaost,  salladslök,  orientalisk sallad, vitlökssås och tacosås",
       "status": "success"
     },
     {
