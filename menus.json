@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-18T10:13:19.779Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-10-19T11:50:40.244Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
@@ -13,7 +13,7 @@
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (Västerbottenost- och skinkfylld) med rödvinssås, bearnaisesås och stekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillad Entrecote med vitlökssmör, rödvinssås och potatisgratäng\n• Gravad Lax med dillstuvad potatis och citron\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Kycklingspett med örtdipp, tomatsås och grönsaksbulgur\n• Dagens pasta med kycklingfilé, curry, paprika, grädde och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumiost, tzatziki,  tomatsås, vitlöksbröd och pommes frites\n• SERVERAS VARJE VARDAG\n• Spaghetti Bolognese med riven ost – 149kr\n• Spaghetti Carbonara med äggula & riven ost – 149kr\n• Bräckt Skinka med stekt ägg & stekt potatis – 149kr\n• Kebabtallrik med pommes/ris – 149kr\n• Vegetarisk Lasagne​ – 149kr",
+      "menu": "• Wienerschnitzel med anjovis, kapris, rödvinssås och stekt potatis\n• Panerad Rödspättafilé med remouladsås, citron och kokt potatis\n• Falukorv med stuvade makaroner\n• Grillbiff med bearnaisesås, rödvinssås och stekt potatis\n• Ört- och vitlöksmarinerad kycklingfilé med BBQ-bearnaise, rödvinssås och råstekt potatis\n• Gratinerad Flundrafilé med cocktailtomater, broccoli och purjolök samt potatismos\n• Köttfärslimpa med skogsvampssås, lingon och potatismos\n• Pasta biff ”Diablo” med strimlad biff, paprika, sambal, vitlök, chili, grädde och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumiost, tzatziki,  tomatsås, vitlöksbröd och pommes frites",
       "status": "success"
     },
     {
