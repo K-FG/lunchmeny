@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-10-20T10:48:07.118Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-10-21T11:00:03.313Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "Ingen meny hittades",
+      "menu": "• Panerad flundrafilé med kokt potatis och dillsås\n• Nötfärsbiff med stekt potatis och gorgonzola\n• Timjan & vitlök marinerad kycklingfilé med jasminris och paprikasås\n• Oxbringa med kokt potatis och pepparrotsås\n• Pasta med räkor, paprika,lök ,grädde och riven ost",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Knapriga raggmunkar med nystekt fläsk samt lingon\n• Nystekt fläsk med bruna bönor eller krämig löksås samt kokt potatis\n• Wallenbergare med gräddsås, lingonsylt, gröna ärtor och potatismos\n• Panerad Kummelfilé med skagenröra, citron och kokt potatis\n• Räk- och kräftgratinerad Koljafilé med vitvinssås samt potatismos\n• Fläsknoisette med ”Black n’ White” med rödvinssås, bearnaisesås och stekt potatis\n• Biffstroganoff med basmatiris och cremefraiche\n• Chevréostsfylld kycklingfilé med chilibearnaise, rödvinssås, toppad med rostad lök samt råstekt potatis\n• Dagens pasta med kycklingfilé, pesto, soltorkade tomater, grädde, purjolök och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumiost, tzatziki,  tomatsås, vitlöksbröd och pommes frites",
+      "menu": "• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Panerad Flundrafilé med remouladsås, citron och kokt potatis\n• Fläskfilé med kantarellsås och stekt potatis\n• Isterband med persiljestuvad potatis och rödbetor\n• Kyckling Piccata med tomatsås, basmatiris och örtdipp\n• Nattbakad Angushögrev med rödvinssås, bearnaisesås och potatisgratäng\n• Hemlagade Köttbullar med potatismos, gräddsås och lingon\n• Pasta Scampi med champinjoner, kantareller, vitvin, grädde, vitlök och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumiost, tzatziki,  tomatsås, vitlöksbröd och pommes frites",
       "status": "success"
     },
     {
