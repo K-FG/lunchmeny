@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-10-21T11:00:03.313Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-10-22T10:58:49.536Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Panerad flundrafilé med kokt potatis och dillsås\n• Nötfärsbiff med stekt potatis och gorgonzola\n• Timjan & vitlök marinerad kycklingfilé med jasminris och paprikasås\n• Oxbringa med kokt potatis och pepparrotsås\n• Pasta med räkor, paprika,lök ,grädde och riven ost",
+      "menu": "Ingen meny hittades",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Panerad Flundrafilé med remouladsås, citron och kokt potatis\n• Fläskfilé med kantarellsås och stekt potatis\n• Isterband med persiljestuvad potatis och rödbetor\n• Kyckling Piccata med tomatsås, basmatiris och örtdipp\n• Nattbakad Angushögrev med rödvinssås, bearnaisesås och potatisgratäng\n• Hemlagade Köttbullar med potatismos, gräddsås och lingon\n• Pasta Scampi med champinjoner, kantareller, vitvin, grädde, vitlök och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumiost, tzatziki,  tomatsås, vitlöksbröd och pommes frites",
+      "menu": "• Ärtsoppa/Gulaschsoppa med vitlöksbröd samt pannkaksbuffé, sylt och grädde\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Skomakarlåda på noisette med bacon- och purjolök i rödvinssky samt potatismos\n• Ugnsbakad Regnbågsfilé med skagenröra, citron och kokt potatis\n• Saffran, sparris- och prästostgratinerad Sejfilé toppad med dill och räkor samt potatismos\n• Pannbiff med pepparsås, potatisgratäng och saltgurka\n• Smokey BBQ (Black Angus Högrevsburgare) med briochebröd, friterade lökringar, rostad lök, chilicheese, cheddarost, tomat, dressing, BBQ-sås & pommes frites\n• Korvlåda med bacon, falukorv och purjolök med rödvinssås, potatismos samt stekt ägg\n• Pasta fläskfilé med kantareller, champinjoner, grädde, tryffelolja och riven ost\n• Veckas vegetariska: Grönsaksspett med halloumiost, tzatziki,  tomatsås, vitlöksbröd och pommes frites",
       "status": "success"
     },
     {
