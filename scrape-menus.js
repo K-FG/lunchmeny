@@ -36,6 +36,14 @@ const AREAS = {
                 price: '119 kr',
                 scraper: 'lunchzonen',
                 businessId: '372ca510-2c0d-4d59-a011-64badecfe554'
+            },
+            {
+                id: 'bankomat',
+                name: 'BankOmat Seaside',
+                url: 'https://restaurangbankomat.se/lunch/',
+                location: 'Marievik',
+                price: '149 kr',
+                scraper: 'bankomat'
             }
         ]
     }
@@ -142,6 +150,36 @@ async function scrapeGreenBull(url) {
     return displayMsg ? displayMsg + '\n\n' + menuText : menuText;
 }
 
+// Parses BankOmat Seaside's Elementor page: an <h2> day heading widget followed by a
+// price-list widget with one item per dish (title + description).
+function parseBankomat(html, targetDay) {
+    const $ = cheerio.load(html);
+    const heading = $('h2').filter((i, el) => $(el).text().trim().toLowerCase() === targetDay.toLowerCase()).first();
+    if (!heading.length) return [];
+
+    const list = heading.closest('.elementor-widget').nextAll('[data-widget_type="wpr-price-list.default"]').first();
+    const items = [];
+    list.find('.wpr-price-list-item').each((i, el) => {
+        const title = $(el).find('.wpr-price-list-title').first().text().replace(/\s+/g, ' ').trim();
+        const description = $(el).find('.wpr-price-list-description').first().text().replace(/\s+/g, ' ').trim();
+        if (title) items.push('• ' + title + (description ? ' -- ' + description : ''));
+    });
+    return items;
+}
+
+async function scrapeBankomat(url) {
+    const targetDay = getTargetDayName();
+    console.log(`Hämtar: ${url} (letar efter ${targetDay})`);
+
+    const response = await axios.get(url, { headers: HEADERS, timeout: 15000 });
+    const items = parseBankomat(response.data, targetDay);
+
+    const displayMsg = getDisplayMessage();
+    const menuText = items.join('\n');
+    if (!menuText) return 'Ingen meny hittades';
+    return displayMsg ? displayMsg + '\n\n' + menuText : menuText;
+}
+
 // Lunchzonen API scraper (Tant Maja & Fröken Emilia)
 async function scrapeLunchzonen(url, name) {
     console.log(`Hämtar: ${url} via browser-referer`);
@@ -229,6 +267,8 @@ async function scrapeAllMenus(restaurants) {
                 menu = await scrapeEnergikallan(restaurant.url);
             } else if (restaurant.scraper === 'greenbull') {
                 menu = await scrapeGreenBull(restaurant.url);
+            } else if (restaurant.scraper === 'bankomat') {
+                menu = await scrapeBankomat(restaurant.url);
             } else if (restaurant.scraper === 'lunchzonen') {
                 menu = await scrapeLunchzonen(restaurant.url, restaurant.name);
             } else {
