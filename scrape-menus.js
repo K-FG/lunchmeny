@@ -36,6 +36,14 @@ const AREAS = {
                 price: '119 kr',
                 scraper: 'lunchzonen',
                 businessId: '372ca510-2c0d-4d59-a011-64badecfe554'
+            },
+            {
+                id: 'bankomat',
+                name: 'BankOmat Seaside',
+                url: 'https://restaurangbankomat.se/lunch/',
+                location: 'Marievik',
+                price: '149 kr',
+                scraper: 'bankomat'
             }
         ]
     }
@@ -75,33 +83,30 @@ function isNoise(text) {
     return NOISE_WORDS.some(w => lower.includes(w));
 }
 
+// Parses the day sections of Energikällan's page: an <h4> with the day name followed by
+// <ol>/<p> siblings. The dish numbers are list markers, not text, so read the <li> elements.
+function parseEnergikallan(html, targetDay) {
+    const $ = cheerio.load(html);
+    const heading = $('h4').filter((i, el) => $(el).text().trim().toLowerCase() === targetDay.toLowerCase()).first();
+    if (!heading.length) return [];
+
+    const section = heading.nextUntil('h4');
+    const clean = el => $(el).text().replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+    let nodes = section.filter('ol, ul').find('li').toArray();
+    if (nodes.length === 0) nodes = section.filter('p').toArray();
+
+    return nodes
+        .map(clean)
+        .filter(t => t.length > 5 && t.length < 200 && !isNoise(t))
+        .map(t => '• ' + t);
+}
+
 async function scrapeEnergikallan(url) {
     const targetDay = getTargetDayName();
     console.log(`Hämtar: ${url} (letar efter ${targetDay})`);
 
     const response = await axios.get(url, { headers: HEADERS, timeout: 15000 });
-    const $ = cheerio.load(response.data);
-    $('script, style, nav, footer, header').remove();
-    const text = $('body').text().replace(/\s+/g, ' ').trim();
-
-    const allDays = ['Måndag', 'Tisdag', 'Onsdag', 'Torsdag', 'Fredag'];
-    const targetIdx = allDays.indexOf(targetDay);
-    const nextDay = allDays[targetIdx + 1] || null;
-
-    let section = '';
-    const dayPattern = new RegExp(targetDay.replace(/[åäö]/g, c => c) + '(.*?)(?=' + (nextDay || 'Måndag') + '|$)', 's');
-    const match = text.match(dayPattern);
-    if (match) section = match[1];
-    if (!section) return 'Ingen meny hittades';
-
-    const items = [];
-    const parts = section.split(/(?=\d+\.)/);
-    for (const part of parts) {
-        const cleaned = part.replace(/^\d+\.\s*/, '').trim();
-        if (cleaned.length > 5 && cleaned.length < 200 && !isNoise(cleaned)) {
-            items.push('• ' + cleaned);
-        }
-    }
+    const items = parseEnergikallan(response.data, targetDay);
 
     const displayMsg = getDisplayMessage();
     const menuText = items.slice(0, 15).join('\n');
@@ -145,6 +150,36 @@ async function scrapeGreenBull(url) {
     return displayMsg ? displayMsg + '\n\n' + menuText : menuText;
 }
 
+// Parses BankOmat Seaside's Elementor page: an <h2> day heading widget followed by a
+// price-list widget with one item per dish (title + description).
+function parseBankomat(html, targetDay) {
+    const $ = cheerio.load(html);
+    const heading = $('h2').filter((i, el) => $(el).text().trim().toLowerCase() === targetDay.toLowerCase()).first();
+    if (!heading.length) return [];
+
+    const list = heading.closest('.elementor-widget').nextAll('[data-widget_type="wpr-price-list.default"]').first();
+    const items = [];
+    list.find('.wpr-price-list-item').each((i, el) => {
+        const title = $(el).find('.wpr-price-list-title').first().text().replace(/\s+/g, ' ').trim();
+        const description = $(el).find('.wpr-price-list-description').first().text().replace(/\s+/g, ' ').trim();
+        if (title) items.push('• ' + title + (description ? ' -- ' + description : ''));
+    });
+    return items;
+}
+
+async function scrapeBankomat(url) {
+    const targetDay = getTargetDayName();
+    console.log(`Hämtar: ${url} (letar efter ${targetDay})`);
+
+    const response = await axios.get(url, { headers: HEADERS, timeout: 15000 });
+    const items = parseBankomat(response.data, targetDay);
+
+    const displayMsg = getDisplayMessage();
+    const menuText = items.join('\n');
+    if (!menuText) return 'Ingen meny hittades';
+    return displayMsg ? displayMsg + '\n\n' + menuText : menuText;
+}
+
 // Lunchzonen API scraper (Tant Maja & Fröken Emilia)
 async function scrapeLunchzonen(url, name) {
     console.log(`Hämtar: ${url} via browser-referer`);
@@ -178,11 +213,7 @@ async function scrapeLunchzonen(url, name) {
             },
             timeout: 15000
         });
-        const $ = cheerio.load(resp.data);
-        // Extract from HTML - menu items are in the page text
-        const text = $('body').text();
-        // Parse day sections from text
-        const result = parseLunchzonenHTML(text);
+        const result = parseLunchzonenHTML(resp.data);
         if (result) return result;
     } catch (e) {
         console.log(`  Public page failed: ${e.message}`);
@@ -209,21 +240,20 @@ function formatLunchzonenMenu(data) {
     return items.join('\n');
 }
 
-function parseLunchzonenHTML(text) {
+// Parses lunchzonen.se's public page: each day is an <h3> whose section holds one
+// <button data-dish-title> per dish, with the title in <h4> and the description in <p>.
+function parseLunchzonenHTML(html) {
+    const $ = cheerio.load(html);
     const targetDay = getTargetDayName();
-    const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-    const dayMap = { 'Måndag': 'Måndag', 'Tisdag': 'Tisdag', 'Onsdag': 'Onsdag', 'Torsdag': 'Torsdag', 'Fredag': 'Fredag' };
-    const markers = Object.keys(dayMap);
+    const heading = $('h3').filter((i, el) => $(el).text().trim() === targetDay).first();
+    if (!heading.length) return null;
 
-    let inDay = false;
     const items = [];
-    for (const line of lines) {
-        if (markers.includes(line)) { inDay = (line === targetDay); continue; }
-        if (inDay) {
-            if (markers.includes(line) || line.startsWith('Lunchmeny')) break;
-            if (line.length > 5) items.push('• ' + line);
-        }
-    }
+    heading.parent().parent().find('button[data-dish-title]').each((i, el) => {
+        const title = $(el).find('h4').first().text().trim();
+        const description = $(el).find('p').first().text().trim();
+        if (title) items.push('• ' + title + (description ? ' -- ' + description : ''));
+    });
     return items.length > 0 ? items.join('\n') : null;
 }
 
@@ -237,6 +267,8 @@ async function scrapeAllMenus(restaurants) {
                 menu = await scrapeEnergikallan(restaurant.url);
             } else if (restaurant.scraper === 'greenbull') {
                 menu = await scrapeGreenBull(restaurant.url);
+            } else if (restaurant.scraper === 'bankomat') {
+                menu = await scrapeBankomat(restaurant.url);
             } else if (restaurant.scraper === 'lunchzonen') {
                 menu = await scrapeLunchzonen(restaurant.url, restaurant.name);
             } else {
