@@ -142,6 +142,16 @@ async function scrapeNyRestaurang(url) {
 }
 ```
 
+## 🔥 Firecrawl MCP
+
+Repot har en `.mcp.json` som kopplar in [Firecrawl](https://www.firecrawl.dev/) som MCP-server för Claude Code. Den är tänkt för utveckling: att undersöka en restaurangsida (t.ex. JavaScript-renderade sidor som `axios` + `cheerio` inte klarar) innan man skriver en ny scraper.
+
+1. Skapa en API-nyckel på https://www.firecrawl.dev/app/api-keys
+2. Sätt den i din miljö: `export FIRECRAWL_API_KEY=fc-...`
+3. Starta Claude Code i repot och godkänn `firecrawl`-servern när du blir tillfrågad
+
+Nyckeln checkas aldrig in; `.mcp.json` läser den från miljövariabeln. Själva GitHub Actions-flödet påverkas inte och använder fortfarande `axios` + `cheerio`.
+
 ## 📱 Dela sidan
 
 Din lunchmeny-sida är publik och kan delas med:
