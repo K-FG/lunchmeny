@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-10-28T11:57:24.704Z",
-  "day": "Onsdag",
+  "lastUpdate": "2026-10-29T12:06:53.025Z",
+  "day": "Torsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Helstekt fläskfilé med stekt potatis och rödvinssås\n• Stekt strömming med potatismos och skirat smör\n• Herrgårdsstek med gräddsås, kokt potatis, pressgurka och gele\n• Kycklingpiccata med krämig tomatsås och jasminris\n• Panerad flundra med kokt potatis och gubbröra\n• Dansk skomakarlåda (Pannbiff) med potatismos och bacon,purjolök i rödvinssås\n• Pasta med biff, paprika, zucchini, sambal,vitlök ,grädde och riven ost\n• Veg: Zucchinipiccata med tomatsås och jasminris",
+      "menu": "• Ärtsoppa med pannkakor, sylt och vispgrädde\n• Pumpasoppa med pannkakor, sylt och vispgrädde\n• Varm rostbiff med potatisgratäng och skysås\n• Kyckling ” Coq au vin ”kycklingfile,champinjoner,morotter,vitlök,vin och jasminris\n• Helstekt fläskkarré med timjanpotatis, BBQ-sås och coleslaw\n• Köttfärsfyllda paprika med jasminris och tomatsås och jasminris\n• Smörstekt rödingfilé med kokt potatis och dragonsmörsås\n• Pasta al pollo(kyckling,curry,grädde)med riven ost\n• Vegetarisk pasta med mozzarella, soltorkade tomater och tomatsås",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Hösterbjudande Barnmeny: Pannkakor med sylt och grädde eller spaghetti med köttbullar för 79kr (Gäller barn upp till 12år)\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Halstrad Regnbågsfilé med kall dill- och romsås samt kokt potatis\n• Pannbiff ”Black n White” med rödvinssås, bearnaisesås och råstekt potatis\n• Lunchkorv med pepparrotssås och kokt potatis\n• Fläskfilé med kantarellsås och råstekt potatis\n• Flygande Jacob med jordnötter, banan i chiligräddsås samt basmatiris\n• Marinerad- och tärnad Kycklingfilé med ajvar, örtdipp, tomatsås, stekt potatis och tortillabröd\n• Pasta Scampi med champinjoner, kantareller, vitvin, grädde, vitlök och riven ost\n• Veckas vegetariska: Stekt chevréostsallad med tomater, rödbetor, valnötter och vitlöksbröd",
+      "menu": "• Hösterbjudande Barnmeny: Pannkakor med sylt och grädde eller spaghetti med köttbullar för 79kr (Gäller barn upp till 12år)\n• Ärtsoppa/Gulaschsoppa med vitlöksbröd samt pannkaksbuffé, sylt och grädde\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Skomakarlåda på noisette med bacon- och purjolök i rödvinssky samt potatismos\n• Pankopanerad Torskfilé med tartarsås, citron och kokt potatis\n• Gratinerad Flundrafilé på Mozzarella, purjolök- och cocktailtomater samt hummersås och potatismos\n• Älgfärsbiff med skogssvampsås, lingonsylt och potatismos\n• Bräckt Falukorv med pepparrotssås, knaperstekt bacon och potatismos\n• Husets Black and White på Biff och Noisette med rödvinssås, bea och stekt potatis\n• Spaghetti Bolognese med riven ost\n• Veckas vegetariska: Stekt chevréostsallad med tomater, rödbetor, valnötter och vitlöksbröd",
       "status": "success"
     },
     {
@@ -27,7 +27,7 @@
       "restaurant": "BankOmat Seaside",
       "location": "Marievik",
       "price": "149 kr",
-      "menu": "• WALLENBERGARE -- med skirat smör, lingon, ärtor och potatismos\n• FLÄSKNOISETTE -- med bearnaisesås, skysås och klyftpotatis\n• POCHERAD GÖSFILÉ -- med stekta champinjoner, spenat, vitvinssås, citron och kokt potatis\n• DAGENS PASTA -- Kycklingpasta med pesto, soltorkade tomater, vitlök och grädde",
+      "menu": "• OXBRINGA -- med pepparrotssås, picklad rödlök och potatismos\n• MEXIKANSK HÖGREVSGRYTA -- med guacamole och ris\n• KÖTTBULLAR -- med gräddsås, potatismos, pressgurka och lingon\n• PANERAD ALASKA POLLACK -- med remouladsås, citron och kokt potatis\n• DAGENS PASTA -- Carbonara med grädde, äggula och riven ost",
       "status": "success"
     }
   ]
