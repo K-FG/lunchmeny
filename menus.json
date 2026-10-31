@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-10-30T11:58:41.262Z",
+  "lastUpdate": "2026-10-31T11:32:38.600Z",
   "day": "Fredag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Husets Pljeskavica med rösti, mexikansås & bearnaisesås\n• Fiskgryta med kokt potatis och aioli\n• Fläsknoisette med stekt potatis och pepparsås\n• Kålpudding med kokt potatis, gräddsås och lingonsylt\n• Strimlad kycklingfilé i svampsås samt jasminris\n• Smör stekt fiskfilé med kokt potatis och limesås",
+      "menu": "(Visar fredagens meny)\n\n• Husets Pljeskavica med rösti, mexikansås & bearnaisesås\n• Fiskgryta med kokt potatis och aioli\n• Fläsknoisette med stekt potatis och pepparsås\n• Kålpudding med kokt potatis, gräddsås och lingonsylt\n• Strimlad kycklingfilé i svampsås samt jasminris\n• Smörstekt fiskfilé med kokt potatis och limesås",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Hösterbjudande Barnmeny: Pannkakor med sylt och grädde eller spaghetti med köttbullar för 79kr (Gäller barn upp till 12år)\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (Västerbottenost- och kantarellfylld) med rödvinssås, bearnaise och stekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillad Biff med vitlökssmör, rödvinssås och potatisgratäng\n• Ugnsbakad kycklingfilé med gorgonzolasås och stekt potatis\n• Fisk- och skaldjursgryta med aioli och nybakat vitlöksbröd\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Kroppkakor med skirat smör och lingonsylt\n• Dagens pasta med fläskfilé, kantareller, champinjoner, vitlök, grädde och riven ost\n• Veckas vegetariska: Stekt chevréostsallad med tomater, rödbetor, valnötter och vitlöksbröd\n• SERVERAS VARJE VARDAG\n• Spaghetti Bolognese med riven ost – 149kr\n• Spaghetti Carbonara med äggula & riven ost – 149kr\n• Bräckt Skinka med stekt ägg & stekt potatis – 149kr",
+      "menu": "(Visar fredagens meny)\n\n• Hösterbjudande Barnmeny: Pannkakor med sylt och grädde eller spaghetti med köttbullar för 79kr (Gäller barn upp till 12år)\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (Västerbottenost- och kantarellfylld) med rödvinssås, bearnaise och stekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillad Biff med vitlökssmör, rödvinssås och potatisgratäng\n• Ugnsbakad kycklingfilé med gorgonzolasås och stekt potatis\n• Fisk- och skaldjursgryta med aioli och nybakat vitlöksbröd\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Kroppkakor med skirat smör och lingonsylt\n• Dagens pasta med fläskfilé, kantareller, champinjoner, vitlök, grädde och riven ost\n• Veckas vegetariska: Stekt chevréostsallad med tomater, rödbetor, valnötter och vitlöksbröd\n• SERVERAS VARJE VARDAG\n• Spaghetti Bolognese med riven ost – 149kr\n• Spaghetti Carbonara med äggula & riven ost – 149kr\n• Bräckt Skinka med stekt ägg & stekt potatis – 149kr",
       "status": "success"
     },
     {
@@ -27,7 +27,7 @@
       "restaurant": "BankOmat Seaside",
       "location": "Marievik",
       "price": "149 kr",
-      "menu": "• SCHNITZEL -- med kryddsmör. rödvinssås och stekt potatis\n• COQ AU VIN PÅ KYCKLING -- med rödvin, sidfläsk, champinjoner och ris\n• CHILISTEKT LAXFILÉ -- med krämig hummersås, citron och kokt potatis\n• DAGENS PASTA -- pasta med biff med svampsås och spenat",
+      "menu": "(Visar fredagens meny)\n\n• SCHNITZEL -- med kryddsmör. rödvinssås och stekt potatis\n• COQ AU VIN PÅ KYCKLING -- med rödvin, sidfläsk, champinjoner och ris\n• CHILISTEKT LAXFILÉ -- med krämig hummersås, citron och kokt potatis\n• DAGENS PASTA -- pasta med biff med svampsås och spenat",
       "status": "success"
     }
   ]
