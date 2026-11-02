@@ -46,13 +46,27 @@ const AREAS = {
                 scraper: 'bankomat'
             }
         ]
+    },
+    globen: {
+        name: 'Globen',
+        restaurants: [
+            {
+                id: 'blues',
+                name: 'Blues Restaurang',
+                url: 'https://bluesrestaurang.se/lunch',
+                location: 'Globen, Johanneshov',
+                price: '150 kr',
+                scraper: 'blues'
+            }
+        ]
     }
 };
 
 // Default: scrape all areas (for GitHub Actions)
 const ALL_RESTAURANTS = [
     ...AREAS.tyreso.restaurants,
-    ...AREAS.marievik.restaurants
+    ...AREAS.marievik.restaurants,
+    ...AREAS.globen.restaurants
 ];
 
 const HEADERS = {
@@ -257,6 +271,75 @@ function parseLunchzonenHTML(html) {
     return items.length > 0 ? items.join('\n') : null;
 }
 
+// Blues Restaurang: One.com page builder. Day headings are h3 tags with a span
+// containing the day name. Menu items follow as paired <p> tags: bold dish name
+// then plain description. We slice the HTML between the target day h3 and the next.
+async function scrapeBlues(url) {
+    const targetDay = getTargetDayName();
+    const response = await axios.get(url, { headers: HEADERS, timeout: 15000 });
+    const html = response.data;
+
+    const dayNames = ['måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag'];
+
+    // Find start of target day section
+    const startRegex = new RegExp(`<h3[^>]*>\\s*<span[^>]*>${targetDay}</span>`, 'i');
+    const startMatch = html.match(startRegex);
+    if (!startMatch) return 'Ingen meny hittades';
+    const startIdx = startMatch.index;
+
+    // Find end: next day h3 or contact section
+    let endIdx = html.length;
+    for (const day of dayNames) {
+        if (day === targetDay.toLowerCase()) continue;
+        const dayRegex = new RegExp(`<h3[^>]*>\\s*<span[^>]*>${day}</span>`, 'i');
+        const dayMatch = html.slice(startIdx + 50).match(dayRegex);
+        if (dayMatch) {
+            const pos = startIdx + 50 + dayMatch.index;
+            if (pos < endIdx) endIdx = pos;
+        }
+    }
+    const stopMatch = html.slice(startIdx + 50).match(/<h3[^>]*>.*?(kontakt|öppettider|blues lunch lover)/is);
+    if (stopMatch) {
+        const pos = startIdx + 50 + stopMatch.index;
+        if (pos < endIdx) endIdx = pos;
+    }
+
+    const section = html.slice(startIdx, endIdx);
+    const $ = cheerio.load(section);
+
+    const isDishName = ($p) => {
+        const hasBold = $p.find('[style*="font-weight: bold"], [style*="font-weight:bold"], b, strong').length > 0;
+        const has18px = ($p.attr('style') || '').includes('18px') || $p.find('[style*="18px"]').length > 0;
+        return hasBold && has18px;
+    };
+
+    const pEls = [];
+    $('p').each((_, el) => { pEls.push($(el)); });
+
+    const items = [];
+    for (let i = 0; i < pEls.length; i++) {
+        const $p = pEls[i];
+        const text = $p.text().trim();
+        if (!text || text.length < 3 || isNoise(text)) continue;
+
+        if (isDishName($p) && text.length < 80) {
+            const nextEl = pEls[i + 1];
+            if (nextEl && !isDishName(nextEl)) {
+                const desc = nextEl.text().trim();
+                items.push('• ' + text + (desc ? ' – ' + desc : ''));
+                i++;
+            } else {
+                items.push('• ' + text);
+            }
+        }
+    }
+
+    const displayMsg = getDisplayMessage();
+    const menuText = items.slice(0, 12).join('\n');
+    if (!menuText) return 'Ingen meny hittades';
+    return displayMsg ? displayMsg + '\n\n' + menuText : menuText;
+}
+
 async function scrapeAllMenus(restaurants) {
     const results = [];
     for (const restaurant of restaurants) {
@@ -271,6 +354,8 @@ async function scrapeAllMenus(restaurants) {
                 menu = await scrapeBankomat(restaurant.url);
             } else if (restaurant.scraper === 'lunchzonen') {
                 menu = await scrapeLunchzonen(restaurant.url, restaurant.name);
+            } else if (restaurant.scraper === 'blues') {
+                menu = await scrapeBlues(restaurant.url);
             } else {
                 throw new Error(`Scraper not implemented for ${restaurant.name}`);
             }
