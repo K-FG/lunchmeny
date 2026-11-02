@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-11-01T12:30:37.870Z",
-  "day": "Fredag",
+  "lastUpdate": "2026-11-02T14:30:50.227Z",
+  "day": "Måndag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "(Visar fredagens meny)\n\n• Husets Pljeskavica med rösti, mexikansås & bearnaisesås\n• Fiskgryta med kokt potatis och aioli\n• Fläsknoisette med stekt potatis och pepparsås\n• Kålpudding med kokt potatis, gräddsås och lingonsylt\n• Strimlad kycklingfilé i svampsås samt jasminris\n• Smörstekt fiskfilé med kokt potatis och limesås",
+      "menu": "• Kalvfärsjärpar med kokt potatis och kantarellsås\n• Ugnstekt kycklingfilé med jasminris dragonsås\n• Korv Stroganoff med jasminris\n• Panerad fläskschnitzel med stekt potatis och rödvinssås\n• Panerad fiskfilé med kokt potatis och skagenröra\n• Pasta med kycklingfilé, sambal,vitlök ,grädde och riven ost\n• Vegetarisk: Grönsaksbiff med stekt potatis och tomatsås",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "(Visar fredagens meny)\n\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel ”Josefine” (fylld med champinjonstuvning) med rödvinssås, bea och stekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillad Entrecote med vitlökssmör, rödvinssås och potatisgratäng\n• Halstrad Lax med hummersås, citron och potatismos\n• Rostbiff med rödvinssås, bearnaisesås, ugnsbakad tomat och potatisgratäng\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Ugnsbakad- och skivad kycklingfilé med örtdipp, tomatsås och grönsaksbulgur\n• Dagens pasta med kycklingfilé, curry, paprika, grädde och riven ost\n• Veckas vegetariska: Västerbottenost, kantarell- och champinjonomelett med liten sallad\n• SERVERAS VARJE VARDAG\n• Spaghetti Bolognese med riven ost – 149kr\n• Spaghetti Carbonara med äggula & riven ost – 149kr\n• Bräckt Skinka med stekt ägg & stekt potatis – 149kr\n• Kebabtallrik med pommes/ris – 149kr",
+      "menu": "• Wienerschnitzel med anjovis, kapris, rödvinssås och stekt potatis\n• Panerad Rödspättafilé med remouladsås, citron och kokt potatis\n• Falukorv med stuvade makaroner\n• Grillbiff med bearnaisesås, rödvinssås och pommes\n• Ört- och vitlöksmarinerad kycklingfilé med BBQ-bearnaise, rödvinssås och råstekt potatis\n• Gratinerad Flundrafilé med cocktailtomater, broccoli och purjolök samt potatismos\n• Black Angus-pannbiff med skogsvampssås, lingon och potatismos\n• Pasta biff ”Diablo” med strimlad biff, paprika, sambal, vitlök, chili, grädde och riven ost\n• Veckas vegetariska: Västerbottenost, kantarell- och champinjonomelett med liten sallad",
       "status": "success"
     },
     {
@@ -27,7 +27,7 @@
       "restaurant": "BankOmat Seaside",
       "location": "Marievik",
       "price": "149 kr",
-      "menu": "(Visar fredagens meny)\n\n• SCHNITZEL -- med kryddsmör. rödvinssås och stekt potatis\n• COQ AU VIN PÅ KYCKLING -- med rödvin, sidfläsk, champinjoner och ris\n• CHILISTEKT LAXFILÉ -- med krämig hummersås, citron och kokt potatis\n• DAGENS PASTA -- pasta med biff med svampsås och spenat",
+      "menu": "• FLÄSKFILÉ A LA OSCAR -- med bearnaisesås, rödvinssky, sparris, räkor och pommes frites\n• AJVARMARINERAD KYCKLING -- med dragonsås och sparrisrisotto\n• PANERAD FISKFILÉ -- med curryremouladsås, babyspenat och kokt potatis\n• DAGENS PASTA -- Biffpasta med krämig svampsås, chili och vitlök",
       "status": "success"
     }
   ]
