@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-02T14:30:50.227Z",
+  "lastUpdate": "2026-11-02T17:05:23.132Z",
   "day": "Måndag",
   "menus": [
     {
@@ -28,6 +28,13 @@
       "location": "Marievik",
       "price": "149 kr",
       "menu": "• FLÄSKFILÉ A LA OSCAR -- med bearnaisesås, rödvinssky, sparris, räkor och pommes frites\n• AJVARMARINERAD KYCKLING -- med dragonsås och sparrisrisotto\n• PANERAD FISKFILÉ -- med curryremouladsås, babyspenat och kokt potatis\n• DAGENS PASTA -- Biffpasta med krämig svampsås, chili och vitlök",
+      "status": "success"
+    },
+    {
+      "restaurant": "Blues Restaurang",
+      "location": "Globen, Johanneshov",
+      "price": "150 kr",
+      "menu": "• Johanssons köttgryta. – Högrev, rotfrukter, kantareller, persilja, svartpeppar, basmatiris.\n• Stekt panerad schnitzel – Rödvinssås, bearnaisesås, rostad potatis.\n• Stekt prinskorv – Stuvad spenat, stekt ägg, kokt potatis.\n• Leffes Special – Ångad koljafilé, Brynt smör, hackat ägg, färskriven pepparrot, smörslungad blomkål.\n• Pankoöverbakad flundra – Vitvinssås, sockerärtor, citron, dill, kokt potatis.\n• Stekt kycklingbröstfilé – Rödvinssås, aromsmör, rostad potatis\n• Vegetarisk – Vegetarisk bolognese med quornfärs, tomat, parmesan och ruccola.",
       "status": "success"
     }
   ]

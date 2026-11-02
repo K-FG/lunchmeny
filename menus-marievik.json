@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-06-02T12:16:53.178Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-11-02T17:05:23.132Z",
+  "day": "Måndag",
   "area": "Marievik",
   "menus": [
     {
@@ -8,6 +8,13 @@
       "location": "Marievik",
       "price": "119 kr",
       "menu": "Ingen meny hittades",
+      "status": "success"
+    },
+    {
+      "restaurant": "BankOmat Seaside",
+      "location": "Marievik",
+      "price": "149 kr",
+      "menu": "• FLÄSKFILÉ A LA OSCAR -- med bearnaisesås, rödvinssky, sparris, räkor och pommes frites\n• AJVARMARINERAD KYCKLING -- med dragonsås och sparrisrisotto\n• PANERAD FISKFILÉ -- med curryremouladsås, babyspenat och kokt potatis\n• DAGENS PASTA -- Biffpasta med krämig svampsås, chili och vitlök",
       "status": "success"
     }
   ]
