@@ -33,13 +33,16 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          BRANCH=$(git rev-parse --abbrev-ref HEAD)
           git add menus.json menus-*.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Update menus - $(date +'%Y-%m-%d %H:%M')"
             git restore .
-            git fetch origin main
-            git rebase origin/main
-            git push
+            if [ "$BRANCH" = "main" ]; then
+              git fetch origin main
+              git rebase origin/main
+            fi
+            git push origin $BRANCH
           fi
