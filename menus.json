@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-11-05T13:51:08.510Z",
-  "day": "Torsdag",
+  "lastUpdate": "2026-11-06T13:36:44.262Z",
+  "day": "Fredag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Ärtsoppa med pannkakor, sylt och vispgrädde\n• Purjolökssoppan med pannkakor, sylt och vispgrädde\n• Helstekt ytterfilé med stekt potatis och kantarellsås\n• Pannbiff med potatisgratäng och B&W\n• Panerad fiskfilé med kokt potatis och örtgräddfil\n• Kokt fisk med äggsås kokt potatis\n• Thai kycklinggryta med jasminris\n• Pasta diablo (kyckling) med riven ost\n• Vegetarisk: Vårrullar med jasminris och sweet chilisås",
+      "menu": "• Husets Pljeskavica med rösti mexikansås & bearnaisesås\n• Krispig kycklingschnitzel med stekt potatis och tomatsallad\n• Rostbiff med potatisgratäng och rödvinssås\n• Smör stekt Sejfilé med kokt potatis och remouladsås\n• Fläskpannkakor med rårörda lingon\n• Köttfärslimpa med kantarellsås och kokt potatis &pressgurka\n• Pasta gratäng med köttfärs och riven ost\n• Vegetarisk: Vårrullar med jasminris",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Ärtsoppa/Gulaschsoppa med vitlöksbröd samt pannkaksbuffé, sylt och grädde\n• Pankopanerad kycklingschnitzel med rödvinssås, bearnaisesås och råstekt potatis\n• Skomakarlåda på noisette med bacon- och purjolök i rödvinssky samt potatismos\n• Ugnsbakad Regnbågsfilé med gubbröra, citron och kokt potatis\n• Husets Walewska på Bergtungafilé med gratinerat potatismos, sparris och hummersås\n• Köttfärslimpa med skogsvampssås, lingon och potatismos\n• Smokey BBQ (Black Angus Högrevsburgare) med briochebröd, friterade lökringar, rostad lök, chilicheese, cheddarost, tomat, dressing, BBQ-sås & pommes frites\n• Korvstroganoff med basmatiris\n• Pasta fläskfilé med kantareller, champinjoner, grädde, tryffelolja och riven ost\n• Veckas vegetariska: Västerbottenost, kantarell- och champinjonomelett med liten sallad",
+      "menu": "• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel ”Josefine” (fylld med champinjonstuvning) med rödvinssås, bea och stekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillad Entrecote med vitlökssmör, rödvinssås och potatisgratäng\n• Halstrad Lax med hummersås, citron och potatismos\n• Rostbiff med rödvinssås, bearnaisesås, ugnsbakad tomat och potatisgratäng\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Ugnsbakad- och skivad kycklingfilé med örtdipp, tomatsås och grönsaksbulgur\n• Dagens pasta med kycklingfilé, curry, paprika, grädde och riven ost\n• Veckas vegetariska: Västerbottenost, kantarell- och champinjonomelett med liten sallad\n• SERVERAS VARJE VARDAG\n• Spaghetti Bolognese med riven ost – 149kr\n• Spaghetti Carbonara med äggula & riven ost – 149kr\n• Bräckt Skinka med stekt ägg & stekt potatis – 149kr\n• Kebabtallrik med pommes/ris – 149kr",
       "status": "success"
     },
     {
@@ -27,7 +27,7 @@
       "restaurant": "BankOmat Seaside",
       "location": "Marievik",
       "price": "149 kr",
-      "menu": "• HELSTEKT KALV TRI TIP -- med rosmarinsky chilimajonnäs, timjanrostad potatis.\n• MUSTIG HÖGREVSGRYTA -- med rotfrukter, kantareller, persilja och potatismos\n• ÖVERBAKAD KYCKLING MED PESTO & SOLTORKADTOMAT -- med tomatsås och ris\n• FISH AND CHIPS -- med chili- och basilikamajonnäs samt pommes frites\n• DAGENS PASTA -- Pasta med räkor & musslor med saffran, purjolök och grädde.",
+      "menu": "• LAMMFÄRSBIFF -- med rosmarinssky, vitlökssmör, haricots verts och rostad potatis\n• STEKT FLÄSKNIOSETTE -- med lökringar bearnaisesås, rödvinssky och pommes frites\n• GRÄDDSTUVAD PYTTIPANNA -- med rödbetor och stekt ägg\n• LAX & SCAMPI SPETT -- med saffran sås serveras med basilika& aioli och ris\n• DAGENS PASTA -- Kycklingpasta med tomatsås och krämig sås.",
       "status": "success"
     }
   ]
