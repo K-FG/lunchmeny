@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-11-06T13:36:44.262Z",
+  "lastUpdate": "2026-11-07T12:16:11.442Z",
   "day": "Fredag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Husets Pljeskavica med rösti mexikansås & bearnaisesås\n• Krispig kycklingschnitzel med stekt potatis och tomatsallad\n• Rostbiff med potatisgratäng och rödvinssås\n• Smör stekt Sejfilé med kokt potatis och remouladsås\n• Fläskpannkakor med rårörda lingon\n• Köttfärslimpa med kantarellsås och kokt potatis &pressgurka\n• Pasta gratäng med köttfärs och riven ost\n• Vegetarisk: Vårrullar med jasminris",
+      "menu": "(Visar fredagens meny)\n\n• Husets Pljeskavica med rösti, mexikansås & bearnaisesås\n• Krispig kycklingschnitzel med stekt potatis och tomatsallad\n• Rostbiff med potatisgratäng och rödvinssås\n• Smörstekt sejfilé med kokt potatis och remouladsås\n• Fläskpannkakor med rårörda lingon\n• Köttfärslimpa med kantarellsås och kokt potatis &pressgurka\n• Pastagratäng med köttfärs och riven ost\n• Vegetarisk: Vårrullar med jasminris",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel ”Josefine” (fylld med champinjonstuvning) med rödvinssås, bea och stekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillad Entrecote med vitlökssmör, rödvinssås och potatisgratäng\n• Halstrad Lax med hummersås, citron och potatismos\n• Rostbiff med rödvinssås, bearnaisesås, ugnsbakad tomat och potatisgratäng\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Ugnsbakad- och skivad kycklingfilé med örtdipp, tomatsås och grönsaksbulgur\n• Dagens pasta med kycklingfilé, curry, paprika, grädde och riven ost\n• Veckas vegetariska: Västerbottenost, kantarell- och champinjonomelett med liten sallad\n• SERVERAS VARJE VARDAG\n• Spaghetti Bolognese med riven ost – 149kr\n• Spaghetti Carbonara med äggula & riven ost – 149kr\n• Bräckt Skinka med stekt ägg & stekt potatis – 149kr\n• Kebabtallrik med pommes/ris – 149kr",
+      "menu": "(Visar fredagens meny)\n\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel ”Josefine” (fylld med champinjonstuvning) med rödvinssås, bea och stekt potatis\n• Fläsknosiette ”Black n’ White” med rödvinssky, bearnaisesås och stekt potatis\n• Grillad Entrecote med vitlökssmör, rödvinssås och potatisgratäng\n• Halstrad Lax med hummersås, citron och potatismos\n• Rostbiff med rödvinssås, bearnaisesås, ugnsbakad tomat och potatisgratäng\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Ugnsbakad- och skivad kycklingfilé med örtdipp, tomatsås och grönsaksbulgur\n• Dagens pasta med kycklingfilé, curry, paprika, grädde och riven ost\n• Veckas vegetariska: Västerbottenost, kantarell- och champinjonomelett med liten sallad\n• SERVERAS VARJE VARDAG\n• Spaghetti Bolognese med riven ost – 149kr\n• Spaghetti Carbonara med äggula & riven ost – 149kr\n• Bräckt Skinka med stekt ägg & stekt potatis – 149kr\n• Kebabtallrik med pommes/ris – 149kr",
       "status": "success"
     },
     {
@@ -27,7 +27,7 @@
       "restaurant": "BankOmat Seaside",
       "location": "Marievik",
       "price": "149 kr",
-      "menu": "• LAMMFÄRSBIFF -- med rosmarinssky, vitlökssmör, haricots verts och rostad potatis\n• STEKT FLÄSKNIOSETTE -- med lökringar bearnaisesås, rödvinssky och pommes frites\n• GRÄDDSTUVAD PYTTIPANNA -- med rödbetor och stekt ägg\n• LAX & SCAMPI SPETT -- med saffran sås serveras med basilika& aioli och ris\n• DAGENS PASTA -- Kycklingpasta med tomatsås och krämig sås.",
+      "menu": "(Visar fredagens meny)\n\n• LAMMFÄRSBIFF -- med rosmarinssky, vitlökssmör, haricots verts och rostad potatis\n• STEKT FLÄSKNIOSETTE -- med lökringar bearnaisesås, rödvinssky och pommes frites\n• GRÄDDSTUVAD PYTTIPANNA -- med rödbetor och stekt ägg\n• LAX & SCAMPI SPETT -- med saffran sås serveras med basilika& aioli och ris\n• DAGENS PASTA -- Kycklingpasta med tomatsås och krämig sås.",
       "status": "success"
     }
   ]
