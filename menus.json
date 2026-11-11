@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-11-10T14:07:49.643Z",
-  "day": "Tisdag",
+  "lastUpdate": "2026-11-11T13:24:12.196Z",
+  "day": "Onsdag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Wallenbergare med potatismos, gräddsås och lingonsylt\n• Boeuf bourguignon med jasminris\n• Raggmunk med stekt fläsk och lingonsylt\n• Smörstekt rödingfilé med kokt potatis och tartarsås\n• Gratinerad falukorv med ost,senap,bostongurka,rostad lök och potatismos\n• Stekt fläsk med löksås och kokt potatis\n• Marinerad kycklingfilé med jasminris och grön currysås\n• Bruna bönor med stekt fläsk\n• Spagetti carbonara med riven ost och äggula\n• Veg: Raggmunk med lingonsylt",
+      "menu": "• Nasigoreng med ananas och stekt ägg\n• Panerad kummelfilé med kokt potatis och dillsås\n• Baconlindad fläskytterfilé med råstekt potatis och pepparsås\n• Pulled pork med coleslaw och pommes\n• Kokt fisk med äggsås och kokt potatis\n• Cevapcici med röstipotatis och bearnaisesås\n• Pasta med räkor, färsk tomat, paprika och hummersås, riven ost\n• Veg: Grönsaksbiffar med stekt potatis",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans Tallrik: Kantarell- och sparrisrisotto toppad med vitlök- och smörfrästa scampi och riven ost\n• Knapriga raggmunkar med nystekt fläsk samt lingon\n• Nystekt fläsk med bruna bönor eller krämig löksås samt kokt potatis\n• Wallenbergare med gräddsås, lingonsylt, gröna ärtor och potatismos\n• Beouf Bourguignon med cremefraiche och basmatiris\n• Herrgårdsstek med gräddsås, svartvinbärsgelé och kokt potatis\n• Nattbakad- och tunt skivad fläskkarré med rödvinssås, bearnaise och potatisgratäng\n• Panerad Rödspättafilé med remouladsås, citron och kokt potatis\n• Gravad lax med dillstuvad potatis och citron\n• Grillad Kycklingfilé med bulgur, tzatziki och tomatsås\n• Dagens pasta med kycklingfilé, pesto, soltorkade tomater, grädde, purjolök och riven ost\n• Veckas vegetariska: Kantarellrisotto med riven ost och vitlöksbröd",
+      "menu": "• Veckans Tallrik: Kantarell- och sparrisrisotto toppad med vitlök- och smörfrästa scampi och riven ost\n• Stekt strömmingsflundrafié med skirat smör, hemlagat potatismos och citron\n• Skomakarlåda på noisette med bacon- och purjolök i rödvinssås samt potatismos\n• Grillbiff med rödvinssås, bearnaisesås och stekt potatis\n• Kalvjärpar med gräddsås, pressgurka, lingonsylt och potatis\n• Panerad Torskfilé med remouladsås, citron samt potatisstomp med örter\n• Lätt örtpanerad Gösfilé med skagenröra, citron och kokt potatis\n• Wokad kyckling\n• Bräckt falukorv med pepparrotssås och potatismos\n• Pasta Scampi med champinjoner, kantareller, vitvin, grädde, vitlök och riven ost\n• Veckas vegetariska: Kantarellrisotto med riven ost och vitlöksbröd sallad",
       "status": "success"
     },
     {
@@ -27,7 +27,7 @@
       "restaurant": "BankOmat Seaside",
       "location": "Marievik",
       "price": "149 kr",
-      "menu": "• RAGGMUNK -- Med stekt fläsk & lingon\n• STEKT FLÄSK -- Med löksås & kokt potatis\n• GREKISKA JÄRPAR -- med krämig tomatsås, ris och tzatziki\n• PESTOBAKAD LAXFILÉ -- med baby spenat, krämig citron & dillsås och kokt potatis.\n• DAGENS PASTA -- Kycklingpasta med dragon- och dijonsås och champinjoner",
+      "menu": "• KALVFÄRSBIFF -- med kantarellsås, lingon, saltgurka och potatismos\n• MARINERAD UNGSBAKAD KYCKLINGFILÉ -- med stekta champinjoner & rosépepparsås och broccoligratäng.\n• FISKFILÉ FYLLD MED LAX & SPENAT -- med hummersås, räkor, citron samt kokt potatis\n• DAGENS PASTA -- Tryffel carbonara med bacon grädde riven ost och rucola",
       "status": "success"
     }
   ]
