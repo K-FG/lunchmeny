@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-11-13T13:46:33.215Z",
+  "lastUpdate": "2026-11-14T12:50:51.845Z",
   "day": "Fredag",
   "menus": [
     {
       "restaurant": "Restaurang Nya Energikällan",
       "location": "Tyresö",
       "price": "138 kr",
-      "menu": "• Husets Pljeskavica med rösti, mexikansås & bearnaisesås\n• Hackad biff med stekt potatis och chilibearnaisesås\n• Fish and chips med remouladsås\n• Kycklinggryta med jasminris\n• Nattbakad vildsvin med stekt potatis och kantarellsås\n• Smörstekt fiskfilé med kokt potatis och remouladsås\n• Dagens pasta med riven ost\n• Vegetarisk: Haloumiburgare med pommes frites",
+      "menu": "(Visar fredagens meny)\n\n• Husets Pljeskavica med rösti, mexikansås & bearnaisesås\n• Hackad biff med stekt potatis och chilibearnaisesås\n• Fish and chips med remouladsås\n• Kycklinggryta med jasminris\n• Nattbakad vildsvin med stekt potatis och kantarellsås\n• Smörstekt fiskfilé med kokt potatis och remouladsås\n• Dagens pasta med riven ost\n• Vegetarisk: Haloumiburgare med pommes frites",
       "status": "success"
     },
     {
       "restaurant": "Restaurang Green Bull",
       "location": "Tyresö",
       "price": "149 kr (139 kr pensionärer)",
-      "menu": "• Veckans Tallrik: Kantarell- och sparrisrisotto toppad med vitlök- och smörfrästa scampi och riven ost\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (ost- och skinkfylld) med rödvinssås, bea och stekt potatis\n• Pestoöverbakad Laxfilé med kall rom- och dillsås samt potatismos\n• Nasi Goreng med ananas och stekt ägg\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Grillbiff med vitlökssmör, rödvinssås och potatisgratäng\n• Grekisk Moussaka med vitlöksbröd och tzatziki\n• Pepparstekt fläsknoisette med kantarellssås och råstekt potatis\n• Kroppkakor med skirat smör och lingon\n• Ugnsbakad- och skivad kycklingfilé med örtdipp, tomatsås och grönsaksbulgur\n• Dagens Pasta med fläskfilé, kantareller, champinjoner, vitlök, grädde och riven ost\n• Veckas vegetariska: Kantarellrisotto med riven ost och vitlöksbröd sallad\n• SERVERAS VARJE VARDAG\n• Spaghetti Bolognese med riven ost – 149kr",
+      "menu": "(Visar fredagens meny)\n\n• Veckans Tallrik: Kantarell- och sparrisrisotto toppad med vitlök- och smörfrästa scampi och riven ost\n• Pljeskavica med bearnaisesås, ajvar, finhackad rödlök, gräddfil & röstipotatis\n• Schnitzel (ost- och skinkfylld) med rödvinssås, bea och stekt potatis\n• Pestoöverbakad Laxfilé med kall rom- och dillsås samt potatismos\n• Nasi Goreng med ananas och stekt ägg\n• Panerad Bergtungafilé med remouladsås, citron och kokt potatis\n• Grillbiff med vitlökssmör, rödvinssås och potatisgratäng\n• Grekisk Moussaka med vitlöksbröd och tzatziki\n• Pepparstekt fläsknoisette med kantarellssås och råstekt potatis\n• Kroppkakor med skirat smör och lingon\n• Ugnsbakad- och skivad kycklingfilé med örtdipp, tomatsås och grönsaksbulgur\n• Dagens Pasta med fläskfilé, kantareller, champinjoner, vitlök, grädde och riven ost\n• Veckas vegetariska: Kantarellrisotto med riven ost och vitlöksbröd sallad\n• SERVERAS VARJE VARDAG\n• Spaghetti Bolognese med riven ost – 149kr",
       "status": "success"
     },
     {
@@ -27,7 +27,7 @@
       "restaurant": "BankOmat Seaside",
       "location": "Marievik",
       "price": "149 kr",
-      "menu": "• HELSTEKT TEXMEX-KRYDDAD BIFF -- med rödvinssås, jalapeñobearnaise och potatisgratäng.\n• NATTBAKAD FLÄSKKOTLETT -- med löksky, potatismos, kantareller & smör\n• KYCKLINGSPETT -- med tomatsås, fetaostkräm och ris\n• FISK- OCH SKALDJURSSOPPA -- med rotfrukter saffran, krutonger och aioli\n• DAGENS PASTA -- Pasta med pestosås och soltorkade tomater, topp med fetaostkräm",
+      "menu": "(Visar fredagens meny)\n\n• HELSTEKT TEXMEX-KRYDDAD BIFF -- med rödvinssås, jalapeñobearnaise och potatisgratäng.\n• NATTBAKAD FLÄSKKOTLETT -- med löksky, potatismos, kantareller & smör\n• KYCKLINGSPETT -- med tomatsås, fetaostkräm och ris\n• FISK- OCH SKALDJURSSOPPA -- med rotfrukter saffran, krutonger och aioli\n• DAGENS PASTA -- Pasta med pestosås och soltorkade tomater, topp med fetaostkräm",
       "status": "success"
     }
   ]
